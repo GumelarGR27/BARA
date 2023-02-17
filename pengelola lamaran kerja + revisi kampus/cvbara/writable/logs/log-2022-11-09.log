@@ -1,0 +1,2 @@
+ERROR - 2022-11-09 01:21:36 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo for smtp.mailtrap.io failed: No such host is known. 
+ERROR - 2022-11-09 01:23:26 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo for smtp.mailtrap.io failed: No such host is known. 

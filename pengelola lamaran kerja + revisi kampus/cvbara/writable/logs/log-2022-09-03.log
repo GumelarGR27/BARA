@@ -1,0 +1,24 @@
+ERROR - 2022-09-03 23:38:57 --> Unknown column 'status' in 'where clause'
+CRITICAL - 2022-09-03 23:38:57 --> Unknown column 'status' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `pelamar`
+WHERE `status` = \'Sedang Interview\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pelamar`
+WHERE `status` = \'Sedang Interview\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pelamar`
+WHERE `status` = \'Sedang Interview\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pelamar`
+WHERE `status` = :status:', [...], false)
+ 5 APPPATH\Views\admin\pages\index.php(12): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 9 APPPATH\Controllers\Web.php(37): view('admin/pages/index', [...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

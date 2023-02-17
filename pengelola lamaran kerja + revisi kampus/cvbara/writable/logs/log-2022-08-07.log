@@ -1,0 +1,184 @@
+CRITICAL - 2022-08-07 00:25:43 --> Undefined variable $idpel
+in APPPATH\Views\admin\pages\CV.php on line 141.
+ 1 APPPATH\Views\admin\pages\CV.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idpel', 'APPPATH\\Views\\admin\\pages\\CV.php', 141)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\CV.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/cv', [], true)
+ 5 APPPATH\Controllers\CV.php(16): view('admin/pages/cv')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\CV->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-07 00:44:34 --> Undefined variable $idpel
+in APPPATH\Controllers\Lamar.php on line 20.
+ 1 APPPATH\Controllers\Lamar.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idpel', 'APPPATH\\Controllers\\Lamar.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Lamar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lamar))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-07 00:53:35 --> Undefined variable $idpel
+in APPPATH\Controllers\Lamar.php on line 23.
+ 1 APPPATH\Controllers\Lamar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idpel', 'APPPATH\\Controllers\\Lamar.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Lamar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lamar))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-07 00:54:39 --> Undefined variable $model
+in APPPATH\Controllers\Lamar.php on line 74.
+ 1 APPPATH\Controllers\Lamar.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'APPPATH\\Controllers\\Lamar.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Lamar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lamar))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-07 00:56:16 --> Column 'cv' cannot be null
+CRITICAL - 2022-08-07 00:56:16 --> Column 'cv' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`) VALUES (\'PEL1\', \'a\', \'a@a.com\', \'a\', \'Web Developer\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`) VALUES (\'PEL1\', \'a\', \'a@a.com\', \'a\', \'Web Developer\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`) VALUES (\'PEL1\', \'a\', \'a@a.com\', \'a\', \'Web Developer\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`) VALUES (:id_pelamar.1:, :nama:, :email:, :deskripsi:, :id_divisi:, :cv:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Lamar.php(74): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Lamar->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lamar))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-07 01:08:05 --> Column 'cv' cannot be null
+CRITICAL - 2022-08-07 01:08:05 --> Column 'cv' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`) VALUES (\'PEL3\', \'a\', \'az!@a.com\', \'a\', \'Web Developer\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`) VALUES (\'PEL3\', \'a\', \'az!@a.com\', \'a\', \'Web Developer\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`) VALUES (\'PEL3\', \'a\', \'az!@a.com\', \'a\', \'Web Developer\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`) VALUES (:id_pelamar.1:, :nama:, :email:, :deskripsi:, :id_divisi:, :cv:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Lamar.php(69): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Lamar->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lamar))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-07 01:43:05 --> Column 'cv' cannot be null
+CRITICAL - 2022-08-07 01:43:05 --> Column 'cv' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`) VALUES (\'PEL3\', \'a\', \'a@a.com\', \'a\', \'Web Developer\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`) VALUES (\'PEL3\', \'a\', \'a@a.com\', \'a\', \'Web Developer\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`) VALUES (\'PEL3\', \'a\', \'a@a.com\', \'a\', \'Web Developer\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`) VALUES (:id_pelamar.1:, :nama:, :email:, :deskripsi:, :id_divisi:, :cv:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Lamar.php(69): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Lamar->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lamar))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-07 01:44:51 --> Column 'cv' cannot be null
+CRITICAL - 2022-08-07 01:44:51 --> Column 'cv' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`) VALUES (\'PEL3\', \'a\', \'a@a.com\', \'a\', \'Web Developer\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`) VALUES (\'PEL3\', \'a\', \'a@a.com\', \'a\', \'Web Developer\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`) VALUES (\'PEL3\', \'a\', \'a@a.com\', \'a\', \'Web Developer\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`) VALUES (:id_pelamar.1:, :nama:, :email:, :deskripsi:, :id_divisi:, :cv:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Lamar.php(69): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Lamar->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lamar))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-07 19:39:17 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\admin\pages\CV.php on line 134.
+ 1 APPPATH\Views\admin\pages\CV.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\admin\\pages\\CV.php', 134)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\CV.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/cv', [], true)
+ 5 APPPATH\Controllers\CV.php(16): view('admin/pages/cv')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\CV->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-07 19:43:05 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\admin\pages\CV.php on line 134.
+ 1 APPPATH\Views\admin\pages\CV.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\admin\\pages\\CV.php', 134)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\CV.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/cv', [], true)
+ 5 APPPATH\Controllers\CV.php(16): view('admin/pages/cv')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\CV->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-07 23:22:49 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\admin\pages\CV.php on line 134.
+ 1 APPPATH\Views\admin\pages\CV.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\admin\\pages\\CV.php', 134)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\CV.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/cv', [], true)
+ 5 APPPATH\Controllers\CV.php(16): view('admin/pages/cv')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\CV->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-07 23:27:13 --> Undefined property: stdClass::$cv
+in APPPATH\Views\admin\pages\index.php on line 252.
+ 1 APPPATH\Views\admin\pages\index.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$cv', 'APPPATH\\Views\\admin\\pages\\index.php', 252)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 5 APPPATH\Controllers\Web.php(21): view('admin/pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-07 23:29:22 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\admin\pages\CV.php on line 134.
+ 1 APPPATH\Views\admin\pages\CV.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\admin\\pages\\CV.php', 134)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\CV.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/cv', [], true)
+ 5 APPPATH\Controllers\CV.php(16): view('admin/pages/cv')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\CV->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-07 23:34:56 --> Undefined variable $cv
+in APPPATH\Views\admin\pages\CV.php on line 142.
+ 1 APPPATH\Views\admin\pages\CV.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cv', 'APPPATH\\Views\\admin\\pages\\CV.php', 142)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\CV.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/cv', [], true)
+ 5 APPPATH\Controllers\CV.php(16): view('admin/pages/cv')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\CV->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-07 23:37:38 --> Array to string conversion
+in APPPATH\Views\admin\pages\CV.php on line 135.
+ 1 APPPATH\Views\admin\pages\CV.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\pages\\CV.php', 135)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\CV.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/cv', [], true)
+ 5 APPPATH\Controllers\CV.php(16): view('admin/pages/cv')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\CV->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-07 23:38:13 --> Array to string conversion
+in APPPATH\Views\admin\pages\CV.php on line 142.
+ 1 APPPATH\Views\admin\pages\CV.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\pages\\CV.php', 142)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\CV.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/cv', [], true)
+ 5 APPPATH\Controllers\CV.php(16): view('admin/pages/cv')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\CV->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

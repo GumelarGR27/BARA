@@ -1,0 +1,260 @@
+CRITICAL - 2022-11-01 08:24:22 --> Undefined variable: idklien
+in APPPATH\Views\ingpois.php on line 18.
+ 1 APPPATH\Views\ingpois.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idklien', 'APPPATH\\Views\\ingpois.php', 18, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(21): view('ingpois', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-01 12:58:26 --> syntax error, unexpected 'orderBy' (T_STRING)
+in APPPATH\Controllers\Ingpois.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Ingpois.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Ingpois')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Ingpois')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Ingpois')
+ 5 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Ingpois', true)
+ 6 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-01 13:03:15 --> Unknown column 'no_invoice' in 'where clause'
+CRITICAL - 2022-11-01 13:03:15 --> Unknown column 'no_invoice' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `no_invoice` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `no_invoice` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `no_invoice` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `no_invoice` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Ingpois.php(15): CodeIgniter\BaseModel->paginate(5)
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-01 13:03:37 --> Unknown column 'no_invoice' in 'where clause'
+CRITICAL - 2022-11-01 13:03:37 --> Unknown column 'no_invoice' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `no_invoice` = \'0015/BE-INV/25-X/2022\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `no_invoice` = \'0015/BE-INV/25-X/2022\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `no_invoice` = \'0015/BE-INV/25-X/2022\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `no_invoice` = :no_invoice:', [...], false)
+ 5 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Ingpois.php(15): CodeIgniter\BaseModel->paginate(5)
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-01 13:13:07 --> Undefined variable: idklien
+in APPPATH\Views\ingpois.php on line 18.
+ 1 APPPATH\Views\ingpois.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idklien', 'APPPATH\\Views\\ingpois.php', 18, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(21): view('ingpois', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-01 13:15:48 --> Undefined variable: idklien
+in APPPATH\Views\ingpois.php on line 18.
+ 1 APPPATH\Views\ingpois.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idklien', 'APPPATH\\Views\\ingpois.php', 18, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(21): view('ingpois', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-01 13:16:02 --> Undefined variable: idklien
+in APPPATH\Views\ingpois.php on line 18.
+ 1 APPPATH\Views\ingpois.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idklien', 'APPPATH\\Views\\ingpois.php', 18, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(21): view('ingpois', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-01 13:22:56 --> Table 'tagihan_bara.klien' doesn't exist
+CRITICAL - 2022-11-01 13:22:56 --> Table 'tagihan_bara.klien' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `klien`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `klien`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `klien`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `klien`', [], false)
+ 5 APPPATH\Views\form_ingpois.php(271): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form_ingpois.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_ingpois', [], true)
+ 9 APPPATH\Controllers\tabel_invoice.php(9): view('form_ingpois')
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tabel_invoice->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tabel_invoice))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-01 14:47:31 --> Undefined variable: row
+in APPPATH\Views\inpois.php on line 12.
+ 1 APPPATH\Views\inpois.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'APPPATH\\Views\\inpois.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\inpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('inpois', [], true)
+ 5 APPPATH\Controllers\inpois.php(46): view('inpois', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Inpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-01 14:48:47 --> Undefined variable: row
+in APPPATH\Views\inpois.php on line 12.
+ 1 APPPATH\Views\inpois.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'APPPATH\\Views\\inpois.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\inpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('inpois', [], true)
+ 5 APPPATH\Controllers\inpois.php(47): view('inpois', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Inpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-01 14:50:28 --> Invalid argument supplied for foreach()
+in APPPATH\Views\inpois.php on line 13.
+ 1 APPPATH\Views\inpois.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\inpois.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\inpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('inpois', [], true)
+ 5 APPPATH\Controllers\inpois.php(47): view('inpois', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Inpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-01 14:50:49 --> Undefined variable: data
+in APPPATH\Views\inpois.php on line 13.
+ 1 APPPATH\Views\inpois.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Views\\inpois.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\inpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('inpois', [], true)
+ 5 APPPATH\Controllers\inpois.php(47): view('inpois', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Inpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-01 14:51:23 --> Illegal string offset 'tagihan'
+in APPPATH\Controllers\inpois.php on line 40.
+ 1 APPPATH\Controllers\inpois.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'tagihan\'', 'APPPATH\\Controllers\\inpois.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Inpois->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inpois))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-01 14:51:51 --> Argument 3 passed to view() must be of the type array, string given, called in D:\Xampp baru\htdocs\bara\app\Controllers\inpois.php on line 47
+in SYSTEMPATH\Common.php on line 1121.
+ 1 APPPATH\Controllers\inpois.php(47): view('inpois', [...], 'Mutiara Tbk')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Inpois->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inpois))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-01 14:52:44 --> Undefined index: nama
+in APPPATH\Views\inpois.php on line 14.
+ 1 APPPATH\Views\inpois.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama', 'APPPATH\\Views\\inpois.php', 14, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\inpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('inpois', [], true)
+ 5 APPPATH\Controllers\inpois.php(47): view('inpois', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Inpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-01 14:53:08 --> Invalid argument supplied for foreach()
+in APPPATH\Views\inpois.php on line 13.
+ 1 APPPATH\Views\inpois.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\inpois.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\inpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('inpois', [], true)
+ 5 APPPATH\Controllers\inpois.php(47): view('inpois', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Inpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-01 14:53:43 --> Undefined index: noinv
+in APPPATH\Views\inpois.php on line 54.
+ 1 APPPATH\Views\inpois.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: noinv', 'APPPATH\\Views\\inpois.php', 54, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\inpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('inpois', [], true)
+ 5 APPPATH\Controllers\inpois.php(47): view('inpois', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Inpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-01 14:54:01 --> Undefined index: no_invoice
+in APPPATH\Views\inpois.php on line 54.
+ 1 APPPATH\Views\inpois.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: no_invoice', 'APPPATH\\Views\\inpois.php', 54, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\inpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('inpois', [], true)
+ 5 APPPATH\Controllers\inpois.php(47): view('inpois', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Inpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-01 14:54:29 --> Undefined index: no_invoice
+in APPPATH\Views\inpois.php on line 54.
+ 1 APPPATH\Views\inpois.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: no_invoice', 'APPPATH\\Views\\inpois.php', 54, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\inpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('inpois', [], true)
+ 5 APPPATH\Controllers\inpois.php(48): view('inpois', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Inpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-01 15:15:43 --> Undefined property: stdClass::$nama
+in APPPATH\Views\inpois.php on line 81.
+ 1 APPPATH\Views\inpois.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nama', 'APPPATH\\Views\\inpois.php', 81, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\inpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('inpois', [], true)
+ 5 APPPATH\Controllers\inpois.php(29): view('inpois', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Inpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-01 15:35:02 --> Undefined variable: row
+in APPPATH\Controllers\inpois.php on line 21.
+ 1 APPPATH\Controllers\inpois.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'APPPATH\\Controllers\\inpois.php', 21, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Inpois->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inpois))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-01 20:20:04 --> Undefined variable: namap
+in APPPATH\Views\Edit_Invoice.php on line 283.
+ 1 APPPATH\Views\Edit_Invoice.php(283): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: namap', 'APPPATH\\Views\\Edit_Invoice.php', 283, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Edit_Invoice.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Edit_Invoice', [], true)
+ 5 APPPATH\Controllers\Edit_Invoice.php(12): view('Edit_Invoice')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Edit_Invoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit_Invoice))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

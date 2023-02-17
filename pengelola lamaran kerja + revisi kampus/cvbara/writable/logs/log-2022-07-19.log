@@ -1,0 +1,76 @@
+CRITICAL - 2022-07-19 00:32:30 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\admin\pages\index.php on line 71.
+ 1 APPPATH\Views\admin\pages\index.php(71): implode([...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 5 APPPATH\Controllers\Login.php(49): view('admin/pages/index')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 00:33:07 --> Array to string conversion
+in APPPATH\Views\admin\pages\index.php on line 71.
+ 1 APPPATH\Views\admin\pages\index.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\pages\\index.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 5 APPPATH\Controllers\Login.php(49): view('admin/pages/index')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 00:33:22 --> Array to string conversion
+in APPPATH\Views\admin\pages\index.php on line 71.
+ 1 APPPATH\Views\admin\pages\index.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\pages\\index.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 5 APPPATH\Controllers\Login.php(49): view('admin/pages/index')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 00:34:57 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\admin\pages\index.php on line 4.
+ 1 APPPATH\Views\admin\pages\index.php(4): implode([...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 5 APPPATH\Controllers\Login.php(49): view('admin/pages/index')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 00:35:51 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\admin\pages\index.php on line 4.
+ 1 APPPATH\Views\admin\pages\index.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\admin\\pages\\index.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 5 APPPATH\Controllers\Login.php(49): view('admin/pages/index')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 00:40:21 --> Undefined variable $db
+in APPPATH\Views\admin\pages\index.php on line 2.
+ 1 APPPATH\Views\admin\pages\index.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Views\\admin\\pages\\index.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 5 APPPATH\Controllers\Login.php(49): view('admin/pages/index')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-19 00:41:09 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\admin\pages\index.php on line 75.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 4 APPPATH\Controllers\Login.php(49): view('admin/pages/index')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

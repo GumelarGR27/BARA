@@ -1,0 +1,268 @@
+CRITICAL - 2022-07-18 01:24:53 --> Class "Firebase\JWT\JWT" not found
+in APPPATH\Controllers\Login.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 01:26:09 --> require(D:\xampp\htdocs\cvbara\app\Controllers/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Login.php on line 5.
+ 1 APPPATH\Controllers\Login.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(D:\\xampp\\htdocs\\cvbara\\app\\Controllers/vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Login.php', 5)
+ 2 APPPATH\Controllers\Login.php(5): require()
+ 3 SYSTEMPATH\Router\AutoRouter.php(147): include_once('APPPATH\\Controllers\\Login.php')
+ 4 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('login')
+ 5 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('login')
+ 6 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('login')
+ 7 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 01:26:31 --> require(D:\xampp\htdocs\cvbara\app\Controllers/../vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Login.php on line 5.
+ 1 APPPATH\Controllers\Login.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(D:\\xampp\\htdocs\\cvbara\\app\\Controllers/../vendor/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Login.php', 5)
+ 2 APPPATH\Controllers\Login.php(5): require()
+ 3 SYSTEMPATH\Router\AutoRouter.php(147): include_once('APPPATH\\Controllers\\Login.php')
+ 4 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('login')
+ 5 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('login')
+ 6 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('login')
+ 7 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 01:26:48 --> require(D:\xampp\htdocs\cvbara\app\Controllers\vendor\autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Login.php on line 5.
+ 1 APPPATH\Controllers\Login.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(D:\\xampp\\htdocs\\cvbara\\app\\Controllers\\vendor\\autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Login.php', 5)
+ 2 APPPATH\Controllers\Login.php(5): require()
+ 3 SYSTEMPATH\Router\AutoRouter.php(147): include_once('APPPATH\\Controllers\\Login.php')
+ 4 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('login')
+ 5 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('login')
+ 6 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('login')
+ 7 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 01:26:56 --> require(D:\xampp\htdocs\cvbara\app\Controllers\..\vendor\autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Login.php on line 5.
+ 1 APPPATH\Controllers\Login.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(D:\\xampp\\htdocs\\cvbara\\app\\Controllers\\..\\vendor\\autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Login.php', 5)
+ 2 APPPATH\Controllers\Login.php(5): require()
+ 3 SYSTEMPATH\Router\AutoRouter.php(147): include_once('APPPATH\\Controllers\\Login.php')
+ 4 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('login')
+ 5 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('login')
+ 6 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('login')
+ 7 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 01:27:38 --> require(D:\xampp\htdocs\cvbara\app\Controllers\..\vendor\autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Login.php on line 5.
+ 1 APPPATH\Controllers\Login.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(D:\\xampp\\htdocs\\cvbara\\app\\Controllers\\..\\vendor\\autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Login.php', 5)
+ 2 APPPATH\Controllers\Login.php(5): require()
+ 3 SYSTEMPATH\Router\AutoRouter.php(147): include_once('APPPATH\\Controllers\\Login.php')
+ 4 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('login')
+ 5 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('login')
+ 6 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('login')
+ 7 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 01:27:48 --> require(D:\xampp\htdocs\cvbara\app\Controllers\..\vendora\autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Login.php on line 5.
+ 1 APPPATH\Controllers\Login.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(D:\\xampp\\htdocs\\cvbara\\app\\Controllers\\..\\vendora\\autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Login.php', 5)
+ 2 APPPATH\Controllers\Login.php(5): require()
+ 3 SYSTEMPATH\Router\AutoRouter.php(147): include_once('APPPATH\\Controllers\\Login.php')
+ 4 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('login')
+ 5 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('login')
+ 6 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('login')
+ 7 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 01:28:33 --> Class "Firebase\JWT\JWT" not found
+in APPPATH\Controllers\Login.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 01:28:44 --> Class "Firebase\JWT" not found
+in APPPATH\Controllers\Login.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 01:28:48 --> Class "App\Controllers\JWT" not found
+in APPPATH\Controllers\Login.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 01:29:06 --> syntax error, unexpected token "*", expecting "{"
+in APPPATH\Controllers\Login.php on line 8.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('login')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('login')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('login')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 01:36:54 --> Class "Firebase\JWT\JWT" not found
+in APPPATH\Controllers\Login.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 02:04:51 --> Invalid file: admin/pages/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/index.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 3 APPPATH\Controllers\Login.php(49): view('admin/pages/index')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 02:17:46 --> Undefined property: App\Controllers\Login::$load
+in APPPATH\Controllers\Login.php on line 49.
+ 1 APPPATH\Controllers\Login.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$load', 'APPPATH\\Controllers\\Login.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 02:18:50 --> Invalid file: admin/pages/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/index.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 3 APPPATH\Controllers\Login.php(49): view('admin/pages/index')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 09:55:57 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\admin\pages\index.php on line 2.
+ 1 APPPATH\Views\admin\pages\index.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH\\Views\\admin\\pages\\index.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 5 APPPATH\Controllers\Login.php(49): view('admin/pages/index')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 09:56:28 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\admin\pages\index.php on line 2.
+ 1 APPPATH\Views\admin\pages\index.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH\\Views\\admin\\pages\\index.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 5 APPPATH\Controllers\Login.php(49): view('admin/pages/index')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 10:13:54 --> Class "UserModel" not found
+in APPPATH\Views\admin\pages\index.php on line 2.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 4 APPPATH\Controllers\Login.php(49): view('admin/pages/index')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 10:14:28 --> Class "UserModel" not found
+in APPPATH\Views\admin\pages\index.php on line 3.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 4 APPPATH\Controllers\Login.php(49): view('admin/pages/index')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 10:14:43 --> Array to string conversion
+in APPPATH\Views\admin\pages\index.php on line 71.
+ 1 APPPATH\Views\admin\pages\index.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\pages\\index.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 5 APPPATH\Controllers\Login.php(49): view('admin/pages/index')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 10:15:03 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\admin\pages\index.php on line 71.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 4 APPPATH\Controllers\Login.php(49): view('admin/pages/index')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 10:18:00 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\admin\pages\index.php on line 4.
+ 1 APPPATH\Views\admin\pages\index.php(4): implode([...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 5 APPPATH\Controllers\Login.php(49): view('admin/pages/index')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 10:19:39 --> implode(): Argument #1 ($separator) must be of type array|string, stdClass given
+in APPPATH\Views\admin\pages\index.php on line 71.
+ 1 APPPATH\Views\admin\pages\index.php(71): implode(Object(stdClass))
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 5 APPPATH\Controllers\Login.php(49): view('admin/pages/index')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 10:19:46 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\admin\pages\index.php on line 71.
+ 1 APPPATH\Views\admin\pages\index.php(71): implode([...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 5 APPPATH\Controllers\Login.php(49): view('admin/pages/index')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 10:19:52 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\admin\pages\index.php on line 71.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 4 APPPATH\Controllers\Login.php(49): view('admin/pages/index')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 20:57:48 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\admin\pages\index.php on line 4.
+ 1 APPPATH\Views\admin\pages\index.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\admin\\pages\\index.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 5 APPPATH\Controllers\Login.php(49): view('admin/pages/index')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 20:58:44 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\admin\pages\index.php on line 4.
+ 1 APPPATH\Views\admin\pages\index.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\admin\\pages\\index.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 5 APPPATH\Controllers\Login.php(49): view('admin/pages/index')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-18 21:04:47 --> Array to string conversion
+in APPPATH\Views\admin\pages\index.php on line 71.
+ 1 APPPATH\Views\admin\pages\index.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\pages\\index.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 5 APPPATH\Controllers\Login.php(49): view('admin/pages/index')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

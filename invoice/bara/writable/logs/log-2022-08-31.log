@@ -1,0 +1,310 @@
+ERROR - 2022-08-31 04:49:02 --> Column 'nama_perusahaan' cannot be null
+CRITICAL - 2022-08-31 04:49:02 --> Column 'nama_perusahaan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `client` (`id_klien`, `nama_perusahaan`, `nama`, `alamat`, `kota`, `telepon`, `email`) VALUES (\'KL10\', NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `client` (`id_klien`, `nama_perusahaan`, `nama`, `alamat`, `kota`, `telepon`, `email`) VALUES (\'KL10\', NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `client` (`id_klien`, `nama_perusahaan`, `nama`, `alamat`, `kota`, `telepon`, `email`) VALUES (\'KL10\', NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `client` (`id_klien`, `nama_perusahaan`, `nama`, `alamat`, `kota`, `telepon`, `email`) VALUES (:id_klien.1:, :nama_perusahaan:, :nama:, :alamat:, :kota:, :telepon:, :email:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Client.php(42): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-31 05:03:05 --> Invalid file: Remainder.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Remainder.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Remainder', [], true)
+ 3 APPPATH\Controllers\Client.php(43): view('Remainder', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-31 05:04:33 --> Invalid file: Remainder.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Remainder.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Remainder', [], true)
+ 3 APPPATH\Controllers\Client.php(43): view('Remainder', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-31 05:04:39 --> Invalid file: Remainder.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Remainder.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Remainder', [], true)
+ 3 APPPATH\Controllers\Client.php(43): view('Remainder', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-31 05:07:05 --> Invalid file: remainder.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('remainder.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('remainder', [], true)
+ 3 APPPATH\Controllers\Client.php(43): view('remainder', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-31 05:34:43 --> Invalid file: remainder.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('remainder.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('remainder', [], true)
+ 3 APPPATH\Controllers\Client.php(43): view('remainder', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-31 05:36:13 --> Invalid file: datainvoice.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('datainvoice.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datainvoice', [], true)
+ 3 APPPATH\Controllers\Client.php(43): view('datainvoice', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-31 05:37:08 --> Invalid file: datainvoice.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('datainvoice.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('datainvoice', [], true)
+ 3 APPPATH\Controllers\Client.php(43): view('datainvoice', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-31 05:38:21 --> Undefined index: tanggal_invoice
+in APPPATH\Views\Rimainder.php on line 342.
+ 1 APPPATH\Views\Rimainder.php(342): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: tanggal_invoice', 'APPPATH\\Views\\Rimainder.php', 342, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Rimainder.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rimainder', [], true)
+ 5 APPPATH\Controllers\Client.php(43): view('rimainder', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-31 07:51:25 --> Undefined index: tanggal_invoice
+in APPPATH\Views\Rimainder.php on line 342.
+ 1 APPPATH\Views\Rimainder.php(342): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: tanggal_invoice', 'APPPATH\\Views\\Rimainder.php', 342, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Rimainder.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rimainder', [], true)
+ 5 APPPATH\Controllers\Client.php(43): view('rimainder', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-31 07:53:43 --> Invalid numeric literal
+in APPPATH\Controllers\tagihan.php on line 32.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\tagihan.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\tagihan')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\tagihan')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\tagihan')
+ 5 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\tagihan', true)
+ 6 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-31 07:55:19 --> Cannot declare class App\Controllers\tagihan because the name is already in use
+in APPPATH\Controllers\tagihan.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-31 07:56:03 --> Cannot declare class tagihan because the name is already in use
+in APPPATH\Controllers\tagihan.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-31 07:57:31 --> Class 'BaseController' not found
+in APPPATH\Controllers\tagihann.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(284): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\tagihann.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\tagihann')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\tagihann')
+ 5 [internal function]: spl_autoload_call('App\\Controllers\\tagihann')
+ 6 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\tagihann', true)
+ 7 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-31 07:58:57 --> Column 'nama_perusahaan' cannot be null
+CRITICAL - 2022-08-31 07:58:57 --> Column 'nama_perusahaan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tagihan` (`id_tagihan`, `no_invoice`, `nama_perusahaan`, `unit`, `deskripsi`, `quantity`, `tanggal_invoice`, `status`, `total`) VALUES (\'\', \'4\', NULL, \'Paket\', NULL, NULL, \'2022-08-31\', \'Belum Lunas\', 0)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tagihan` (`id_tagihan`, `no_invoice`, `nama_perusahaan`, `unit`, `deskripsi`, `quantity`, `tanggal_invoice`, `status`, `total`) VALUES (\'\', \'4\', NULL, \'Paket\', NULL, NULL, \'2022-08-31\', \'Belum Lunas\', 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tagihan` (`id_tagihan`, `no_invoice`, `nama_perusahaan`, `unit`, `deskripsi`, `quantity`, `tanggal_invoice`, `status`, `total`) VALUES (\'\', \'4\', NULL, \'Paket\', NULL, NULL, \'2022-08-31\', \'Belum Lunas\', 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tagihan` (`id_tagihan`, `no_invoice`, `nama_perusahaan`, `unit`, `deskripsi`, `quantity`, `tanggal_invoice`, `status`, `total`) VALUES (:id_tagihan:, :no_invoice:, :nama_perusahaan:, :unit:, :deskripsi:, :quantity:, :tanggal_invoice:, :status:, :total:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\tagihann.php(80): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-31 08:00:24 --> Column 'nama_perusahaan' cannot be null
+CRITICAL - 2022-08-31 08:00:24 --> Column 'nama_perusahaan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tagihan` (`id_tagihan`, `no_invoice`, `nama_perusahaan`, `unit`, `deskripsi`, `quantity`, `tanggal_invoice`, `status`, `total`) VALUES (\'\', \'4\', NULL, \'Paket\', NULL, NULL, \'2022-08-31\', \'Belum Lunas\', 0)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tagihan` (`id_tagihan`, `no_invoice`, `nama_perusahaan`, `unit`, `deskripsi`, `quantity`, `tanggal_invoice`, `status`, `total`) VALUES (\'\', \'4\', NULL, \'Paket\', NULL, NULL, \'2022-08-31\', \'Belum Lunas\', 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tagihan` (`id_tagihan`, `no_invoice`, `nama_perusahaan`, `unit`, `deskripsi`, `quantity`, `tanggal_invoice`, `status`, `total`) VALUES (\'\', \'4\', NULL, \'Paket\', NULL, NULL, \'2022-08-31\', \'Belum Lunas\', 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tagihan` (`id_tagihan`, `no_invoice`, `nama_perusahaan`, `unit`, `deskripsi`, `quantity`, `tanggal_invoice`, `status`, `total`) VALUES (:id_tagihan:, :no_invoice:, :nama_perusahaan:, :unit:, :deskripsi:, :quantity:, :tanggal_invoice:, :status:, :total:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\tagihann.php(80): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-31 08:01:40 --> Column 'nama_perusahaan' cannot be null
+CRITICAL - 2022-08-31 08:01:40 --> Column 'nama_perusahaan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tagihan` (`id_tagihan`, `no_invoice`, `nama_perusahaan`, `unit`, `deskripsi`, `quantity`, `tanggal_invoice`, `status`, `total`) VALUES (\'\', \'4\', NULL, \'Paket\', NULL, NULL, \'2022-08-31\', \'Belum Lunas\', 0)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tagihan` (`id_tagihan`, `no_invoice`, `nama_perusahaan`, `unit`, `deskripsi`, `quantity`, `tanggal_invoice`, `status`, `total`) VALUES (\'\', \'4\', NULL, \'Paket\', NULL, NULL, \'2022-08-31\', \'Belum Lunas\', 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tagihan` (`id_tagihan`, `no_invoice`, `nama_perusahaan`, `unit`, `deskripsi`, `quantity`, `tanggal_invoice`, `status`, `total`) VALUES (\'\', \'4\', NULL, \'Paket\', NULL, NULL, \'2022-08-31\', \'Belum Lunas\', 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tagihan` (`id_tagihan`, `no_invoice`, `nama_perusahaan`, `unit`, `deskripsi`, `quantity`, `tanggal_invoice`, `status`, `total`) VALUES (:id_tagihan:, :no_invoice:, :nama_perusahaan:, :unit:, :deskripsi:, :quantity:, :tanggal_invoice:, :status:, :total:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\tagihann.php(80): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-31 08:02:21 --> Column 'deskripsi' cannot be null
+CRITICAL - 2022-08-31 08:02:21 --> Column 'deskripsi' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tagihan` (`id_tagihan`, `no_invoice`, `nama_perusahaan`, `unit`, `deskripsi`, `quantity`, `tanggal_invoice`, `status`, `total`) VALUES (\'\', \'4\', \'Raka Asew\', \'Paket\', NULL, NULL, \'2022-08-31\', \'Belum Lunas\', 0)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tagihan` (`id_tagihan`, `no_invoice`, `nama_perusahaan`, `unit`, `deskripsi`, `quantity`, `tanggal_invoice`, `status`, `total`) VALUES (\'\', \'4\', \'Raka Asew\', \'Paket\', NULL, NULL, \'2022-08-31\', \'Belum Lunas\', 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tagihan` (`id_tagihan`, `no_invoice`, `nama_perusahaan`, `unit`, `deskripsi`, `quantity`, `tanggal_invoice`, `status`, `total`) VALUES (\'\', \'4\', \'Raka Asew\', \'Paket\', NULL, NULL, \'2022-08-31\', \'Belum Lunas\', 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tagihan` (`id_tagihan`, `no_invoice`, `nama_perusahaan`, `unit`, `deskripsi`, `quantity`, `tanggal_invoice`, `status`, `total`) VALUES (:id_tagihan:, :no_invoice:, :nama_perusahaan:, :unit:, :deskripsi:, :quantity:, :tanggal_invoice:, :status:, :total:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\tagihann.php(80): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-31 08:03:06 --> Column 'deskripsi' cannot be null
+CRITICAL - 2022-08-31 08:03:06 --> Column 'deskripsi' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tagihan` (`id_tagihan`, `no_invoice`, `nama_perusahaan`, `unit`, `deskripsi`, `quantity`, `tanggal_invoice`, `status`, `total`) VALUES (\'\', \'4\', \'Raka Asew\', \'Paket\', NULL, NULL, \'2022-08-31\', \'Belum Lunas\', 0)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tagihan` (`id_tagihan`, `no_invoice`, `nama_perusahaan`, `unit`, `deskripsi`, `quantity`, `tanggal_invoice`, `status`, `total`) VALUES (\'\', \'4\', \'Raka Asew\', \'Paket\', NULL, NULL, \'2022-08-31\', \'Belum Lunas\', 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tagihan` (`id_tagihan`, `no_invoice`, `nama_perusahaan`, `unit`, `deskripsi`, `quantity`, `tanggal_invoice`, `status`, `total`) VALUES (\'\', \'4\', \'Raka Asew\', \'Paket\', NULL, NULL, \'2022-08-31\', \'Belum Lunas\', 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tagihan` (`id_tagihan`, `no_invoice`, `nama_perusahaan`, `unit`, `deskripsi`, `quantity`, `tanggal_invoice`, `status`, `total`) VALUES (:id_tagihan:, :no_invoice:, :nama_perusahaan:, :unit:, :deskripsi:, :quantity:, :tanggal_invoice:, :status:, :total:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\tagihann.php(80): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-31 08:05:42 --> Undefined variable: bln
+in APPPATH\Controllers\tagihann.php on line 50.
+ 1 APPPATH\Controllers\tagihann.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: bln', 'APPPATH\\Controllers\\tagihann.php', 50, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-31 11:25:32 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\ingpois.php on line 11.
+ 1 APPPATH\Views\ingpois.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\ingpois.php', 11, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(9): view('ingpois')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-31 11:27:54 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\ingpois.php on line 11.
+ 1 APPPATH\Views\ingpois.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\ingpois.php', 11, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(9): view('ingpois')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-31 11:28:33 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\ingpois.php on line 11.
+ 1 APPPATH\Views\ingpois.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\ingpois.php', 11, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(9): view('ingpois')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-31 11:45:23 --> Undefined variable: id_klien
+in APPPATH\Views\ingpois.php on line 17.
+ 1 APPPATH\Views\ingpois.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_klien', 'APPPATH\\Views\\ingpois.php', 17, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(9): view('ingpois')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-31 11:45:43 --> Undefined property: stdClass::$due_date
+in APPPATH\Views\ingpois.php on line 121.
+ 1 APPPATH\Views\ingpois.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$due_date', 'APPPATH\\Views\\ingpois.php', 121, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(9): view('ingpois')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-31 11:46:23 --> Undefined property: stdClass::$due_date
+in APPPATH\Views\ingpois.php on line 121.
+ 1 APPPATH\Views\ingpois.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$due_date', 'APPPATH\\Views\\ingpois.php', 121, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(9): view('ingpois')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-31 11:47:44 --> Call to undefined method App\Models\tagihan::pencarian
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Home.php(15): CodeIgniter\Model->__call('pencarian', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-31 11:51:07 --> Unknown column 'nama' in 'where clause'
+CRITICAL - 2022-08-31 11:51:07 --> Unknown column 'nama' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `tagihan`
+WHERE `nama` LIKE \'%martin%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `tagihan`
+WHERE `nama` LIKE \'%martin%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `tagihan`
+WHERE `nama` LIKE \'%martin%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `tagihan`
+WHERE `nama` LIKE :nama: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Home.php(21): CodeIgniter\BaseModel->paginate(5)
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

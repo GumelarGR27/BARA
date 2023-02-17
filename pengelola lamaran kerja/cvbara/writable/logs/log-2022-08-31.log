@@ -1,0 +1,62 @@
+CRITICAL - 2022-08-31 00:00:30 --> Undefined variable $cv
+in APPPATH\Views\admin\pages\CV.php on line 146.
+ 1 APPPATH\Views\admin\pages\CV.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cv', 'APPPATH\\Views\\admin\\pages\\CV.php', 146)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\CV.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/cv', [], true)
+ 5 APPPATH\Controllers\CV.php(16): view('admin/pages/cv')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\CV->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-31 00:57:15 --> Undefined variable $divisi
+in APPPATH\Models\webModel.php on line 21.
+ 1 APPPATH\Models\webModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $divisi', 'APPPATH\\Models\\webModel.php', 21)
+ 2 APPPATH\Controllers\Web.php(26): App\Models\webModel->nyari('Pilih Divisi')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-31 00:57:37 --> Undefined variable $divisi
+in APPPATH\Models\webModel.php on line 21.
+ 1 APPPATH\Models\webModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $divisi', 'APPPATH\\Models\\webModel.php', 21)
+ 2 APPPATH\Controllers\Web.php(26): App\Models\webModel->nyari('Pilih Divisi')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-31 00:59:36 --> syntax error, unexpected double-quoted string "><option>", expecting "," or ";"
+in APPPATH\Views\admin\pages\index.php on line 245.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 3 APPPATH\Controllers\Web.php(37): view('admin/pages/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-31 01:11:54 --> Undefined variable $divisi
+in APPPATH\Models\webModel.php on line 21.
+ 1 APPPATH\Models\webModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $divisi', 'APPPATH\\Models\\webModel.php', 21)
+ 2 APPPATH\Controllers\Web.php(26): App\Models\webModel->nyari('Pilih Divisi')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-31 22:50:40 --> Undefined variable $aidi
+in APPPATH\Controllers\editdivisi.php on line 21.
+ 1 APPPATH\Controllers\editdivisi.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aidi', 'APPPATH\\Controllers\\editdivisi.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editdivisi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editdivisi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-31 22:57:43 --> Undefined variable $cv
+in APPPATH\Views\admin\pages\CV.php on line 146.
+ 1 APPPATH\Views\admin\pages\CV.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cv', 'APPPATH\\Views\\admin\\pages\\CV.php', 146)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\CV.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/cv', [], true)
+ 5 APPPATH\Controllers\CV.php(16): view('admin/pages/cv')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\CV->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

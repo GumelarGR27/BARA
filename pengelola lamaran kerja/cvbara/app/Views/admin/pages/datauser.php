@@ -1,0 +1,419 @@
+<?php
+    $db = \Config\Database::connect();
+    
+    $session = session();
+    $log = $session->get('role');
+?>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="shortcut icon" href="https://bara.co.id/assets/images/icon_bara.png" type="image/x-icon">
+        <title>Admin</title>
+
+        <!-- Bootstrap Core CSS -->
+        <link href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>" rel="stylesheet">
+
+        <link rel="stylesheet" href="<?php echo base_url('assets/jsgrid/jsgrid.min.css'); ?>">
+        <link rel="stylesheet" href="<?php echo base_url('assets/jsgrid/jsgrid-theme.min.css'); ?>">
+
+        <!-- Custom CSS -->
+        <link href="<?php echo base_url('assets/css/startmin.css'); ?>" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/ca21bdd1c1.js" crossorigin="anonymous"></script>
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <style>
+            .panel{
+                border: 0px !important;
+                box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 4px 18px 0 rgba(0, 0, 0, 0.19);
+            }
+            #side-menu{
+                background-color: #222 !important;
+            }
+            #saidbar{
+                height: 1000px;
+                background-color: #222;
+            }
+            a.regis:hover{
+                color: white !important;
+            }
+            .a{
+                color: white !important;
+            }
+            a.a:hover{
+                color: #222 !important;
+            }
+            .active{
+                color: #222 !important;
+            }
+            a:hover{
+                color: #337ab7 !important;
+            }
+            #btn{
+                border-radius: 0px;
+            }
+            .panel-heading{
+                border: 0px !important; 
+                height: 110px;
+                background-color: #fff !important;
+            }
+            .tooltip {
+                position: absolute;
+                display: inline-block;
+                border-bottom: 1px dotted black;
+            }
+            .logout{
+                background-color: #222 !important; 
+                color: white !important;
+            }
+            a.logout:hover{
+                background-color: #eee !important; 
+                color: #222 !important;
+            }
+            .tooltip .tooltiptext {
+                visibility: hidden;
+                width: 120px;
+                background-color: #555;
+                color: #fff;
+                text-align: center;
+                border-radius: 6px;
+                padding: 5px 0;
+                position: absolute;
+                z-index: 1;
+                bottom: 125%;
+                left: 50%;
+                margin-left: -60px;
+                opacity: 0;
+                transition: opacity 0.3s;
+            }
+            .col-xs-9{
+                font-size: 13pt;
+            }
+            .tooltip .tooltiptext::after {
+                content: "";
+                position: absolute;
+                top: 100%;
+                left: 50%;
+                margin-left: -5px;
+                border-width: 5px;
+                border-style: solid;
+                border-color: #555 transparent transparent transparent;
+            }
+
+            .tooltip:hover .tooltiptext {
+                visibility: visible;
+                opacity: 1;
+            }
+            .fa fa-user fa-fw{
+                color: white !important;
+            }
+            .dialog-ovelay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: rgba(0, 0, 0, 0.50);
+                z-index: 999999
+            }
+            .dialog-ovelay .dialog {
+                width: 400px;
+                margin: 100px auto 0;
+                background-color: #fff;
+                box-shadow: 0 0 20px rgba(0,0,0,.2);
+                border-radius: 3px;
+                overflow: hidden
+            }
+            .dialog-ovelay .dialog header {
+                padding: 10px 8px;
+                background-color: #f6f7f9;
+                border-bottom: 1px solid #e5e5e5
+            }
+            .dialog-ovelay .dialog header h3 {
+                font-size: 14px;
+                margin: 0;
+                color: #555;
+                display: inline-block
+            }
+            .dialog-ovelay .dialog header .fa-close {
+                float: right;
+                color: #c4c5c7;
+                cursor: pointer;
+                transition: all .5s ease;
+                padding: 0 2px;
+                border-radius: 1px    
+            }
+            .dialog-ovelay .dialog header .fa-close:hover {
+                color: #b9b9b9
+            }
+            .dialog-ovelay .dialog header .fa-close:active {
+                box-shadow: 0 0 5px #673AB7;
+                color: #a2a2a2
+            }
+            .dialog-ovelay .dialog .dialog-msg {
+                padding: 12px 10px
+            }
+            .dialog-ovelay .dialog .dialog-msg p{
+                margin: 0;
+                font-size: 15px;
+                color: #333
+            }
+            .dialog-ovelay .dialog footer {
+                border-top: 1px solid #e5e5e5;
+                padding: 8px 10px
+            }
+            .dialog-ovelay .dialog footer .controls {
+                direction: rtl
+            }
+            .dialog-ovelay .dialog footer .controls .button {
+                padding: 5px 15px;
+                border-radius: 3px
+            }
+            .button {
+            cursor: pointer
+            }
+            .button-default {
+                background-color: rgb(248, 248, 248);
+                border: 1px solid rgba(204, 204, 204, 0.5);
+                color: #5D5D5D;
+            }
+            .button-danger {
+                background-color: #f44336;
+                border: 1px solid #d32f2f;
+                color: #f5f5f5
+            }
+            .link {
+            padding: 5px 10px;
+            cursor: pointer
+            }
+            a.y:hover{
+                text-decoration: none;
+                color: #000 !important;
+            }
+        </style>
+        
+    </head>
+    <body>
+
+        <div id="wrapper">
+
+            <!-- Navigation -->
+            <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#" style="color:white;"><?php echo $log; ?></a>
+                </div>
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+                <!-- /.navbar-top-links -->
+                
+                <div class="navbar-default sidebar" role="navigation" id="saidbar">
+                    <div class="sidebar-nav navbar-collapse">
+                    <ul class="nav" id="side-menu">
+                            <li>
+                                <a href="<?php echo base_url('/datapelamar'); ?>" class="a"><i class="fa fa-light fa-folder-open" style="margin-right: 5px; margin-left: 2px;"></i> Data Pelamar</a>
+                            </li>
+                            <li>
+                                <a href=<?php echo base_url('/interview'); ?> class="a"><i class="fa fad fa-hourglass-half" style="margin-right: 11px; margin-left: 2px;"></i> Interview</a>
+                            </li>
+                            <li>
+                                <a href="<?php echo base_url('/diterima'); ?>" class="a"><i class="far fa-check-circle" style="margin-right: 9px; margin-left: 1px;"></i> Diterima</a>
+                            </li>
+                            <li>
+                                <a href="<?php echo base_url('/ditolak'); ?>" class="a"><i class="fa-solid fa-circle-xmark" style="margin-right: 9px; margin-left: 2px;" ></i> Ditolak</a>
+                            </li>
+                            <li>
+                                <a href=<?php echo base_url('/kelola'); ?> class="a"><i class="fa fa-edit fa-fw"  style="margin-right: 7px; margin-left: 1px;"></i> Kelola Lowongan</a>
+                            </li>
+                            <?php
+                                if($log == "ADMIN"){
+                                    echo "<li>";
+                                        echo '<a href="datauser" class="a active"><i class="fas fa-users"  style="margin-right: 7px; margin-left: 2px;"></i> Data Users</a>';
+                                    echo "</li>";
+                                }
+                            ?>
+                            <li>
+                                <a href="<?php echo base_url('/userprofil'); ?>" class="a"><i class="fa fa-user fa-fw"  style="margin-right: 9px; margin-left: 1px;"></i> User Profile</a>
+                            </li>
+                            <li>
+                                <a href="" class="logout" data-toggle="modal" data-target="#myModal"><i class="fa-solid fa-arrow-right-from-bracket"  style="margin-right: 9px; margin-left: 4px;"></i> Keluar</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Keluar</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Apakah anda yakin ingin keluar ?</p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="<?php echo base_url('/admin'); ?>" class="btn btn-default y">Ya</a>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Tidak</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="page-wrapper">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h1 class="page-header">Data Users</h1>
+                        </div>
+                        <!-- /.col-lg-12 -->
+                    </div>
+                    <!-- /.row -->
+                    
+                    <!-- /.row -->
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="panel panel-default">
+                                <div class="panel-heading" style="margin-top:10px; margin-left:5%; margin-right:31% !important; float:left; height: 80px !important; ">
+                                <form method="POST" action="" class="form-group">
+                                <a href="<?php echo base_url('register') ?>" class="btn btn-primary regis">
+                                    Tambah User
+                                </a>
+                                </div>
+                                <div class="input-group"style="width:50% !important; float:left;">
+                                            <div class="form-outline">
+                                                <input type="search" name="cari" id="form1" class="form-control" style="width:35%; margin-top: 20px; margin-left: 47%; float:left;"/>
+                                            </div>
+                                            <button type="Submit" class="btn btn-primary" id="btn" style="margin-top: 20px;">
+                                                <i class="fas fa-search"></i>
+                                            </button>
+                                        </div>
+                                </form>
+                                
+                                
+                                <!-- /.panel-heading -->
+                                <div class="panel-body">
+                                <div id="result"></div>
+                                <?php if(session()->getFlashdata('msg')):?>
+                                    <div class="alert alert-success" style="margin-top: 9%;"><?= session()->getFlashdata('msg') ?></div>
+                                <?php endif;?>
+                                <table class="table table-bordered" style="width:90%; margin-left:5%;">
+                                    <tr>
+                                        <th style="text-align: center;">No</th>
+                                        <th style="text-align: center;">Nama</th>
+                                        <th style="text-align: center;">Email</th>
+                                        <th style="text-align: center;">Role</th>
+                                        <th colspan="3" style="text-align: center;">Aksi</th>
+                                    </tr>
+                                    <form method="GET">
+                                        <?php
+                                            $nomor=1;  
+                                            foreach($user as $row):
+                                        ?>
+                                    <tr>
+                                        <td style="text-align: center;"><?=$nomor++;?></td>
+                                        <td><?=$row['nama'];?></td>
+                                        <td name="email"><?=$row['email'];?></td>
+                                        <td><?=$row['role'];?></td>
+                                    <form method="GET">
+                                        <!-- <td style="width:8%; text-align: center;">
+                                        <?php
+                                                $db = \Config\Database::connect();
+                                                $query   = $db->query('SELECT id FROM users WHERE nama = "'.$row['nama'].'"');
+                                                $results = $query->getResult();
+
+                                                foreach ($results as $rou) {
+                                                    $id = $rou->id;
+                                                }
+                                            ?>
+                                            <a href="<?php echo base_url('cv?id=').$id ?>" data-toggle="tooltip" style="text-decoration: none;" title="Review CV"><img src="<?php echo base_url('assets/img/eye.png') ?>" style="width:26px;"></a>
+                                        </td> -->
+                                        <td style="width:8%; text-align: center;">
+                                            <a href="<?php echo base_url('editprofil?id=').$id ?>" data-toggle="tooltip" style="text-decoration: none;" title="Edit User"><img src="<?php echo base_url('assets/img/pensil.png') ?>" style="width:23px;"></a>
+                                        </td>
+                                        <td style="width:8%; text-align: center;">
+                                            <a href="#" class="delete" data-toggle="tooltip" style="text-decoration: none;" title="Hapus Users" data-id="<?php echo $id; ?>"><img src="<?php echo base_url('assets/img/cancel.png') ?>" style="width:20px;"></a>
+                                        </td>
+                                            </form>
+                                    </tr>
+                                    <?php endforeach;?>
+                                    </form>
+                                </table>
+            <div style="padding-left:40%;"><?= $pager->Links() ?></div>
+            <form action="<?php echo base_url('hapususer'); ?>" method="post">
+                                            <div class="modal fade" id="deletemodal" role="dialog">
+                                                <div class="modal-dialog modal-lg">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                            <h4 class="modal-title">Hapus</h4>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <p>Apakah anda yakin ingin menghapus data user ini?</p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <input type="hidden" name="id" class="aidi">
+                                                            <button type="submit" class="btn btn-default y">Yes</button>
+                                                            <button type="button" class="btn btn-default" data-dismiss="modal">Tidak</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                </div>
+                                
+                                <!-- /.panel-body -->
+                            </div>
+                            <!-- /.panel -->
+                        </div>
+                        <!-- /.col-lg-12 -->
+                    </div>
+                </div>
+                <!-- /.container-fluid -->
+            </div>
+            <!-- /#page-wrapper -->
+        </div>
+        <!-- /#wrapper -->
+        
+        <!-- jQuery -->
+        <script src="<?php echo base_url('assets/js/jquery.min.js'); ?>"></script>
+        <script src="<?php echo base_url('assets/js/bootstrap.min.js'); ?>"></script>
+        <script src="<?php echo base_url('assets/js/metisMenu.min.js'); ?>"></script>
+
+        <!-- Morris Charts JavaScript -->
+        <script src="<?php echo base_url('assets/js/raphael.min.js'); ?>"></script>
+        <script src="<?php echo base_url('assets/js/startmin.js'); ?>"></script>
+        
+        <script src="<?php echo base_url('assets/jsgrid/jsgrid.min.js'); ?>"></script>
+        <script>
+            $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();   
+            });
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.delete').on('click',function(){
+                    // get data from button edit
+                    const id = $(this).data('id');
+                    // Set data to Form Edit
+                    $('.aidi').val(id);
+                    // Call Modal Edit
+                    $('#deletemodal').modal('show');
+                });
+            });
+        </script>
+    </body>
+</html>

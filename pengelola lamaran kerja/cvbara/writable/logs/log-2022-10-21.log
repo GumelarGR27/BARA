@@ -1,0 +1,74 @@
+ERROR - 2022-10-21 02:11:00 --> Duplicate entry '0' for key 'no'
+CRITICAL - 2022-10-21 02:11:00 --> Duplicate entry '0' for key 'no'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `jenis`, `status`) VALUES (\'PEL10\', \'renal\', \'renal@email.com\', \'svbjdf\', (\'DIV01\'), \'PENGAJUAN HARGA SEWA FORKLIFT1.pdf\', \'Karyawan\', \'Belum Interview\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `jenis`, `status`) VALUES (\'PEL10\', \'renal\', \'renal@email.com\', \'svbjdf\', (\'DIV01\'), \'PENGAJUAN HARGA SEWA FORKLIFT1.pdf\', \'Karyawan\', \'Belum Interview\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `jenis`, `status`) VALUES (\'PEL10\', \'renal\', \'renal@email.com\', \'svbjdf\', (\'DIV01\'), \'PENGAJUAN HARGA SEWA FORKLIFT1.pdf\', \'Karyawan\', \'Belum Interview\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `jenis`, `status`) VALUES (:id_pelamar:, :nama:, :email:, :deskripsi:, :id_divisi:, :cv:, :jenis:, :status:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Pelamar.php(87): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pelamar->lamar()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelamar))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-21 03:14:42 --> Duplicate entry 'PEL10' for key 'PRIMARY'
+CRITICAL - 2022-10-21 03:14:42 --> Duplicate entry 'PEL10' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `jenis`, `status`) VALUES (\'PEL10\', \'balmond\', \'balmond@gmail.com\', \'jago geprek\', (\'DIV01\'), \'Struktural BARA.pdf\', \'Karyawan\', \'Belum Interview\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `jenis`, `status`) VALUES (\'PEL10\', \'balmond\', \'balmond@gmail.com\', \'jago geprek\', (\'DIV01\'), \'Struktural BARA.pdf\', \'Karyawan\', \'Belum Interview\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `jenis`, `status`) VALUES (\'PEL10\', \'balmond\', \'balmond@gmail.com\', \'jago geprek\', (\'DIV01\'), \'Struktural BARA.pdf\', \'Karyawan\', \'Belum Interview\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `jenis`, `status`) VALUES (:id_pelamar:, :nama:, :email:, :deskripsi:, :id_divisi:, :cv:, :jenis:, :status:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Pelamar.php(87): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pelamar->lamar()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelamar))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-21 04:12:32 --> Undefined property: stdClass::$no
+in APPPATH\Views\admin\pages\index.php on line 461.
+ 1 APPPATH\Views\admin\pages\index.php(461): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$no', 'APPPATH\\Views\\admin\\pages\\index.php', 461)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 5 APPPATH\Controllers\Pelamar.php(49): view('admin/pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pelamar->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelamar))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-21 04:12:50 --> Undefined property: stdClass::$no
+in APPPATH\Views\admin\pages\index.php on line 461.
+ 1 APPPATH\Views\admin\pages\index.php(461): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$no', 'APPPATH\\Views\\admin\\pages\\index.php', 461)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 5 APPPATH\Controllers\Pelamar.php(49): view('admin/pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pelamar->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelamar))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-21 04:27:33 --> Undefined variable $divisi
+in APPPATH\Views\admin\pages\CV.php on line 157.
+ 1 APPPATH\Views\admin\pages\CV.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $divisi', 'APPPATH\\Views\\admin\\pages\\CV.php', 157)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\CV.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/cv', [], true)
+ 5 APPPATH\Controllers\Pelamar.php(138): view('admin/pages/cv')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pelamar->view()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelamar))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-21 04:28:27 --> Undefined variable $divisi
+in APPPATH\Views\admin\pages\CV.php on line 157.
+ 1 APPPATH\Views\admin\pages\CV.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $divisi', 'APPPATH\\Views\\admin\\pages\\CV.php', 157)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\CV.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/cv', [], true)
+ 5 APPPATH\Controllers\Pelamar.php(138): view('admin/pages/cv')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pelamar->view()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelamar))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,79 @@
+CRITICAL - 2022-11-08 00:46:23 --> Class "App\Controllers\EditModel" not found
+in APPPATH\Controllers\Kelola.php on line 178.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kelola->update()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelola))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-08 00:47:14 --> Table 'cvbara.user_log' doesn't exist
+CRITICAL - 2022-11-08 00:47:14 --> Table 'cvbara.user_log' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT user FROM user_log', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT user FROM user_log')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT user FROM user_log')
+ 4 APPPATH\Controllers\Kelola.php(187): CodeIgniter\Database\BaseConnection->query('SELECT user FROM user_log')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kelola->update()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelola))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 00:48:43 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('ROOTPATH\\public')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Kelola.php(195): redirect('admin/pages/kelola')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kelola->update()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelola))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 00:49:05 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('ROOTPATH\\public')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Kelola.php(195): redirect('admin/pages/kelola')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kelola->update()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelola))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-08 01:51:49 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2022-11-08 01:51:49 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `users` (`id`, `nama`, `notelepon`, `email`, `username`, `password`, `role`) VALUES (\'\', \'HRD BARA\', \'0816593922\', \'hrd@bara.com\', \'hrdbara\', \'ZXlKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUo5LmV5SnBZWFFpT2pFek5UWTVPVGsxTWpRc0ltNWlaaUk2TVRNMU56QXdNREF3TUN3aWRXbGtJam9pYUhKa1ltRnlZU0lzSW5CaGMzTjNiM0prSWpvaVJqVXdTRlpOUW1WNEwyWnRUbVU1YW1wbFIwcDJRVDA5SW4wLi1xT3VPejdrZXROR2VINWpzb011RDZFNk9FWkhsTGJlXzNqSkhGZjNXVUU=\', \'HRD\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`id`, `nama`, `notelepon`, `email`, `username`, `password`, `role`) VALUES (\'\', \'HRD BARA\', \'0816593922\', \'hrd@bara.com\', \'hrdbara\', \'ZXlKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUo5LmV5SnBZWFFpT2pFek5UWTVPVGsxTWpRc0ltNWlaaUk2TVRNMU56QXdNREF3TUN3aWRXbGtJam9pYUhKa1ltRnlZU0lzSW5CaGMzTjNiM0prSWpvaVJqVXdTRlpOUW1WNEwyWnRUbVU1YW1wbFIwcDJRVDA5SW4wLi1xT3VPejdrZXROR2VINWpzb011RDZFNk9FWkhsTGJlXzNqSkhGZjNXVUU=\', \'HRD\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`id`, `nama`, `notelepon`, `email`, `username`, `password`, `role`) VALUES (\'\', \'HRD BARA\', \'0816593922\', \'hrd@bara.com\', \'hrdbara\', \'ZXlKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUo5LmV5SnBZWFFpT2pFek5UWTVPVGsxTWpRc0ltNWlaaUk2TVRNMU56QXdNREF3TUN3aWRXbGtJam9pYUhKa1ltRnlZU0lzSW5CaGMzTjNiM0prSWpvaVJqVXdTRlpOUW1WNEwyWnRUbVU1YW1wbFIwcDJRVDA5SW4wLi1xT3VPejdrZXROR2VINWpzb011RDZFNk9FWkhsTGJlXzNqSkhGZjNXVUU=\', \'HRD\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id`, `nama`, `notelepon`, `email`, `username`, `password`, `role`) VALUES (:id:, :nama:, :notelepon:, :email:, :username:, :password:, :role:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Users.php(64): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Users->tambah()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-08 02:07:37 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2022-11-08 02:07:37 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `users` (`id`, `nama`, `notelepon`, `email`, `username`, `password`, `role`) VALUES (\'\', \'HRD Bara\', \'0816593922\', \'hrd@bara.co.id\', \'hrdbara\', \'ZXlKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUo5LmV5SnBZWFFpT2pFek5UWTVPVGsxTWpRc0ltNWlaaUk2TVRNMU56QXdNREF3TUN3aWRXbGtJam9pYUhKa1ltRnlZU0lzSW5CaGMzTjNiM0prSWpvaVFWcHZiMHMyTjA5cldXRnFVbVZ3WjJaeU0ySnlaejA5SW4wLmtFa19HbHY5OWw4TXptSG92QnBPU0RNLUJMcjFneE9vRGxud0l6MXk2ZWc=\', \'HRD\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`id`, `nama`, `notelepon`, `email`, `username`, `password`, `role`) VALUES (\'\', \'HRD Bara\', \'0816593922\', \'hrd@bara.co.id\', \'hrdbara\', \'ZXlKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUo5LmV5SnBZWFFpT2pFek5UWTVPVGsxTWpRc0ltNWlaaUk2TVRNMU56QXdNREF3TUN3aWRXbGtJam9pYUhKa1ltRnlZU0lzSW5CaGMzTjNiM0prSWpvaVFWcHZiMHMyTjA5cldXRnFVbVZ3WjJaeU0ySnlaejA5SW4wLmtFa19HbHY5OWw4TXptSG92QnBPU0RNLUJMcjFneE9vRGxud0l6MXk2ZWc=\', \'HRD\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`id`, `nama`, `notelepon`, `email`, `username`, `password`, `role`) VALUES (\'\', \'HRD Bara\', \'0816593922\', \'hrd@bara.co.id\', \'hrdbara\', \'ZXlKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUo5LmV5SnBZWFFpT2pFek5UWTVPVGsxTWpRc0ltNWlaaUk2TVRNMU56QXdNREF3TUN3aWRXbGtJam9pYUhKa1ltRnlZU0lzSW5CaGMzTjNiM0prSWpvaVFWcHZiMHMyTjA5cldXRnFVbVZ3WjJaeU0ySnlaejA5SW4wLmtFa19HbHY5OWw4TXptSG92QnBPU0RNLUJMcjFneE9vRGxud0l6MXk2ZWc=\', \'HRD\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id`, `nama`, `notelepon`, `email`, `username`, `password`, `role`) VALUES (:id:, :nama:, :notelepon:, :email:, :username:, :password:, :role:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Users.php(64): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Users->tambah()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-08 22:48:16 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-11-08 22:48:16 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `lowongan`', [], false)
+ 3 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 4 SYSTEMPATH\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+ 5 APPPATH\Controllers\Home.php(11): CodeIgniter\BaseModel->paginate(5)
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

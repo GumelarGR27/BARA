@@ -1,0 +1,131 @@
+CRITICAL - 2022-08-16 02:59:03 --> readfile(../uploads/): Failed to open stream: No such file or directory
+in APPPATH\Views\admin\pages\CV.php on line 143.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(../uploads/): Failed to open stream: No such file or directory', 'APPPATH\\Views\\admin\\pages\\CV.php', 143)
+ 2 APPPATH\Views\admin\pages\CV.php(143): readfile('ROOTPATH\\uploads')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\CV.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/cv', [], true)
+ 6 APPPATH\Controllers\CV.php(16): view('admin/pages/cv')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\CV->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-16 02:59:39 --> readfile(../../uploads/Gumelar Gilang Ramadhan.pdf): Failed to open stream: No such file or directory
+in APPPATH\Views\admin\pages\CV.php on line 143.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(../../uploads/Gumelar Gilang Ramadhan.pdf): Failed to open stream: No such file or directory', 'APPPATH\\Views\\admin\\pages\\CV.php', 143)
+ 2 APPPATH\Views\admin\pages\CV.php(143): readfile('../../uploads/Gumelar Gilang Ramadhan.pdf')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\CV.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/cv', [], true)
+ 6 APPPATH\Controllers\CV.php(16): view('admin/pages/cv')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\CV->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-16 03:11:33 --> readfile(./uploads/): Failed to open stream: No such file or directory
+in APPPATH\Views\admin\pages\CV.php on line 143.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(./uploads/): Failed to open stream: No such file or directory', 'APPPATH\\Views\\admin\\pages\\CV.php', 143)
+ 2 APPPATH\Views\admin\pages\CV.php(143): readfile('FCPATH\\uploads')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\CV.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/cv', [], true)
+ 6 APPPATH\Controllers\CV.php(16): view('admin/pages/cv')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\CV->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-16 03:19:25 --> file_get_contents(http://localhost/cvbara/publicGumelar Gilang Ramadhan.pdf): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+in APPPATH\Views\admin\pages\CV.php on line 143.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost/cvbara/publicGumelar Gilang Ramadhan.pdf): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+', 'APPPATH\\Views\\admin\\pages\\CV.php', 143)
+ 2 APPPATH\Views\admin\pages\CV.php(143): file_get_contents('http://localhost/cvbara/publicGumelar Gilang Ramadhan.pdf')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\CV.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/cv', [], true)
+ 6 APPPATH\Controllers\CV.php(16): view('admin/pages/cv')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\CV->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-16 03:19:46 --> file_get_contents(http://localhost/cvbara/public/Gumelar Gilang Ramadhan.pdf): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+in APPPATH\Views\admin\pages\CV.php on line 143.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost/cvbara/public/Gumelar Gilang Ramadhan.pdf): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+', 'APPPATH\\Views\\admin\\pages\\CV.php', 143)
+ 2 APPPATH\Views\admin\pages\CV.php(143): file_get_contents('http://localhost/cvbara/public/Gumelar Gilang Ramadhan.pdf')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\CV.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/cv', [], true)
+ 6 APPPATH\Controllers\CV.php(16): view('admin/pages/cv')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\CV->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-16 03:20:58 --> file_get_contents(http://localhost/cvbara/public/uploads/Gumelar Gilang Ramadhan.pdf): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+in APPPATH\Views\admin\pages\CV.php on line 143.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost/cvbara/public/uploads/Gumelar Gilang Ramadhan.pdf): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+', 'APPPATH\\Views\\admin\\pages\\CV.php', 143)
+ 2 APPPATH\Views\admin\pages\CV.php(143): file_get_contents('http://localhost/cvbara/public/uploads/Gumelar Gilang Ramadhan.pdf')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\CV.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/cv', [], true)
+ 6 APPPATH\Controllers\CV.php(16): view('admin/pages/cv')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\CV->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-16 03:21:25 --> file_get_contents(http://localhost/cvbara/public/Gumelar Gilang Ramadhan.pdf): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+in APPPATH\Views\admin\pages\CV.php on line 143.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost/cvbara/public/Gumelar Gilang Ramadhan.pdf): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+', 'APPPATH\\Views\\admin\\pages\\CV.php', 143)
+ 2 APPPATH\Views\admin\pages\CV.php(143): file_get_contents('http://localhost/cvbara/public/Gumelar Gilang Ramadhan.pdf')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\CV.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/cv', [], true)
+ 6 APPPATH\Controllers\CV.php(16): view('admin/pages/cv')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\CV->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-16 03:22:14 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\admin\pages\CV.php on line 143.
+ 1 APPPATH\Views\admin\pages\CV.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH\\Views\\admin\\pages\\CV.php', 143)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\CV.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/cv', [], true)
+ 5 APPPATH\Controllers\CV.php(16): view('admin/pages/cv')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\CV->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-16 03:22:35 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\admin\pages\CV.php on line 143.
+ 1 APPPATH\Views\admin\pages\CV.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH\\Views\\admin\\pages\\CV.php', 143)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\CV.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/cv', [], true)
+ 5 APPPATH\Controllers\CV.php(16): view('admin/pages/cv')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\CV->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-16 03:31:24 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\admin\pages\CV.php on line 143.
+ 1 APPPATH\Views\admin\pages\CV.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH\\Views\\admin\\pages\\CV.php', 143)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\CV.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/cv', [], true)
+ 5 APPPATH\Controllers\CV.php(16): view('admin/pages/cv')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\CV->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-16 23:26:56 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH\Controllers\Web.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

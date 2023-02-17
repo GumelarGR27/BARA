@@ -1,0 +1,599 @@
+CRITICAL - 2022-09-01 04:46:56 --> syntax error, unexpected '<', expecting end of file
+in APPPATH\Views\ingpois.php on line 181.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 3 APPPATH\Controllers\Ingpois.php(9): view('ingpois')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 04:47:14 --> Undefined property: stdClass::$unit
+in APPPATH\Views\ingpois.php on line 182.
+ 1 APPPATH\Views\ingpois.php(182): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$unit', 'APPPATH\\Views\\ingpois.php', 182, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(9): view('ingpois')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 04:48:26 --> Use of undefined constant C - assumed 'C' (this will throw an Error in a future version of PHP)
+in APPPATH\Views\ingpois.php on line 192.
+ 1 APPPATH\Views\ingpois.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant C - assumed \'C\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Views\\ingpois.php', 192, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(9): view('ingpois')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 04:48:52 --> Use of undefined constant C - assumed 'C' (this will throw an Error in a future version of PHP)
+in APPPATH\Views\ingpois.php on line 192.
+ 1 APPPATH\Views\ingpois.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant C - assumed \'C\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Views\\ingpois.php', 192, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(9): view('ingpois')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 04:48:53 --> Use of undefined constant C - assumed 'C' (this will throw an Error in a future version of PHP)
+in APPPATH\Views\ingpois.php on line 192.
+ 1 APPPATH\Views\ingpois.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant C - assumed \'C\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Views\\ingpois.php', 192, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(9): view('ingpois')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 05:00:04 --> Undefined variable: idklien
+in APPPATH\Views\ingpois.php on line 17.
+ 1 APPPATH\Views\ingpois.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idklien', 'APPPATH\\Views\\ingpois.php', 17, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(9): view('ingpois')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 05:00:08 --> Undefined variable: harga
+in APPPATH\Views\ingpois.php on line 191.
+ 1 APPPATH\Views\ingpois.php(191): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: harga', 'APPPATH\\Views\\ingpois.php', 191, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(9): view('ingpois')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 05:00:13 --> Undefined variable: idklien
+in APPPATH\Views\ingpois.php on line 17.
+ 1 APPPATH\Views\ingpois.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idklien', 'APPPATH\\Views\\ingpois.php', 17, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(9): view('ingpois')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 05:01:06 --> Undefined variable: harga
+in APPPATH\Views\ingpois.php on line 191.
+ 1 APPPATH\Views\ingpois.php(191): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: harga', 'APPPATH\\Views\\ingpois.php', 191, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(9): view('ingpois')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 07:42:34 --> Undefined variable: noinv
+in APPPATH\Controllers\tagihann.php on line 73.
+ 1 APPPATH\Controllers\tagihann.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: noinv', 'APPPATH\\Controllers\\tagihann.php', 73, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 07:46:32 --> Undefined variable: noinv
+in APPPATH\Controllers\tagihann.php on line 80.
+ 1 APPPATH\Controllers\tagihann.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: noinv', 'APPPATH\\Controllers\\tagihann.php', 80, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 07:49:41 --> Undefined variable: noinv
+in APPPATH\Controllers\tagihann.php on line 73.
+ 1 APPPATH\Controllers\tagihann.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: noinv', 'APPPATH\\Controllers\\tagihann.php', 73, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 07:50:11 --> Undefined variable: noinv
+in APPPATH\Controllers\tagihann.php on line 73.
+ 1 APPPATH\Controllers\tagihann.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: noinv', 'APPPATH\\Controllers\\tagihann.php', 73, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 07:50:31 --> Undefined variable: noinv
+in APPPATH\Controllers\tagihann.php on line 73.
+ 1 APPPATH\Controllers\tagihann.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: noinv', 'APPPATH\\Controllers\\tagihann.php', 73, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 07:51:50 --> Undefined variable: noinv
+in APPPATH\Controllers\tagihann.php on line 73.
+ 1 APPPATH\Controllers\tagihann.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: noinv', 'APPPATH\\Controllers\\tagihann.php', 73, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 07:52:03 --> Undefined variable: noinv
+in APPPATH\Controllers\tagihann.php on line 73.
+ 1 APPPATH\Controllers\tagihann.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: noinv', 'APPPATH\\Controllers\\tagihann.php', 73, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 07:52:43 --> Undefined variable: idklien
+in APPPATH\Views\ingpois.php on line 17.
+ 1 APPPATH\Views\ingpois.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idklien', 'APPPATH\\Views\\ingpois.php', 17, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(9): view('ingpois')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 07:55:01 --> Undefined variable: idkel
+in APPPATH\Controllers\Remind.php on line 45.
+ 1 APPPATH\Controllers\Remind.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idkel', 'APPPATH\\Controllers\\Remind.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Remind->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Remind))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 07:55:59 --> Undefined variable: idkel
+in APPPATH\Controllers\Remind.php on line 45.
+ 1 APPPATH\Controllers\Remind.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idkel', 'APPPATH\\Controllers\\Remind.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Remind->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Remind))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 07:57:41 --> Undefined variable: row
+in APPPATH\Controllers\Remind.php on line 32.
+ 1 APPPATH\Controllers\Remind.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'APPPATH\\Controllers\\Remind.php', 32, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Remind->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Remind))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 07:58:06 --> Undefined variable: idkel
+in APPPATH\Controllers\Remind.php on line 45.
+ 1 APPPATH\Controllers\Remind.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idkel', 'APPPATH\\Controllers\\Remind.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Remind->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Remind))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 08:05:06 --> Undefined index: nama
+in APPPATH\Views\Rimainder.php on line 343.
+ 1 APPPATH\Views\Rimainder.php(343): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama', 'APPPATH\\Views\\Rimainder.php', 343, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Rimainder.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rimainder', [], true)
+ 5 APPPATH\Controllers\invoice.php(15): view('rimainder', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\invoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 08:08:09 --> Undefined variable: db
+in APPPATH\Views\Rimainder.php on line 344.
+ 1 APPPATH\Views\Rimainder.php(344): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: db', 'APPPATH\\Views\\Rimainder.php', 344, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Rimainder.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rimainder', [], true)
+ 5 APPPATH\Controllers\invoice.php(15): view('rimainder', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\invoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 08:08:11 --> Undefined variable: db
+in APPPATH\Views\Rimainder.php on line 344.
+ 1 APPPATH\Views\Rimainder.php(344): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: db', 'APPPATH\\Views\\Rimainder.php', 344, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Rimainder.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rimainder', [], true)
+ 5 APPPATH\Controllers\invoice.php(15): view('rimainder', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\invoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 08:08:29 --> Trying to get property 'nama' of non-object
+in APPPATH\Views\Rimainder.php on line 348.
+ 1 APPPATH\Views\Rimainder.php(348): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama\' of non-object', 'APPPATH\\Views\\Rimainder.php', 348, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Rimainder.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rimainder', [], true)
+ 5 APPPATH\Controllers\invoice.php(15): view('rimainder', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\invoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 08:08:30 --> Trying to get property 'nama' of non-object
+in APPPATH\Views\Rimainder.php on line 348.
+ 1 APPPATH\Views\Rimainder.php(348): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama\' of non-object', 'APPPATH\\Views\\Rimainder.php', 348, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Rimainder.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rimainder', [], true)
+ 5 APPPATH\Controllers\invoice.php(15): view('rimainder', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\invoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 08:08:30 --> Trying to get property 'nama' of non-object
+in APPPATH\Views\Rimainder.php on line 348.
+ 1 APPPATH\Views\Rimainder.php(348): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama\' of non-object', 'APPPATH\\Views\\Rimainder.php', 348, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Rimainder.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rimainder', [], true)
+ 5 APPPATH\Controllers\invoice.php(15): view('rimainder', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\invoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 14:06:03 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 231.
+ 1 SYSTEMPATH\CodeIgniter.php(231): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(189): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(71): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-09-01 14:06:03 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in D:\Xampp baru\htdocs\bara\system\CLI\CLI.php:776
+Stack trace:
+#0 D:\Xampp baru\htdocs\bara\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 D:\Xampp baru\htdocs\bara\system\CLI\CLI.php(1018): CodeIgniter\CLI\CLI::init()
+#2 D:\Xampp baru\htdocs\bara\system\Autoloader\Autoloader.php(284): include_once('D:\\Xampp baru\\h...')
+#3 D:\Xampp baru\htdocs\bara\system\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Xampp baru\\h...')
+#4 D:\Xampp baru\htdocs\bara\system\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 D:\Xampp baru\htdocs\bara\app\Views\errors\cli\error_exception.php(6): spl_autoload_call('CodeIgniter\\CLI...')
+#7 D:\Xampp baru\htdocs\bara\system\Debug\Exceptions.php(239): include('D:\\Xampp baru\\h...')
+#8 D:\Xampp baru\htdocs
+in SYSTEMPATH\CLI\CLI.php on line 776.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-01 09:26:54 --> Trait 'Mpdf\Strict' not found
+in APPPATH\ThirdParty\mpdf\src\Mpdf.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-01 09:45:51 --> Class 'Mpdf\Mpdf' not found
+in APPPATH\Controllers\pdf.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pdf->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pdf))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 09:46:45 --> Class 'Mpdf\Mpdf' not found
+in APPPATH\Controllers\pdf.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pdf->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pdf))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 09:46:55 --> Trait 'Mpdf\Strict' not found
+in APPPATH\ThirdParty\mpdf\src\Mpdf.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-01 09:47:09 --> Class 'App\ThirdParty\mpdf' not found
+in APPPATH\Controllers\pdf.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pdf->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pdf))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 09:47:46 --> Class 'vendor\mpdf\mpdf' not found
+in APPPATH\Controllers\pdf.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pdf->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pdf))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 09:48:03 --> Class 'vendor\mpdf\mpdf\mpdf' not found
+in APPPATH\Controllers\pdf.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pdf->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pdf))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 09:48:35 --> Class 'vendor\mpdf\mpdf\Mpdf' not found
+in APPPATH\Controllers\pdf.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pdf->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pdf))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 09:51:46 --> Class 'Mpdf\Mpdf' not found
+in APPPATH\Controllers\pdf.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pdf->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pdf))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 09:53:12 --> Trait 'setasign\Fpdi\FpdiTrait' not found
+in APPPATH\ThirdParty\mpdf\src\FpdiTrait.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-01 09:54:22 --> Class 'Mpdf\Mpdf' not found
+in APPPATH\Controllers\pdf.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pdf->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pdf))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 09:54:39 --> Class 'Mpdf\Mpdf' not found
+in APPPATH\Controllers\pdf.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pdf->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pdf))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 09:55:10 --> Class 'Mpdf\Mpdf' not found
+in APPPATH\Controllers\pdf.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pdf->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pdf))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 09:55:24 --> Class 'Mpdf\Mpdf' not found
+in APPPATH\Controllers\pdf.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pdf->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pdf))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 09:55:29 --> Trait 'setasign\Fpdi\FpdiTrait' not found
+in APPPATH\ThirdParty\mpdf\src\FpdiTrait.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-01 09:59:00 --> Trait 'setasign\Fpdi\FpdiTrait' not found
+in APPPATH\ThirdParty\mpdf\src\FpdiTrait.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-01 10:03:03 --> Trait 'setasign\Fpdi\FpdiTrait' not found
+in APPPATH\ThirdParty\mpdf\src\FpdiTrait.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-01 11:02:03 --> Trait 'setasign\Fpdi\FpdiTrait' not found
+in APPPATH\ThirdParty\mpdf\src\FpdiTrait.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-01 11:20:08 --> Undefined variable: idklien
+in APPPATH\Views\ingpois.php on line 17.
+ 1 APPPATH\Views\ingpois.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idklien', 'APPPATH\\Views\\ingpois.php', 17, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\pdf.php(11): view('ingpois')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pdf->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pdf))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 11:27:35 --> Undefined variable: idklien
+in APPPATH\Views\ingpois.php on line 17.
+ 1 APPPATH\Views\ingpois.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idklien', 'APPPATH\\Views\\ingpois.php', 17, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\pdf.php(11): view('ingpois')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pdf->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pdf))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 11:32:31 --> Undefined variable: roww
+in APPPATH\Views\ingpois.php on line 17.
+ 1 APPPATH\Views\ingpois.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: roww', 'APPPATH\\Views\\ingpois.php', 17, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\pdf.php(11): view('ingpois')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pdf->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pdf))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 11:35:16 --> Undefined variable: roww
+in APPPATH\Views\ingpois.php on line 17.
+ 1 APPPATH\Views\ingpois.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: roww', 'APPPATH\\Views\\ingpois.php', 17, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(9): view('ingpois')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 11:35:49 --> Undefined variable: roww
+in APPPATH\Views\ingpois.php on line 17.
+ 1 APPPATH\Views\ingpois.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: roww', 'APPPATH\\Views\\ingpois.php', 17, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\pdf.php(11): view('ingpois')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pdf->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pdf))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 11:36:43 --> Undefined variable: roww
+in APPPATH\Views\ingpois.php on line 17.
+ 1 APPPATH\Views\ingpois.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: roww', 'APPPATH\\Views\\ingpois.php', 17, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\pdf.php(11): view('ingpois')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pdf->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pdf))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 11:38:15 --> Undefined variable: idklien
+in APPPATH\Views\ingpois.php on line 17.
+ 1 APPPATH\Views\ingpois.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idklien', 'APPPATH\\Views\\ingpois.php', 17, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\pdf.php(11): view('ingpois')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pdf->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pdf))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 11:38:42 --> Undefined variable: resultsss
+in APPPATH\Views\ingpois.php on line 121.
+ 1 APPPATH\Views\ingpois.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: resultsss', 'APPPATH\\Views\\ingpois.php', 121, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\pdf.php(11): view('ingpois')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pdf->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pdf))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 11:39:23 --> Undefined variable: idklien
+in APPPATH\Views\ingpois.php on line 17.
+ 1 APPPATH\Views\ingpois.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idklien', 'APPPATH\\Views\\ingpois.php', 17, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\pdf.php(11): view('ingpois')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pdf->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pdf))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 11:39:44 --> Undefined variable: idklien
+in APPPATH\Views\ingpois.php on line 17.
+ 1 APPPATH\Views\ingpois.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idklien', 'APPPATH\\Views\\ingpois.php', 17, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\pdf.php(11): view('ingpois')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pdf->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pdf))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 13:22:25 --> Class 'App\Controllers\LamarModel' not found
+in APPPATH\Controllers\hapusclient.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\hapusclient->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\hapusclient))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 13:23:38 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('ROOTPATH\\public')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\hapusclient.php(20): redirect('daptar')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\hapusclient->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\hapusclient))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 13:34:49 --> Undefined index: tanggal_invoice
+in APPPATH\Views\Rimainder.php on line 342.
+ 1 APPPATH\Views\Rimainder.php(342): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: tanggal_invoice', 'APPPATH\\Views\\Rimainder.php', 342, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Rimainder.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rimainder', [], true)
+ 5 APPPATH\Controllers\Client.php(43): view('rimainder', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 13:35:57 --> Undefined index: tanggal_invoice
+in APPPATH\Views\Rimainder.php on line 342.
+ 1 APPPATH\Views\Rimainder.php(342): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: tanggal_invoice', 'APPPATH\\Views\\Rimainder.php', 342, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Rimainder.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rimainder', [], true)
+ 5 APPPATH\Controllers\Client.php(43): view('rimainder', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 13:53:10 --> Undefined variable: model
+in APPPATH\Controllers\Client.php on line 14.
+ 1 APPPATH\Controllers\Client.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: model', 'APPPATH\\Controllers\\Client.php', 14, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 13:54:07 --> Undefined variable: model
+in APPPATH\Controllers\Client.php on line 14.
+ 1 APPPATH\Controllers\Client.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: model', 'APPPATH\\Controllers\\Client.php', 14, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 13:54:48 --> Undefined variable: model
+in APPPATH\Controllers\Client.php on line 14.
+ 1 APPPATH\Controllers\Client.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: model', 'APPPATH\\Controllers\\Client.php', 14, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 13:54:55 --> Undefined variable: model
+in APPPATH\Controllers\Client.php on line 14.
+ 1 APPPATH\Controllers\Client.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: model', 'APPPATH\\Controllers\\Client.php', 14, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 14:14:20 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\tamah.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-01 14:15:39 --> Undefined variable: client
+in APPPATH\Views\daptar.php on line 297.
+ 1 APPPATH\Views\daptar.php(297): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: client', 'APPPATH\\Views\\daptar.php', 297, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\daptar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('daptar', [], true)
+ 5 APPPATH\Controllers\tamah.php(39): view('daptar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tamah->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tamah))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 14:18:22 --> Undefined variable: client
+in APPPATH\Views\daptar.php on line 297.
+ 1 APPPATH\Views\daptar.php(297): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: client', 'APPPATH\\Views\\daptar.php', 297, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\daptar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('daptar', [], true)
+ 5 APPPATH\Controllers\tamah.php(39): view('daptar')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tamah->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tamah))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 14:26:30 --> Undefined variable: client
+in APPPATH\Views\daptar.php on line 297.
+ 1 APPPATH\Views\daptar.php(297): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: client', 'APPPATH\\Views\\daptar.php', 297, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\daptar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('daptar', [], true)
+ 5 APPPATH\Controllers\tamah.php(39): view('daptar')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tamah->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tamah))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-01 14:29:53 --> Column 'nama_perusahaan' cannot be null
+CRITICAL - 2022-09-01 14:29:53 --> Column 'nama_perusahaan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `client` (`id_klien`, `nama_perusahaan`, `nama`, `kota`, `telepon`, `email`) VALUES (\'KL10\', NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `client` (`id_klien`, `nama_perusahaan`, `nama`, `kota`, `telepon`, `email`) VALUES (\'KL10\', NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `client` (`id_klien`, `nama_perusahaan`, `nama`, `kota`, `telepon`, `email`) VALUES (\'KL10\', NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `client` (`id_klien`, `nama_perusahaan`, `nama`, `kota`, `telepon`, `email`) VALUES (:id_klien.1:, :nama_perusahaan:, :nama:, :kota:, :telepon:, :email:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\tamah.php(36): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tamah->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tamah))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-01 14:30:16 --> Column 'nama_perusahaan' cannot be null
+CRITICAL - 2022-09-01 14:30:16 --> Column 'nama_perusahaan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `client` (`id_klien`, `nama_perusahaan`, `nama`, `kota`, `telepon`, `email`) VALUES (\'KL10\', NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `client` (`id_klien`, `nama_perusahaan`, `nama`, `kota`, `telepon`, `email`) VALUES (\'KL10\', NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `client` (`id_klien`, `nama_perusahaan`, `nama`, `kota`, `telepon`, `email`) VALUES (\'KL10\', NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `client` (`id_klien`, `nama_perusahaan`, `nama`, `kota`, `telepon`, `email`) VALUES (:id_klien.1:, :nama_perusahaan:, :nama:, :kota:, :telepon:, :email:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\tamah.php(36): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tamah->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tamah))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

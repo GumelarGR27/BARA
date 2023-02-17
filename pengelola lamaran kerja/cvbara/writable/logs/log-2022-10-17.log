@@ -1,0 +1,104 @@
+CRITICAL - 2022-10-17 23:37:22 --> Undefined array key 1
+in APPPATH\Views\admin\pages\editprofil.php on line 15.
+ 1 APPPATH\Views\admin\pages\editprofil.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Views\\admin\\pages\\editprofil.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/editprofil', [], true)
+ 5 APPPATH\Controllers\editprofil.php(26): view('admin/pages/editprofil')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-17 23:37:46 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\pages\editprofil.php on line 16.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/editprofil', [], true)
+ 4 APPPATH\Controllers\editprofil.php(26): view('admin/pages/editprofil')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-17 23:38:04 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\pages\editprofil.php on line 16.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/editprofil', [], true)
+ 4 APPPATH\Controllers\editprofil.php(26): view('admin/pages/editprofil')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-17 23:41:26 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\admin\pages\editprofil.php on line 207.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/editprofil', [], true)
+ 4 APPPATH\Controllers\editprofil.php(26): view('admin/pages/editprofil')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-17 23:43:21 --> Array to string conversion
+in APPPATH\Views\admin\pages\editprofil.php on line 206.
+ 1 APPPATH\Views\admin\pages\editprofil.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\admin\\pages\\editprofil.php', 206)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/editprofil', [], true)
+ 5 APPPATH\Controllers\editprofil.php(26): view('admin/pages/editprofil')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-17 23:46:30 --> Undefined array key "password"
+in APPPATH\Views\admin\pages\editprofil.php on line 17.
+ 1 APPPATH\Views\admin\pages\editprofil.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'APPPATH\\Views\\admin\\pages\\editprofil.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/editprofil', [], true)
+ 5 APPPATH\Controllers\editprofil.php(26): view('admin/pages/editprofil')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-17 23:47:55 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\admin\pages\editprofil.php on line 207.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/editprofil', [], true)
+ 4 APPPATH\Controllers\editprofil.php(26): view('admin/pages/editprofil')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-17 23:48:11 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\pages\editprofil.php on line 207.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/editprofil', [], true)
+ 4 APPPATH\Controllers\editprofil.php(26): view('admin/pages/editprofil')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-17 23:51:08 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\pages\editprofil.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/editprofil', [], true)
+ 4 APPPATH\Controllers\editprofil.php(26): view('admin/pages/editprofil')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-17 23:55:13 --> Undefined variable $roww
+in APPPATH\Views\admin\pages\reset.php on line 197.
+ 1 APPPATH\Views\admin\pages\reset.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roww', 'APPPATH\\Views\\admin\\pages\\reset.php', 197)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\reset.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/reset', [], true)
+ 5 APPPATH\Controllers\reset.php(16): view('admin/pages/reset')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\reset->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reset))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

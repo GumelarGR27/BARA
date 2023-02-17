@@ -1,0 +1,141 @@
+CRITICAL - 2022-08-25 00:08:25 --> Call to undefined method App\Models\EditModel::getLowongan
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\edit.php(17): CodeIgniter\Model->__call('getLowongan', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Edit->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 01:32:31 --> Class "Firebase\JWT\JWT" not found
+in APPPATH\Controllers\Login.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 01:53:37 --> Undefined variable $pelamar
+in APPPATH\Views\admin\pages\index.php on line 272.
+ 1 APPPATH\Views\admin\pages\index.php(272): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelamar', 'APPPATH\\Views\\admin\\pages\\index.php', 272)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 5 APPPATH\Controllers\Login.php(49): view('admin/pages/index')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 01:54:32 --> Undefined variable $pelamar
+in APPPATH\Views\admin\pages\index.php on line 272.
+ 1 APPPATH\Views\admin\pages\index.php(272): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelamar', 'APPPATH\\Views\\admin\\pages\\index.php', 272)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 5 APPPATH\Controllers\Login.php(49): view('admin/pages/index')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 01:57:49 --> Undefined variable $pelamar
+in APPPATH\Views\admin\pages\index.php on line 272.
+ 1 APPPATH\Views\admin\pages\index.php(272): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelamar', 'APPPATH\\Views\\admin\\pages\\index.php', 272)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 5 APPPATH\Controllers\Login.php(49): view('admin/pages/index')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 01:58:43 --> Undefined variable $pelamar
+in APPPATH\Views\admin\pages\index.php on line 272.
+ 1 APPPATH\Views\admin\pages\index.php(272): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelamar', 'APPPATH\\Views\\admin\\pages\\index.php', 272)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 5 APPPATH\Controllers\Login.php(49): view('admin/pages/index')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 02:02:47 --> Undefined variable $aidi
+in APPPATH\Controllers\editdivisi.php on line 21.
+ 1 APPPATH\Controllers\editdivisi.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aidi', 'APPPATH\\Controllers\\editdivisi.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editdivisi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editdivisi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 02:04:10 --> Undefined variable $aidi
+in APPPATH\Controllers\editdivisi.php on line 21.
+ 1 APPPATH\Controllers\editdivisi.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aidi', 'APPPATH\\Controllers\\editdivisi.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editdivisi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editdivisi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 02:05:52 --> Call to undefined method App\Models\EditModel::updateLowongan
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\editdivisi.php(33): CodeIgniter\Model->__call('updateLowongan', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editdivisi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editdivisi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 02:06:36 --> Invalid file: kelola.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kelola.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('kelola', [], true)
+ 3 APPPATH\Controllers\editdivisi.php(35): view('kelola')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editdivisi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editdivisi))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 20:26:52 --> Invalid file: admin/kelola.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/kelola.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/kelola', [], true)
+ 3 APPPATH\Controllers\editdivisi.php(35): view('admin/kelola')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editdivisi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editdivisi))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 20:27:41 --> Undefined variable $kelola
+in APPPATH\Views\admin\pages\kelola.php on line 170.
+ 1 APPPATH\Views\admin\pages\kelola.php(170): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelola', 'APPPATH\\Views\\admin\\pages\\kelola.php', 170)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\kelola.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/kelola', [], true)
+ 5 APPPATH\Controllers\editdivisi.php(35): view('admin/pages/kelola')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editdivisi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editdivisi))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 20:30:28 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('ROOTPATH\\public')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\editdivisi.php(35): redirect('http://localhost/cvbara/public/kelola')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editdivisi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editdivisi))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 20:31:34 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('ROOTPATH\\public')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\editdivisi.php(35): redirect('http://localhost/cvbara/public/kelola')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editdivisi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editdivisi))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 20:32:41 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('ROOTPATH\\public')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\editdivisi.php(35): redirect('admin/pages/kelola')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editdivisi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editdivisi))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-25 21:10:15 --> Undefined variable $idpel
+in APPPATH\Controllers\TambahDivisi.php on line 74.
+ 1 APPPATH\Controllers\TambahDivisi.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idpel', 'APPPATH\\Controllers\\TambahDivisi.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\TambahDivisi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TambahDivisi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

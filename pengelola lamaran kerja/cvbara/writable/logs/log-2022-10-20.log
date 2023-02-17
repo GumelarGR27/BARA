@@ -1,0 +1,22 @@
+CRITICAL - 2022-10-20 20:49:07 --> Undefined variable $divisi
+in APPPATH\Views\admin\pages\CV.php on line 157.
+ 1 APPPATH\Views\admin\pages\CV.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $divisi', 'APPPATH\\Views\\admin\\pages\\CV.php', 157)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\CV.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/cv', [], true)
+ 5 APPPATH\Controllers\Pelamar.php(135): view('admin/pages/cv')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pelamar->view()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelamar))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-20 23:33:00 --> Undefined variable $divisi
+in APPPATH\Views\admin\pages\CV.php on line 157.
+ 1 APPPATH\Views\admin\pages\CV.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $divisi', 'APPPATH\\Views\\admin\\pages\\CV.php', 157)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\CV.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/cv', [], true)
+ 5 APPPATH\Controllers\Pelamar.php(135): view('admin/pages/cv')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pelamar->view()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelamar))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

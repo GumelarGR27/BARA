@@ -1,0 +1,373 @@
+CRITICAL - 2022-10-04 00:50:46 --> Undefined variable $db
+in APPPATH\Controllers\edit.php on line 19.
+ 1 APPPATH\Controllers\edit.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Controllers\\edit.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Edit->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 10:02:27 --> Undefined variable $diterima
+in APPPATH\Views\admin\pages\ditolak.php on line 322.
+ 1 APPPATH\Views\admin\pages\ditolak.php(322): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $diterima', 'APPPATH\\Views\\admin\\pages\\ditolak.php', 322)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\ditolak.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/ditolak', [], true)
+ 5 APPPATH\Controllers\ditolak.php(36): view('admin/pages/ditolak', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ditolak->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ditolak))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 10:16:49 --> Undefined variable $session
+in APPPATH\Controllers\Email.php on line 36.
+ 1 APPPATH\Controllers\Email.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Controllers\\Email.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Email->kirim()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Email))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-04 10:20:14 --> Email: sendWithSmtp throwed fwrite(): Send of 16 bytes failed with errno=10054 An existing connection was forcibly closed by the remote host
+CRITICAL - 2022-10-04 13:13:59 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Views\admin\pages\interview.php on line 446.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/interview', [], true)
+ 4 APPPATH\Controllers\Interview.php(47): view('admin/pages/interview', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Interview->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Interview))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-04 13:58:10 --> Table 'cvbara.user_log' doesn't exist
+CRITICAL - 2022-10-04 13:58:10 --> Table 'cvbara.user_log' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT user FROM user_log', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT user FROM user_log')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT user FROM user_log')
+ 4 APPPATH\Controllers\Web.php(37): CodeIgniter\Database\BaseConnection->query('SELECT user FROM user_log')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-04 13:58:45 --> Table 'cvbara.user_log' doesn't exist
+CRITICAL - 2022-10-04 13:58:45 --> Table 'cvbara.user_log' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT user FROM user_log', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT user FROM user_log')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT user FROM user_log')
+ 4 APPPATH\Controllers\CV.php(17): CodeIgniter\Database\BaseConnection->query('SELECT user FROM user_log')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\CV->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-04 14:01:29 --> Table 'cvbara.user_log' doesn't exist
+CRITICAL - 2022-10-04 14:01:29 --> Table 'cvbara.user_log' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT user FROM user_log', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT user FROM user_log')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT user FROM user_log')
+ 4 APPPATH\Controllers\Interview.php(37): CodeIgniter\Database\BaseConnection->query('SELECT user FROM user_log')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Interview->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Interview))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-04 14:02:03 --> Table 'cvbara.user_log' doesn't exist
+CRITICAL - 2022-10-04 14:02:03 --> Table 'cvbara.user_log' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT user FROM user_log', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT user FROM user_log')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT user FROM user_log')
+ 4 APPPATH\Controllers\edit.php(20): CodeIgniter\Database\BaseConnection->query('SELECT user FROM user_log')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Edit->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-04 14:50:58 --> Table 'cvbara.user_log' doesn't exist
+CRITICAL - 2022-10-04 14:50:58 --> Table 'cvbara.user_log' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT user FROM user_log', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT user FROM user_log')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT user FROM user_log')
+ 4 APPPATH\Controllers\datauser.php(34): CodeIgniter\Database\BaseConnection->query('SELECT user FROM user_log')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datauser->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datauser))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 19:37:50 --> Undefined variable $roww
+in APPPATH\Views\admin\pages\reset.php on line 181.
+ 1 APPPATH\Views\admin\pages\reset.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roww', 'APPPATH\\Views\\admin\\pages\\reset.php', 181)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\reset.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/reset', [], true)
+ 5 APPPATH\Controllers\reset.php(16): view('admin/pages/reset')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\reset->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reset))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 19:41:27 --> Undefined variable $roww
+in APPPATH\Views\admin\pages\reset.php on line 184.
+ 1 APPPATH\Views\admin\pages\reset.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roww', 'APPPATH\\Views\\admin\\pages\\reset.php', 184)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\reset.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/reset', [], true)
+ 5 APPPATH\Controllers\reset.php(16): view('admin/pages/reset')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\reset->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reset))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 19:42:03 --> Undefined variable $roww
+in APPPATH\Views\admin\pages\reset.php on line 184.
+ 1 APPPATH\Views\admin\pages\reset.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roww', 'APPPATH\\Views\\admin\\pages\\reset.php', 184)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\reset.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/reset', [], true)
+ 5 APPPATH\Controllers\reset.php(16): view('admin/pages/reset')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\reset->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reset))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 19:42:07 --> Undefined variable $roww
+in APPPATH\Views\admin\pages\reset.php on line 184.
+ 1 APPPATH\Views\admin\pages\reset.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roww', 'APPPATH\\Views\\admin\\pages\\reset.php', 184)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\reset.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/reset', [], true)
+ 5 APPPATH\Controllers\reset.php(16): view('admin/pages/reset')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\reset->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reset))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 19:47:33 --> Undefined variable $nama
+in APPPATH\Views\admin\pages\editprofil.php on line 181.
+ 1 APPPATH\Views\admin\pages\editprofil.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'APPPATH\\Views\\admin\\pages\\editprofil.php', 181)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/editprofil', [], true)
+ 5 APPPATH\Controllers\editprofil.php(26): view('admin/pages/editprofil')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 19:50:27 --> Undefined variable $roww
+in APPPATH\Views\admin\pages\reset.php on line 184.
+ 1 APPPATH\Views\admin\pages\reset.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roww', 'APPPATH\\Views\\admin\\pages\\reset.php', 184)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\reset.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/reset', [], true)
+ 5 APPPATH\Controllers\reset.php(16): view('admin/pages/reset')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\reset->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reset))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 19:55:01 --> Undefined variable $roww
+in APPPATH\Views\admin\pages\reset.php on line 184.
+ 1 APPPATH\Views\admin\pages\reset.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roww', 'APPPATH\\Views\\admin\\pages\\reset.php', 184)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\reset.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/reset', [], true)
+ 5 APPPATH\Controllers\reset.php(16): view('admin/pages/reset')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\reset->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reset))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 19:57:56 --> Undefined variable $roww
+in APPPATH\Views\admin\pages\reset.php on line 182.
+ 1 APPPATH\Views\admin\pages\reset.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roww', 'APPPATH\\Views\\admin\\pages\\reset.php', 182)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\reset.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/reset', [], true)
+ 5 APPPATH\Controllers\reset.php(16): view('admin/pages/reset')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\reset->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reset))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 20:00:53 --> Undefined variable $nama
+in APPPATH\Views\admin\pages\editprofil.php on line 184.
+ 1 APPPATH\Views\admin\pages\editprofil.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'APPPATH\\Views\\admin\\pages\\editprofil.php', 184)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/editprofil', [], true)
+ 5 APPPATH\Controllers\editprofil.php(26): view('admin/pages/editprofil')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 20:02:27 --> Undefined variable $nama
+in APPPATH\Views\admin\pages\editprofil.php on line 184.
+ 1 APPPATH\Views\admin\pages\editprofil.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'APPPATH\\Views\\admin\\pages\\editprofil.php', 184)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/editprofil', [], true)
+ 5 APPPATH\Controllers\editprofil.php(26): view('admin/pages/editprofil')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 20:04:57 --> Undefined variable $nama
+in APPPATH\Views\admin\pages\editprofil.php on line 184.
+ 1 APPPATH\Views\admin\pages\editprofil.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'APPPATH\\Views\\admin\\pages\\editprofil.php', 184)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/editprofil', [], true)
+ 5 APPPATH\Controllers\editprofil.php(26): view('admin/pages/editprofil')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 20:07:03 --> Undefined variable $nama
+in APPPATH\Views\admin\pages\editprofil.php on line 184.
+ 1 APPPATH\Views\admin\pages\editprofil.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'APPPATH\\Views\\admin\\pages\\editprofil.php', 184)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/editprofil', [], true)
+ 5 APPPATH\Controllers\editprofil.php(26): view('admin/pages/editprofil')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 20:07:56 --> Undefined variable $nama
+in APPPATH\Views\admin\pages\editprofil.php on line 184.
+ 1 APPPATH\Views\admin\pages\editprofil.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'APPPATH\\Views\\admin\\pages\\editprofil.php', 184)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/editprofil', [], true)
+ 5 APPPATH\Controllers\editprofil.php(26): view('admin/pages/editprofil')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 20:11:10 --> Undefined variable $aidi
+in APPPATH\Controllers\ngedit.php on line 27.
+ 1 APPPATH\Controllers\ngedit.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aidi', 'APPPATH\\Controllers\\ngedit.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngedit->ngedit()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngedit))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 20:12:31 --> Undefined variable $aidi
+in APPPATH\Controllers\ngedit.php on line 27.
+ 1 APPPATH\Controllers\ngedit.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aidi', 'APPPATH\\Controllers\\ngedit.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngedit->ngedit()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngedit))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 20:13:32 --> Undefined variable $row
+in APPPATH\Controllers\ngedit.php on line 27.
+ 1 APPPATH\Controllers\ngedit.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Controllers\\ngedit.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngedit->ngedit()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngedit))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 20:14:25 --> Undefined variable $nama
+in APPPATH\Views\admin\pages\editprofil.php on line 184.
+ 1 APPPATH\Views\admin\pages\editprofil.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'APPPATH\\Views\\admin\\pages\\editprofil.php', 184)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/editprofil', [], true)
+ 5 APPPATH\Controllers\editprofil.php(26): view('admin/pages/editprofil')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 20:16:10 --> Undefined variable $nama
+in APPPATH\Views\admin\pages\editprofil.php on line 184.
+ 1 APPPATH\Views\admin\pages\editprofil.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'APPPATH\\Views\\admin\\pages\\editprofil.php', 184)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/editprofil', [], true)
+ 5 APPPATH\Controllers\editprofil.php(26): view('admin/pages/editprofil')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-04 20:23:33 --> Table 'cvbara.user_log' doesn't exist
+CRITICAL - 2022-10-04 20:23:33 --> Table 'cvbara.user_log' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT user FROM user_log', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT user FROM user_log')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT user FROM user_log')
+ 4 APPPATH\Controllers\Interview.php(37): CodeIgniter\Database\BaseConnection->query('SELECT user FROM user_log')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Interview->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Interview))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 20:30:02 --> Undefined variable $roww
+in APPPATH\Views\admin\pages\reset.php on line 184.
+ 1 APPPATH\Views\admin\pages\reset.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roww', 'APPPATH\\Views\\admin\\pages\\reset.php', 184)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\reset.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/reset', [], true)
+ 5 APPPATH\Controllers\reset.php(16): view('admin/pages/reset')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\reset->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reset))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-04 20:33:23 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2022-10-04 20:33:23 --> Duplicate entry '1' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `users` (`id`, `nama`, `notelepon`, `email`, `username`, `password`, `role`) VALUES (\'1\', \'HRD Bara\', \'0816593922\', \'hrd@bara.co.id\', \'hrdbara\', \'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjEzNTY5OTk1MjQsIm5iZiI6MTM1NzAwMDAwMCwidWlkIjoiaHJkYmFyYSIsInBhc3N3b3JkIjoiUVZwdmIwczJOMDlyV1dGcVVtVndaMlp5TTJKeVp6MDkifQ.RzK4aFtoRb10wi_sQdzsFP__3DxWgZ9YArm6xKSGizs\', \'ADMIN\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`id`, `nama`, `notelepon`, `email`, `username`, `password`, `role`) VALUES (\'1\', \'HRD Bara\', \'0816593922\', \'hrd@bara.co.id\', \'hrdbara\', \'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjEzNTY5OTk1MjQsIm5iZiI6MTM1NzAwMDAwMCwidWlkIjoiaHJkYmFyYSIsInBhc3N3b3JkIjoiUVZwdmIwczJOMDlyV1dGcVVtVndaMlp5TTJKeVp6MDkifQ.RzK4aFtoRb10wi_sQdzsFP__3DxWgZ9YArm6xKSGizs\', \'ADMIN\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`id`, `nama`, `notelepon`, `email`, `username`, `password`, `role`) VALUES (\'1\', \'HRD Bara\', \'0816593922\', \'hrd@bara.co.id\', \'hrdbara\', \'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjEzNTY5OTk1MjQsIm5iZiI6MTM1NzAwMDAwMCwidWlkIjoiaHJkYmFyYSIsInBhc3N3b3JkIjoiUVZwdmIwczJOMDlyV1dGcVVtVndaMlp5TTJKeVp6MDkifQ.RzK4aFtoRb10wi_sQdzsFP__3DxWgZ9YArm6xKSGizs\', \'ADMIN\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id`, `nama`, `notelepon`, `email`, `username`, `password`, `role`) VALUES (:id:, :nama:, :notelepon:, :email:, :username:, :password:, :role:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Register.php(53): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 20:35:07 --> Undefined variable $roww
+in APPPATH\Views\admin\pages\reset.php on line 184.
+ 1 APPPATH\Views\admin\pages\reset.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roww', 'APPPATH\\Views\\admin\\pages\\reset.php', 184)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\reset.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/reset', [], true)
+ 5 APPPATH\Controllers\reset.php(16): view('admin/pages/reset')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\reset->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reset))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 20:58:10 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\admin\pages\editprofil.php on line 183.
+ 1 APPPATH\Views\admin\pages\editprofil.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\admin\\pages\\editprofil.php', 183)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/editprofil', [], true)
+ 5 APPPATH\Controllers\editprofil.php(26): view('admin/pages/editprofil')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 20:59:54 --> Undefined variable $request
+in APPPATH\Views\admin\pages\editprofil.php on line 5.
+ 1 APPPATH\Views\admin\pages\editprofil.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Views\\admin\\pages\\editprofil.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/editprofil', [], true)
+ 5 APPPATH\Controllers\editprofil.php(26): view('admin/pages/editprofil')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 21:00:16 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\admin\pages\editprofil.php on line 183.
+ 1 APPPATH\Views\admin\pages\editprofil.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\admin\\pages\\editprofil.php', 183)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/editprofil', [], true)
+ 5 APPPATH\Controllers\editprofil.php(26): view('admin/pages/editprofil')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-04 21:16:08 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2022-10-04 21:16:08 --> Duplicate entry '1' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `users` (`id`, `nama`, `notelepon`, `email`, `username`, `password`, `role`) VALUES (\'1\', \'HRD Bara\', \'0816593922\', \'hrd@bara.co.id\', \'hrdbara\', \'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjEzNTY5OTk1MjQsIm5iZiI6MTM1NzAwMDAwMCwidWlkIjoiaHJkYmFyYSIsInBhc3N3b3JkIjoiUVZwdmIwczJOMDlyV1dGcVVtVndaMlp5TTJKeVp6MDkifQ.RzK4aFtoRb10wi_sQdzsFP__3DxWgZ9YArm6xKSGizs\', \'ADMIN\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`id`, `nama`, `notelepon`, `email`, `username`, `password`, `role`) VALUES (\'1\', \'HRD Bara\', \'0816593922\', \'hrd@bara.co.id\', \'hrdbara\', \'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjEzNTY5OTk1MjQsIm5iZiI6MTM1NzAwMDAwMCwidWlkIjoiaHJkYmFyYSIsInBhc3N3b3JkIjoiUVZwdmIwczJOMDlyV1dGcVVtVndaMlp5TTJKeVp6MDkifQ.RzK4aFtoRb10wi_sQdzsFP__3DxWgZ9YArm6xKSGizs\', \'ADMIN\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`id`, `nama`, `notelepon`, `email`, `username`, `password`, `role`) VALUES (\'1\', \'HRD Bara\', \'0816593922\', \'hrd@bara.co.id\', \'hrdbara\', \'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjEzNTY5OTk1MjQsIm5iZiI6MTM1NzAwMDAwMCwidWlkIjoiaHJkYmFyYSIsInBhc3N3b3JkIjoiUVZwdmIwczJOMDlyV1dGcVVtVndaMlp5TTJKeVp6MDkifQ.RzK4aFtoRb10wi_sQdzsFP__3DxWgZ9YArm6xKSGizs\', \'ADMIN\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`id`, `nama`, `notelepon`, `email`, `username`, `password`, `role`) VALUES (:id:, :nama:, :notelepon:, :email:, :username:, :password:, :role:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Register.php(53): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

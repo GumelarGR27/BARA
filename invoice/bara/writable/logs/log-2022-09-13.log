@@ -1,0 +1,41 @@
+ERROR - 2022-09-13 04:22:40 --> Unknown column 'id_klien' in 'where clause'
+CRITICAL - 2022-09-13 04:22:40 --> Unknown column 'id_klien' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT nama_perusahaan FROM tagihan WHERE id_klien="KL9"', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nama_perusahaan FROM tagihan WHERE id_klien="KL9"')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nama_perusahaan FROM tagihan WHERE id_klien="KL9"')
+ 4 APPPATH\Views\form_reminder.php(307): CodeIgniter\Database\BaseConnection->query('SELECT nama_perusahaan FROM tagihan WHERE id_klien="KL9"')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form_reminder.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 8 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-13 04:23:24 --> Unknown column 'id_klien' in 'where clause'
+CRITICAL - 2022-09-13 04:23:24 --> Unknown column 'id_klien' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT nama_perusahaan FROM tagihan WHERE id_klien="KL3"', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nama_perusahaan FROM tagihan WHERE id_klien="KL3"')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nama_perusahaan FROM tagihan WHERE id_klien="KL3"')
+ 4 APPPATH\Views\form_reminder.php(307): CodeIgniter\Database\BaseConnection->query('SELECT nama_perusahaan FROM tagihan WHERE id_klien="KL3"')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form_reminder.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 8 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-13 06:41:27 --> Undefined variable: idklien
+in APPPATH\Views\ingpois.php on line 17.
+ 1 APPPATH\Views\ingpois.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idklien', 'APPPATH\\Views\\ingpois.php', 17, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(9): view('ingpois')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

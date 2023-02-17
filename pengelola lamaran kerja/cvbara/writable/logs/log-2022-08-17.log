@@ -1,0 +1,189 @@
+CRITICAL - 2022-08-17 00:21:44 --> syntax error, unexpected variable "$db", expecting "function" or "const"
+in APPPATH\Models\webModel.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\webModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\webModel')
+ 3 APPPATH\Controllers\Web.php(17): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\webModel')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 00:53:25 --> Undefined variable $data
+in APPPATH\Controllers\Web.php on line 32.
+ 1 APPPATH\Controllers\Web.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Web.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 00:55:01 --> Undefined variable $data
+in APPPATH\Controllers\Web.php on line 29.
+ 1 APPPATH\Controllers\Web.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Web.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 20:57:02 --> Array to string conversion
+in APPPATH\Controllers\editdivisi.php on line 15.
+ 1 APPPATH\Controllers\editdivisi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\editdivisi.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editdivisi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editdivisi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 21:00:22 --> Undefined variable $iddivisi
+in APPPATH\Controllers\editdivisi.php on line 18.
+ 1 APPPATH\Controllers\editdivisi.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $iddivisi', 'APPPATH\\Controllers\\editdivisi.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editdivisi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editdivisi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 21:00:38 --> Undefined variable $iddivisi
+in APPPATH\Controllers\editdivisi.php on line 18.
+ 1 APPPATH\Controllers\editdivisi.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $iddivisi', 'APPPATH\\Controllers\\editdivisi.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editdivisi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editdivisi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 21:01:05 --> Undefined variable $row
+in APPPATH\Controllers\editdivisi.php on line 18.
+ 1 APPPATH\Controllers\editdivisi.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Controllers\\editdivisi.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editdivisi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editdivisi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 21:01:30 --> Undefined variable $iddivisi
+in APPPATH\Controllers\editdivisi.php on line 18.
+ 1 APPPATH\Controllers\editdivisi.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $iddivisi', 'APPPATH\\Controllers\\editdivisi.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editdivisi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editdivisi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 21:03:23 --> Array to string conversion
+in APPPATH\Controllers\editdivisi.php on line 15.
+ 1 APPPATH\Controllers\editdivisi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\editdivisi.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editdivisi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editdivisi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 21:06:30 --> Attempt to read property "id_divisi" on null
+in APPPATH\Controllers\editdivisi.php on line 15.
+ 1 APPPATH\Controllers\editdivisi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_divisi" on null', 'APPPATH\\Controllers\\editdivisi.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editdivisi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editdivisi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 21:06:58 --> Attempt to read property "id_divisi" on array
+in APPPATH\Controllers\editdivisi.php on line 15.
+ 1 APPPATH\Controllers\editdivisi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_divisi" on array', 'APPPATH\\Controllers\\editdivisi.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editdivisi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editdivisi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 21:07:09 --> Array to string conversion
+in APPPATH\Controllers\editdivisi.php on line 15.
+ 1 APPPATH\Controllers\editdivisi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\editdivisi.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editdivisi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editdivisi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 21:07:22 --> Undefined array key 0
+in APPPATH\Controllers\editdivisi.php on line 15.
+ 1 APPPATH\Controllers\editdivisi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\editdivisi.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editdivisi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editdivisi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 21:07:34 --> Undefined array key "id_divisi"
+in APPPATH\Controllers\editdivisi.php on line 15.
+ 1 APPPATH\Controllers\editdivisi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_divisi"', 'APPPATH\\Controllers\\editdivisi.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editdivisi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editdivisi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 21:07:43 --> Undefined array key 1
+in APPPATH\Controllers\editdivisi.php on line 15.
+ 1 APPPATH\Controllers\editdivisi.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\editdivisi.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editdivisi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editdivisi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 21:10:18 --> Undefined variable $iddivisii
+in APPPATH\Controllers\editdivisi.php on line 18.
+ 1 APPPATH\Controllers\editdivisi.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $iddivisii', 'APPPATH\\Controllers\\editdivisi.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editdivisi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editdivisi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 21:10:49 --> Undefined variable $queryy
+in APPPATH\Controllers\editdivisi.php on line 19.
+ 1 APPPATH\Controllers\editdivisi.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $queryy', 'APPPATH\\Controllers\\editdivisi.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editdivisi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editdivisi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 21:11:13 --> Class "App\Controllers\EditModel" not found
+in APPPATH\Controllers\editdivisi.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editdivisi->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editdivisi))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 21:11:50 --> Class "App\Models\EditModel" not found
+in APPPATH\Controllers\editdivisi.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editdivisi->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editdivisi))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 21:12:09 --> Class "App\Models\EditModel" not found
+in APPPATH\Controllers\editdivisi.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editdivisi->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editdivisi))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 21:12:33 --> Class "App\Models\EditModel" not found
+in APPPATH\Controllers\editdivisi.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editdivisi->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editdivisi))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 21:13:06 -->  route cannot be found while reverse-routing.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 56.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('ROOTPATH\\public')
+ 2 SYSTEMPATH\Common.php(863): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\editdivisi.php(26): redirect('admin/pages/index')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editdivisi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editdivisi))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 21:16:23 --> Undefined variable $idlowongan
+in APPPATH\Controllers\editdivisi.php on line 23.
+ 1 APPPATH\Controllers\editdivisi.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idlowongan', 'APPPATH\\Controllers\\editdivisi.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editdivisi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editdivisi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 21:18:05 --> Undefined array key "id_divisi"
+in APPPATH\Controllers\editdivisi.php on line 16.
+ 1 APPPATH\Controllers\editdivisi.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_divisi"', 'APPPATH\\Controllers\\editdivisi.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editdivisi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editdivisi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 21:21:25 --> Undefined array key "id_divisi"
+in APPPATH\Controllers\editdivisi.php on line 16.
+ 1 APPPATH\Controllers\editdivisi.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_divisi"', 'APPPATH\\Controllers\\editdivisi.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editdivisi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editdivisi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 21:26:57 --> Attempt to read property "id_divisi" on null
+in APPPATH\Controllers\editdivisi.php on line 22.
+ 1 APPPATH\Controllers\editdivisi.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_divisi" on null', 'APPPATH\\Controllers\\editdivisi.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editdivisi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editdivisi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-17 21:29:00 --> Attempt to read property "id_divisi" on null
+in APPPATH\Controllers\editdivisi.php on line 17.
+ 1 APPPATH\Controllers\editdivisi.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_divisi" on null', 'APPPATH\\Controllers\\editdivisi.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editdivisi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editdivisi))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

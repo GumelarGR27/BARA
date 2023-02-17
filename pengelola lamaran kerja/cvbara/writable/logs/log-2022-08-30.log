@@ -1,0 +1,290 @@
+CRITICAL - 2022-08-30 00:37:42 --> Undefined property: stdClass::$Nama
+in APPPATH\Views\admin\pages\index.php on line 251.
+ 1 APPPATH\Views\admin\pages\index.php(251): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$Nama', 'APPPATH\\Views\\admin\\pages\\index.php', 251)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 5 APPPATH\Controllers\Web.php(33): view('admin/pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 01:09:08 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\admin\pages\index.php on line 289.
+ 1 APPPATH\Views\admin\pages\index.php(289): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\admin\\pages\\index.php', 289)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 5 APPPATH\Controllers\Web.php(33): view('admin/pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 01:16:52 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\pages\index.php on line 289.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 4 APPPATH\Controllers\Web.php(33): view('admin/pages/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 01:18:05 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\pages\index.php on line 289.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 4 APPPATH\Controllers\Web.php(33): view('admin/pages/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 01:19:32 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\pages\index.php on line 289.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 4 APPPATH\Controllers\Web.php(33): view('admin/pages/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 01:22:00 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\pages\index.php on line 289.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 4 APPPATH\Controllers\Web.php(33): view('admin/pages/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 01:28:01 --> Undefined variable $email
+in APPPATH\Views\admin\pages\index.php on line 299.
+ 1 APPPATH\Views\admin\pages\index.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $email', 'APPPATH\\Views\\admin\\pages\\index.php', 299)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 5 APPPATH\Controllers\Web.php(33): view('admin/pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 01:35:43 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\cvbara\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->like('nama', null)
+ 2 APPPATH\Models\webModel.php(11): CodeIgniter\Model->__call('like', [...])
+ 3 APPPATH\Controllers\Web.php(26): App\Models\webModel->pencarian(null)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 01:36:27 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\cvbara\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->like('id_divisi', null)
+ 2 APPPATH\Models\webModel.php(14): CodeIgniter\Model->__call('like', [...])
+ 3 APPPATH\Controllers\Web.php(26): App\Models\webModel->nyari(null)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 01:37:54 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\cvbara\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->like('id_divisi', null)
+ 2 APPPATH\Models\webModel.php(14): CodeIgniter\Model->__call('like', [...])
+ 3 APPPATH\Controllers\Web.php(26): App\Models\webModel->nyari(null)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 01:37:58 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\cvbara\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->like('id_divisi', null)
+ 2 APPPATH\Models\webModel.php(14): CodeIgniter\Model->__call('like', [...])
+ 3 APPPATH\Controllers\Web.php(26): App\Models\webModel->nyari(null)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 01:38:56 --> Call to undefined method App\Models\webModel::nyari
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Web.php(26): CodeIgniter\Model->__call('nyari', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 01:39:19 --> Undefined variable $hasil
+in APPPATH\Controllers\Web.php on line 36.
+ 1 APPPATH\Controllers\Web.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hasil', 'APPPATH\\Controllers\\Web.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 01:40:24 --> Call to undefined method App\Models\webModel::nyari
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Web.php(26): CodeIgniter\Model->__call('nyari', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 01:40:31 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\cvbara\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->like('id_divisi', null)
+ 2 APPPATH\Models\webModel.php(14): CodeIgniter\Model->__call('like', [...])
+ 3 APPPATH\Controllers\Web.php(26): App\Models\webModel->nyari(null)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 01:42:43 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\cvbara\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->like('id_divisi', null)
+ 2 APPPATH\Models\webModel.php(14): CodeIgniter\Model->__call('like', [...])
+ 3 APPPATH\Controllers\Web.php(26): App\Models\webModel->nyari(null)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 01:43:43 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\cvbara\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->like('id_divisi', null)
+ 2 APPPATH\Models\webModel.php(14): CodeIgniter\Model->__call('like', [...])
+ 3 APPPATH\Controllers\Web.php(26): App\Models\webModel->nyari(null)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 01:43:58 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\cvbara\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->like('id_divisi', null)
+ 2 APPPATH\Models\webModel.php(14): CodeIgniter\Model->__call('like', [...])
+ 3 APPPATH\Controllers\Web.php(26): App\Models\webModel->nyari(null)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 01:47:10 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\cvbara\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->like('nama', null)
+ 2 APPPATH\Models\webModel.php(11): CodeIgniter\Model->__call('like', [...])
+ 3 APPPATH\Controllers\Web.php(26): App\Models\webModel->pencarian(null)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 01:47:21 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\cvbara\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->like('nama', null)
+ 2 APPPATH\Models\webModel.php(11): CodeIgniter\Model->__call('like', [...])
+ 3 APPPATH\Controllers\Web.php(26): App\Models\webModel->pencarian(null)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 01:47:57 --> Undefined variable $dipisi
+in APPPATH\Models\webModel.php on line 11.
+ 1 APPPATH\Models\webModel.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dipisi', 'APPPATH\\Models\\webModel.php', 11)
+ 2 APPPATH\Controllers\Web.php(23): App\Models\webModel->pencarian('martin')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 01:49:21 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\cvbara\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->like('nama', null)
+ 2 APPPATH\Models\webModel.php(11): CodeIgniter\Model->__call('like', [...])
+ 3 APPPATH\Controllers\Web.php(23): App\Models\webModel->pencarian(null, null)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 01:49:27 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\cvbara\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->like('nama', null)
+ 2 APPPATH\Models\webModel.php(11): CodeIgniter\Model->__call('like', [...])
+ 3 APPPATH\Controllers\Web.php(23): App\Models\webModel->pencarian(null, null)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 01:55:41 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\cvbara\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->like('nama', null)
+ 2 APPPATH\Models\webModel.php(11): CodeIgniter\Model->__call('like', [...])
+ 3 APPPATH\Controllers\Web.php(23): App\Models\webModel->pencarian(null, null)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 01:56:06 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\cvbara\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->like('nama', null)
+ 2 APPPATH\Models\webModel.php(11): CodeIgniter\Model->__call('like', [...])
+ 3 APPPATH\Controllers\Web.php(23): App\Models\webModel->pencarian(null, null)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 01:56:56 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\cvbara\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->like('nama', null)
+ 2 APPPATH\Models\webModel.php(11): CodeIgniter\Model->__call('like', [...])
+ 3 APPPATH\Controllers\Web.php(23): App\Models\webModel->pencarian(null, null)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 01:57:33 --> Call to undefined method App\Models\webModel::nyari
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Web.php(26): CodeIgniter\Model->__call('nyari', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 01:57:49 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\xampp\htdocs\cvbara\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->like('id_divisi', null)
+ 2 APPPATH\Models\webModel.php(14): CodeIgniter\Model->__call('like', [...])
+ 3 APPPATH\Controllers\Web.php(26): App\Models\webModel->nyari(null)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 02:12:51 --> Undefined variable $hasil
+in APPPATH\Controllers\Web.php on line 36.
+ 1 APPPATH\Controllers\Web.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hasil', 'APPPATH\\Controllers\\Web.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 02:14:14 --> Undefined variable $dipisi
+in APPPATH\Controllers\Web.php on line 42.
+ 1 APPPATH\Controllers\Web.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dipisi', 'APPPATH\\Controllers\\Web.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->divisi()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 23:32:00 --> Class "App\Controllers\LamarModel" not found
+in APPPATH\Controllers\Email.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Email->kirim()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Email))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 23:52:06 --> Class "App\Controllers\LamarModel" not found
+in APPPATH\Controllers\Email.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Email->kirim()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Email))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 23:59:35 --> Undefined variable $jumlah
+in APPPATH\Views\admin\pages\index.php on line 193.
+ 1 APPPATH\Views\admin\pages\index.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jumlah', 'APPPATH\\Views\\admin\\pages\\index.php', 193)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 5 APPPATH\Controllers\Web.php(37): view('admin/pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

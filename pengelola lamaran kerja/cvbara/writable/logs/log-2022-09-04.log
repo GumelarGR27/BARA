@@ -1,0 +1,166 @@
+CRITICAL - 2022-09-04 00:58:38 --> There is no primary key defined when trying to make insert.
+in SYSTEMPATH\Model.php on line 268.
+ 1 SYSTEMPATH\Model.php(268): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+ 2 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 3 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Lamar.php(56): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Lamar->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lamar))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-04 02:07:02 --> Duplicate entry 'PEL6' for key 'PRIMARY'
+CRITICAL - 2022-09-04 02:07:02 --> Duplicate entry 'PEL6' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (\'PEL6\', \'Cf\', \'Cf@A.COM\', \'fghd\', \'DIV03\', \'surat pengantar kp.pdf\', \'Belum Interview\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (\'PEL6\', \'Cf\', \'Cf@A.COM\', \'fghd\', \'DIV03\', \'surat pengantar kp.pdf\', \'Belum Interview\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (\'PEL6\', \'Cf\', \'Cf@A.COM\', \'fghd\', \'DIV03\', \'surat pengantar kp.pdf\', \'Belum Interview\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (:id_pelamar:, :nama:, :email:, :deskripsi:, :id_divisi:, :cv:, :status:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Lamar.php(50): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Lamar->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lamar))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-04 02:07:42 --> Duplicate entry 'PEL6' for key 'PRIMARY'
+CRITICAL - 2022-09-04 02:07:42 --> Duplicate entry 'PEL6' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (\'PEL6\', \'dsfs\', \'sfqweq@ads.asd\', \'ewq\', \'DIV03\', \'surat pengantar kp.pdf\', \'Belum Interview\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (\'PEL6\', \'dsfs\', \'sfqweq@ads.asd\', \'ewq\', \'DIV03\', \'surat pengantar kp.pdf\', \'Belum Interview\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (\'PEL6\', \'dsfs\', \'sfqweq@ads.asd\', \'ewq\', \'DIV03\', \'surat pengantar kp.pdf\', \'Belum Interview\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (:id_pelamar:, :nama:, :email:, :deskripsi:, :id_divisi:, :cv:, :status:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Lamar.php(50): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Lamar->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lamar))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-04 02:20:37 --> Duplicate entry 'PEL6' for key 'PRIMARY'
+CRITICAL - 2022-09-04 02:20:37 --> Duplicate entry 'PEL6' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (\'PEL6\', \'dsfs\', \'sfqweq@ads.asd\', \'ewq\', \'DIV03\', \'[10.1016bs.adcom.2017.12.001] Application Quality Assurance. Advances in Computers ([Holl, K., & Elberzhager, F. ][2018]).pdf\', \'Belum Interview\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (\'PEL6\', \'dsfs\', \'sfqweq@ads.asd\', \'ewq\', \'DIV03\', \'[10.1016bs.adcom.2017.12.001] Application Quality Assurance. Advances in Computers ([Holl, K., & Elberzhager, F. ][2018]).pdf\', \'Belum Interview\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (\'PEL6\', \'dsfs\', \'sfqweq@ads.asd\', \'ewq\', \'DIV03\', \'[10.1016bs.adcom.2017.12.001] Application Quality Assurance. Advances in Computers ([Holl, K., & Elberzhager, F. ][2018]).pdf\', \'Belum Interview\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (:id_pelamar:, :nama:, :email:, :deskripsi:, :id_divisi:, :cv:, :status:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Lamar.php(50): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Lamar->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lamar))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-04 02:26:49 --> Duplicate entry 'PEL6' for key 'PRIMARY'
+CRITICAL - 2022-09-04 02:26:49 --> Duplicate entry 'PEL6' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (\'PEL6\', \'dsfs\', \'sfqweq@ads.asd\', \'ewq\', \'DIV03\', \'surat pengantar kp.pdf\', \'Belum Interview\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (\'PEL6\', \'dsfs\', \'sfqweq@ads.asd\', \'ewq\', \'DIV03\', \'surat pengantar kp.pdf\', \'Belum Interview\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (\'PEL6\', \'dsfs\', \'sfqweq@ads.asd\', \'ewq\', \'DIV03\', \'surat pengantar kp.pdf\', \'Belum Interview\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (:id_pelamar:, :nama:, :email:, :deskripsi:, :id_divisi:, :cv:, :status:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Lamar.php(50): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Lamar->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lamar))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-04 02:37:05 --> Duplicate entry 'PEL6' for key 'PRIMARY'
+CRITICAL - 2022-09-04 02:37:05 --> Duplicate entry 'PEL6' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (\'PEL6\', \'dsfs\', \'sfqweq@ads.asd\', \'fgh\', \'DIV03\', \'surat pengantar kp.pdf\', \'Belum Interview\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (\'PEL6\', \'dsfs\', \'sfqweq@ads.asd\', \'fgh\', \'DIV03\', \'surat pengantar kp.pdf\', \'Belum Interview\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (\'PEL6\', \'dsfs\', \'sfqweq@ads.asd\', \'fgh\', \'DIV03\', \'surat pengantar kp.pdf\', \'Belum Interview\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (:id_pelamar:, :nama:, :email:, :deskripsi:, :id_divisi:, :cv:, :status:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Lamar.php(50): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Lamar->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lamar))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-04 05:01:00 --> Duplicate entry 'PEL6' for key 'PRIMARY'
+CRITICAL - 2022-09-04 05:01:00 --> Duplicate entry 'PEL6' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (\'PEL6\', \'dsfs\', \'sfqweq@ads.asd\', \'fgh\', \'DIV03\', \'surat pengantar kp.pdf\', \'Belum Interview\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (\'PEL6\', \'dsfs\', \'sfqweq@ads.asd\', \'fgh\', \'DIV03\', \'surat pengantar kp.pdf\', \'Belum Interview\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (\'PEL6\', \'dsfs\', \'sfqweq@ads.asd\', \'fgh\', \'DIV03\', \'surat pengantar kp.pdf\', \'Belum Interview\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (:id_pelamar:, :nama:, :email:, :deskripsi:, :id_divisi:, :cv:, :status:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Lamar.php(50): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Lamar->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lamar))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-04 05:06:14 --> Duplicate entry 'PEL6' for key 'PRIMARY'
+CRITICAL - 2022-09-04 05:06:14 --> Duplicate entry 'PEL6' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (\'PEL6\', \'dsfs\', \'sfqweq@ads.asd\', \'ewq\', \'DIV03\', \'surat pengantar kp.pdf\', \'Belum Interview\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (\'PEL6\', \'dsfs\', \'sfqweq@ads.asd\', \'ewq\', \'DIV03\', \'surat pengantar kp.pdf\', \'Belum Interview\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (\'PEL6\', \'dsfs\', \'sfqweq@ads.asd\', \'ewq\', \'DIV03\', \'surat pengantar kp.pdf\', \'Belum Interview\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (:id_pelamar:, :nama:, :email:, :deskripsi:, :id_divisi:, :cv:, :status:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Lamar.php(50): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Lamar->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lamar))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 05:10:09 --> There is no primary key defined when trying to make insert.
+in SYSTEMPATH\Model.php on line 268.
+ 1 SYSTEMPATH\Model.php(268): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+ 2 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 3 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Lamar.php(56): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Lamar->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lamar))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 05:13:44 --> There is no primary key defined when trying to make insert.
+in SYSTEMPATH\Model.php on line 268.
+ 1 SYSTEMPATH\Model.php(268): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+ 2 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 3 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Lamar.php(62): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Lamar->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lamar))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-04 05:43:06 --> Duplicate entry 'PEL10' for key 'PRIMARY'
+CRITICAL - 2022-09-04 05:43:06 --> Duplicate entry 'PEL10' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (\'PEL10\', \'sdgfsd\', \'srvas@vs.asd\', \'asda\', \'DIV03\', \'82-Article Text-105-1-10-20190704.pdf\', \'Belum Interview\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (\'PEL10\', \'sdgfsd\', \'srvas@vs.asd\', \'asda\', \'DIV03\', \'82-Article Text-105-1-10-20190704.pdf\', \'Belum Interview\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (\'PEL10\', \'sdgfsd\', \'srvas@vs.asd\', \'asda\', \'DIV03\', \'82-Article Text-105-1-10-20190704.pdf\', \'Belum Interview\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (:id_pelamar:, :nama:, :email:, :deskripsi:, :id_divisi:, :cv:, :status:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Lamar.php(50): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Lamar->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lamar))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-04 05:47:53 --> Duplicate entry 'PEL2' for key 'PRIMARY'
+CRITICAL - 2022-09-04 05:47:53 --> Duplicate entry 'PEL2' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (\'PEL2\', \'sdgfsd\', \'srvas@vs.asd\', \'asda\', \'DIV03\', \'82-Article Text-105-1-10-20190704.pdf\', \'Belum Interview\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (\'PEL2\', \'sdgfsd\', \'srvas@vs.asd\', \'asda\', \'DIV03\', \'82-Article Text-105-1-10-20190704.pdf\', \'Belum Interview\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (\'PEL2\', \'sdgfsd\', \'srvas@vs.asd\', \'asda\', \'DIV03\', \'82-Article Text-105-1-10-20190704.pdf\', \'Belum Interview\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (:id_pelamar:, :nama:, :email:, :deskripsi:, :id_divisi:, :cv:, :status:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Lamar.php(50): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Lamar->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lamar))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

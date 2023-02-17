@@ -1,0 +1,55 @@
+CRITICAL - 2022-08-02 00:05:43 --> Undefined variable $pelamar
+in APPPATH\Views\admin\pages\mobile.php on line 245.
+ 1 APPPATH\Views\admin\pages\mobile.php(245): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelamar', 'APPPATH\\Views\\admin\\pages\\mobile.php', 245)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\mobile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/mobile', [], true)
+ 5 APPPATH\Controllers\Mobile.php(16): view('admin/pages/mobile')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mobile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobile))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-02 00:05:51 --> Undefined variable $pelamar
+in APPPATH\Views\admin\pages\desktop.php on line 245.
+ 1 APPPATH\Views\admin\pages\desktop.php(245): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelamar', 'APPPATH\\Views\\admin\\pages\\desktop.php', 245)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\desktop.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/desktop', [], true)
+ 5 APPPATH\Controllers\Desktop.php(16): view('admin/pages/desktop')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Desktop->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desktop))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-02 00:05:55 --> Undefined variable $pelamar
+in APPPATH\Views\admin\pages\mobile.php on line 245.
+ 1 APPPATH\Views\admin\pages\mobile.php(245): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelamar', 'APPPATH\\Views\\admin\\pages\\mobile.php', 245)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\mobile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/mobile', [], true)
+ 5 APPPATH\Controllers\Mobile.php(16): view('admin/pages/mobile')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mobile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobile))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-02 00:06:10 --> Undefined variable $pelamar
+in APPPATH\Views\admin\pages\mobile.php on line 245.
+ 1 APPPATH\Views\admin\pages\mobile.php(245): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelamar', 'APPPATH\\Views\\admin\\pages\\mobile.php', 245)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\mobile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/mobile', [], true)
+ 5 APPPATH\Controllers\Mobile.php(16): view('admin/pages/mobile')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mobile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobile))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-02 00:12:48 --> Undefined variable $pelamar
+in APPPATH\Views\admin\pages\mobile.php on line 245.
+ 1 APPPATH\Views\admin\pages\mobile.php(245): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelamar', 'APPPATH\\Views\\admin\\pages\\mobile.php', 245)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\mobile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/mobile', [], true)
+ 5 APPPATH\Controllers\Mobile.php(16): view('admin/pages/mobile')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mobile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobile))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

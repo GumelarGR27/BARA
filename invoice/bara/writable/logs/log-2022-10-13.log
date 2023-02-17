@@ -1,0 +1,276 @@
+ERROR - 2022-10-13 01:00:37 --> Unknown column 'nama' in 'field list'
+CRITICAL - 2022-10-13 01:00:37 --> Unknown column 'nama' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `user` (`id_user`, `nama`, `email`, `password`, `telepon`, `jabatan`) VALUES (\'\', \'Raka Marlindo\', \'raka@marlindo.com\', \'$2y$10$af95evTGMQX1wFsttaao0eMoWg8jFURMBrtju5WprPHzR6Fh0CxrK\', \'08732432767\', \'Sekertaris\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`id_user`, `nama`, `email`, `password`, `telepon`, `jabatan`) VALUES (\'\', \'Raka Marlindo\', \'raka@marlindo.com\', \'$2y$10$af95evTGMQX1wFsttaao0eMoWg8jFURMBrtju5WprPHzR6Fh0CxrK\', \'08732432767\', \'Sekertaris\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`id_user`, `nama`, `email`, `password`, `telepon`, `jabatan`) VALUES (\'\', \'Raka Marlindo\', \'raka@marlindo.com\', \'$2y$10$af95evTGMQX1wFsttaao0eMoWg8jFURMBrtju5WprPHzR6Fh0CxrK\', \'08732432767\', \'Sekertaris\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`id_user`, `nama`, `email`, `password`, `telepon`, `jabatan`) VALUES (:id_user:, :nama:, :email:, :password:, :telepon:, :jabatan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\register.php(34): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\register->tambah()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\register))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-13 01:01:04 --> Unknown column 'password' in 'field list'
+CRITICAL - 2022-10-13 01:01:04 --> Unknown column 'password' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `user` (`id_user`, `nama`, `email`, `password`, `telepon`, `jabatan`) VALUES (\'\', \'Raka Marlindo\', \'raka@marlindo.com\', \'$2y$10$eJ6.F6Mg48VX.Boo.jYUk.6r8Favy90Uif0hnUiaDyYAZixp7UKvy\', \'08732432767\', \'Sekertaris\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`id_user`, `nama`, `email`, `password`, `telepon`, `jabatan`) VALUES (\'\', \'Raka Marlindo\', \'raka@marlindo.com\', \'$2y$10$eJ6.F6Mg48VX.Boo.jYUk.6r8Favy90Uif0hnUiaDyYAZixp7UKvy\', \'08732432767\', \'Sekertaris\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`id_user`, `nama`, `email`, `password`, `telepon`, `jabatan`) VALUES (\'\', \'Raka Marlindo\', \'raka@marlindo.com\', \'$2y$10$eJ6.F6Mg48VX.Boo.jYUk.6r8Favy90Uif0hnUiaDyYAZixp7UKvy\', \'08732432767\', \'Sekertaris\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`id_user`, `nama`, `email`, `password`, `telepon`, `jabatan`) VALUES (:id_user:, :nama:, :email:, :password:, :telepon:, :jabatan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\register.php(34): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\register->tambah()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\register))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-13 01:43:57 --> Unknown column 'id_klien' in 'where clause'
+CRITICAL - 2022-10-13 01:43:57 --> Unknown column 'id_klien' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_tagihan`
+FROM `tagihan`
+WHERE `id_klien` = \'5\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_tagihan`
+FROM `tagihan`
+WHERE `id_klien` = \'5\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_tagihan`
+FROM `tagihan`
+WHERE `id_klien` = \'5\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_tagihan`
+FROM `tagihan`
+WHERE `id_klien` = :id_klien:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\hapusclient.php(17): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\hapusclient->index()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\hapusclient))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-13 01:46:15 --> Unknown column 'id_klien' in 'where clause'
+CRITICAL - 2022-10-13 01:46:15 --> Unknown column 'id_klien' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_tagihan`
+FROM `tagihan`
+WHERE `id_klien` = \'5\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_tagihan`
+FROM `tagihan`
+WHERE `id_klien` = \'5\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_tagihan`
+FROM `tagihan`
+WHERE `id_klien` = \'5\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_tagihan`
+FROM `tagihan`
+WHERE `id_klien` = :id_klien:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\hapusclient.php(18): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\hapusclient->index()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\hapusclient))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-13 01:46:44 --> Unknown column 'id_klien' in 'where clause'
+CRITICAL - 2022-10-13 01:46:44 --> Unknown column 'id_klien' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_tagihan`
+FROM `tagihan`
+WHERE `id_klien` = \'6\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_tagihan`
+FROM `tagihan`
+WHERE `id_klien` = \'6\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_tagihan`
+FROM `tagihan`
+WHERE `id_klien` = \'6\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_tagihan`
+FROM `tagihan`
+WHERE `id_klien` = :id_klien:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\hapusclient.php(18): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\hapusclient->index()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\hapusclient))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 01:47:20 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2334.
+ 1 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\hapusclient.php(20): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\hapusclient->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\hapusclient))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 01:48:55 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2334.
+ 1 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\hapusclient.php(20): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\hapusclient->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\hapusclient))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 01:50:06 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2334.
+ 1 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\hapusclient.php(20): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\hapusclient->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\hapusclient))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 01:50:16 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2334.
+ 1 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\hapusclient.php(20): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\hapusclient->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\hapusclient))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 01:52:36 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2334.
+ 1 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\hapusclient.php(20): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\hapusclient->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\hapusclient))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 01:53:17 --> Undefined variable $reminder
+in APPPATH\Controllers\hapusclient.php on line 21.
+ 1 APPPATH\Controllers\hapusclient.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reminder', 'APPPATH\\Controllers\\hapusclient.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\hapusclient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\hapusclient))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 01:53:40 --> Undefined variable $remider
+in APPPATH\Controllers\hapusclient.php on line 19.
+ 1 APPPATH\Controllers\hapusclient.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $remider', 'APPPATH\\Controllers\\hapusclient.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\hapusclient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\hapusclient))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 01:53:49 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2334.
+ 1 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\hapusclient.php(21): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\hapusclient->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\hapusclient))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 01:55:56 --> Call to a member function where() on null
+in APPPATH\Controllers\hapusclient.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\hapusclient->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\hapusclient))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 01:56:10 --> Call to a member function where() on null
+in APPPATH\Controllers\hapusclient.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\hapusclient->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\hapusclient))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 01:59:43 --> Call to a member function where() on null
+in APPPATH\Controllers\hapusclient.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\hapusclient->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\hapusclient))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 02:01:24 --> Call to a member function where() on null
+in APPPATH\Controllers\hapusclient.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\hapusclient->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\hapusclient))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 02:02:27 --> Call to a member function where() on null
+in APPPATH\Controllers\hapusclient.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\hapusclient->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\hapusclient))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 02:04:58 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2334.
+ 1 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\hapusclient.php(21): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\hapusclient->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\hapusclient))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 02:05:40 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2334.
+ 1 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\hapusclient.php(20): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\hapusclient->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\hapusclient))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 02:06:11 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2334.
+ 1 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\hapusclient.php(20): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\hapusclient->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\hapusclient))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 03:14:18 --> Undefined variable: rowww
+in APPPATH\Views\ingpois.php on line 143.
+ 1 APPPATH\Views\ingpois.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rowww', 'APPPATH\\Views\\ingpois.php', 143, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(18): view('ingpois', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-13 03:21:36 --> Unknown column 'nama_unit' in 'where clause'
+CRITICAL - 2022-10-13 03:21:36 --> Unknown column 'nama_unit' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM tagihan WHERE nama_unit="Paket"', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM tagihan WHERE nama_unit="Paket"')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tagihan WHERE nama_unit="Paket"')
+ 4 APPPATH\Views\ingpois.php(186): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tagihan WHERE nama_unit="Paket"')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 8 APPPATH\Controllers\Ingpois.php(18): view('ingpois', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-13 03:23:15 --> Unknown column 'nama_perusahaan' in 'where clause'
+CRITICAL - 2022-10-13 03:23:15 --> Unknown column 'nama_perusahaan' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM unit WHERE nama_perusahaan="Sony Ericson"', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM unit WHERE nama_perusahaan="Sony Ericson"')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM unit WHERE nama_perusahaan="Sony Ericson"')
+ 4 APPPATH\Views\ingpois.php(198): CodeIgniter\Database\BaseConnection->query('SELECT * FROM unit WHERE nama_perusahaan="Sony Ericson"')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 8 APPPATH\Controllers\Ingpois.php(18): view('ingpois', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

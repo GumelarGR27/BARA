@@ -1,0 +1,15 @@
+ERROR - 2022-08-18 05:52:54 --> Table 'tagihan_bara.form_ingpois' doesn't exist
+CRITICAL - 2022-08-18 05:52:54 --> Table 'tagihan_bara.form_ingpois' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM form_ingpois', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM form_ingpois')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM form_ingpois')
+ 4 APPPATH\Views\form_ingpois.php(3): CodeIgniter\Database\BaseConnection->query('SELECT * FROM form_ingpois')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form_ingpois.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_ingpois', [], true)
+ 8 APPPATH\Controllers\tabel_invoice.php(9): view('form_ingpois')
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tabel_invoice->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tabel_invoice))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

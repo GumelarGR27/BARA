@@ -1,0 +1,943 @@
+CRITICAL - 2022-08-30 04:20:45 --> Class 'App\Controllers\clientModel' not found
+in APPPATH\Controllers\Client.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:20:58 --> Class 'App\Controllers\clientModel' not found
+in APPPATH\Controllers\Client.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:21:12 --> Class 'App\Controllers\clientModel' not found
+in APPPATH\Controllers\Client.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:23:14 --> Class 'App\Controllers\klientModel' not found
+in APPPATH\Controllers\Client.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:23:26 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in D:\Xampp baru\htdocs\bara\app\Controllers\Client.php on line 43
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\Client.php(43): CodeIgniter\HTTP\RedirectResponse->to('D:\\', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:23:55 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in D:\Xampp baru\htdocs\bara\app\Controllers\Client.php on line 43
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\Client.php(43): CodeIgniter\HTTP\RedirectResponse->to('D:\\', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:24:35 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in D:\Xampp baru\htdocs\bara\app\Controllers\Client.php on line 43
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\Client.php(43): CodeIgniter\HTTP\RedirectResponse->to('D:\\', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:24:42 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in D:\Xampp baru\htdocs\bara\app\Controllers\Client.php on line 43
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\Client.php(43): CodeIgniter\HTTP\RedirectResponse->to('D:\\', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:26:44 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in D:\Xampp baru\htdocs\bara\app\Controllers\Client.php on line 44
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\Client.php(44): CodeIgniter\HTTP\RedirectResponse->to('D:\\', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:26:51 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in D:\Xampp baru\htdocs\bara\app\Controllers\Client.php on line 44
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\Client.php(44): CodeIgniter\HTTP\RedirectResponse->to('D:\\', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:28:05 --> Array to string conversion
+in APPPATH\Controllers\Client.php on line 44.
+ 1 APPPATH\Controllers\Client.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Client.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:29:19 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in D:\Xampp baru\htdocs\bara\app\Controllers\Client.php on line 44
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\Client.php(44): CodeIgniter\HTTP\RedirectResponse->to('D:\\', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:32:01 --> Invalid file: /.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('D:\\', [], true)
+ 3 APPPATH\Controllers\Client.php(44): view('D:\\', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:33:49 --> Undefined index: nama
+in APPPATH\Views\daptar.php on line 301.
+ 1 APPPATH\Views\daptar.php(301): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama', 'APPPATH\\Views\\daptar.php', 301, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\daptar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('daptar', [], true)
+ 5 APPPATH\Controllers\Client.php(44): view('daptar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:36:56 --> Undefined variable: client
+in APPPATH\Views\daptar.php on line 297.
+ 1 APPPATH\Views\daptar.php(297): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: client', 'APPPATH\\Views\\daptar.php', 297, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\daptar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('daptar', [], true)
+ 5 APPPATH\Controllers\Client.php(39): view('daptar')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:37:12 --> Undefined variable: client
+in APPPATH\Views\daptar.php on line 297.
+ 1 APPPATH\Views\daptar.php(297): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: client', 'APPPATH\\Views\\daptar.php', 297, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\daptar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('daptar', [], true)
+ 5 APPPATH\Controllers\Client.php(39): view('daptar')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:45:14 --> Undefined index: tanggal_invoice
+in APPPATH\Views\index.php on line 202.
+ 1 APPPATH\Views\index.php(202): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: tanggal_invoice', 'APPPATH\\Views\\index.php', 202, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:45:24 --> Undefined index: tanggal_invoice
+in APPPATH\Views\index.php on line 202.
+ 1 APPPATH\Views\index.php(202): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: tanggal_invoice', 'APPPATH\\Views\\index.php', 202, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:45:29 --> Undefined index: tanggal_invoice
+in APPPATH\Views\Rimainder.php on line 342.
+ 1 APPPATH\Views\Rimainder.php(342): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: tanggal_invoice', 'APPPATH\\Views\\Rimainder.php', 342, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Rimainder.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rimainder', [], true)
+ 5 APPPATH\Controllers\invoice.php(15): view('rimainder', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\invoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:54:39 --> Undefined index: tanggal_invoice
+in APPPATH\Views\Rimainder.php on line 342.
+ 1 APPPATH\Views\Rimainder.php(342): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: tanggal_invoice', 'APPPATH\\Views\\Rimainder.php', 342, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Rimainder.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rimainder', [], true)
+ 5 APPPATH\Controllers\invoice.php(15): view('rimainder', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\invoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:55:36 --> Undefined index: tanggal_invoice
+in APPPATH\Views\Rimainder.php on line 342.
+ 1 APPPATH\Views\Rimainder.php(342): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: tanggal_invoice', 'APPPATH\\Views\\Rimainder.php', 342, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Rimainder.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rimainder', [], true)
+ 5 APPPATH\Controllers\invoice.php(15): view('rimainder', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\invoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 04:58:11 --> Undefined index: tanggal_invoice
+in APPPATH\Views\Rimainder.php on line 342.
+ 1 APPPATH\Views\Rimainder.php(342): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: tanggal_invoice', 'APPPATH\\Views\\Rimainder.php', 342, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Rimainder.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rimainder', [], true)
+ 5 APPPATH\Controllers\invoice.php(15): view('rimainder', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\invoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 05:02:02 --> Column 'nama_perusahaan' cannot be null
+CRITICAL - 2022-08-30 05:02:02 --> Column 'nama_perusahaan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `client` (`id_klien`, `nama_perusahaan`, `nama`, `alamat`, `kota`, `telepon`, `email`) VALUES (\'KL8\', NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `client` (`id_klien`, `nama_perusahaan`, `nama`, `alamat`, `kota`, `telepon`, `email`) VALUES (\'KL8\', NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `client` (`id_klien`, `nama_perusahaan`, `nama`, `alamat`, `kota`, `telepon`, `email`) VALUES (\'KL8\', NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `client` (`id_klien`, `nama_perusahaan`, `nama`, `alamat`, `kota`, `telepon`, `email`) VALUES (:id_klien.1:, :nama_perusahaan:, :nama:, :alamat:, :kota:, :telepon:, :email:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Client.php(42): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 05:03:59 --> Column 'nama_perusahaan' cannot be null
+CRITICAL - 2022-08-30 05:03:59 --> Column 'nama_perusahaan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `client` (`id_klien`, `nama_perusahaan`, `nama`, `alamat`, `kota`, `telepon`, `email`) VALUES (\'KL8\', NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `client` (`id_klien`, `nama_perusahaan`, `nama`, `alamat`, `kota`, `telepon`, `email`) VALUES (\'KL8\', NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `client` (`id_klien`, `nama_perusahaan`, `nama`, `alamat`, `kota`, `telepon`, `email`) VALUES (\'KL8\', NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `client` (`id_klien`, `nama_perusahaan`, `nama`, `alamat`, `kota`, `telepon`, `email`) VALUES (:id_klien.1:, :nama_perusahaan:, :nama:, :alamat:, :kota:, :telepon:, :email:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Client.php(42): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 05:24:11 --> syntax error, unexpected '$query' (T_VARIABLE)
+in APPPATH\Views\ingpois.php on line 4.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 3 APPPATH\Controllers\Ingpois.php(9): view('ingpois')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 05:24:49 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\ingpois.php on line 3.
+ 1 APPPATH\Views\ingpois.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\ingpois.php', 3, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(9): view('ingpois')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 05:26:31 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\ingpois.php on line 4.
+ 1 APPPATH\Views\ingpois.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\ingpois.php', 4, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(9): view('ingpois')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 05:26:33 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\ingpois.php on line 4.
+ 1 APPPATH\Views\ingpois.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\ingpois.php', 4, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(9): view('ingpois')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 09:03:38 --> Column 'nama_perusahaan' cannot be null
+CRITICAL - 2022-08-30 09:03:38 --> Column 'nama_perusahaan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `client` (`id_klien`, `nama_perusahaan`, `nama`, `alamat`, `kota`, `telepon`, `email`) VALUES (\'KL8\', NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `client` (`id_klien`, `nama_perusahaan`, `nama`, `alamat`, `kota`, `telepon`, `email`) VALUES (\'KL8\', NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `client` (`id_klien`, `nama_perusahaan`, `nama`, `alamat`, `kota`, `telepon`, `email`) VALUES (\'KL8\', NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `client` (`id_klien`, `nama_perusahaan`, `nama`, `alamat`, `kota`, `telepon`, `email`) VALUES (:id_klien.1:, :nama_perusahaan:, :nama:, :alamat:, :kota:, :telepon:, :email:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Client.php(42): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 09:05:09 --> Column 'nama_perusahaan' cannot be null
+CRITICAL - 2022-08-30 09:05:09 --> Column 'nama_perusahaan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `client` (`id_klien`, `nama_perusahaan`, `nama`, `alamat`, `kota`, `telepon`, `email`) VALUES (\'KL8\', NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `client` (`id_klien`, `nama_perusahaan`, `nama`, `alamat`, `kota`, `telepon`, `email`) VALUES (\'KL8\', NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `client` (`id_klien`, `nama_perusahaan`, `nama`, `alamat`, `kota`, `telepon`, `email`) VALUES (\'KL8\', NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `client` (`id_klien`, `nama_perusahaan`, `nama`, `alamat`, `kota`, `telepon`, `email`) VALUES (:id_klien.1:, :nama_perusahaan:, :nama:, :alamat:, :kota:, :telepon:, :email:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Client.php(42): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 09:07:27 --> Column 'nama_perusahaan' cannot be null
+CRITICAL - 2022-08-30 09:07:27 --> Column 'nama_perusahaan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `client` (`id_klien`, `nama_perusahaan`, `nama`, `alamat`, `kota`, `telepon`, `email`) VALUES (\'KL8\', NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `client` (`id_klien`, `nama_perusahaan`, `nama`, `alamat`, `kota`, `telepon`, `email`) VALUES (\'KL8\', NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `client` (`id_klien`, `nama_perusahaan`, `nama`, `alamat`, `kota`, `telepon`, `email`) VALUES (\'KL8\', NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `client` (`id_klien`, `nama_perusahaan`, `nama`, `alamat`, `kota`, `telepon`, `email`) VALUES (:id_klien.1:, :nama_perusahaan:, :nama:, :alamat:, :kota:, :telepon:, :email:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Client.php(42): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 09:47:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '="KL1"' at line 1
+CRITICAL - 2022-08-30 09:47:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '="KL1"' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT nama_perusahaan FROM client WHERE="KL1"', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nama_perusahaan FROM client WHERE="KL1"')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nama_perusahaan FROM client WHERE="KL1"')
+ 4 APPPATH\Views\form_reminder.php(307): CodeIgniter\Database\BaseConnection->query('SELECT nama_perusahaan FROM client WHERE="KL1"')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form_reminder.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 8 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 09:55:37 --> Undefined property: stdClass::$due_date
+in APPPATH\Views\form_reminder.php on line 315.
+ 1 APPPATH\Views\form_reminder.php(315): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$due_date', 'APPPATH\\Views\\form_reminder.php', 315, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form_reminder.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 5 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 09:56:47 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+in APPPATH\Views\form_reminder.php on line 323.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 3 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 09:57:51 --> Undefined property: stdClass::$due_date
+in APPPATH\Views\form_reminder.php on line 317.
+ 1 APPPATH\Views\form_reminder.php(317): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$due_date', 'APPPATH\\Views\\form_reminder.php', 317, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form_reminder.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 5 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 09:58:14 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 317.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:00:02 --> syntax error, unexpected '$db' (T_VARIABLE), expecting ';' or ','
+in APPPATH\Views\form_reminder.php on line 306.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 3 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:00:54 --> Undefined property: stdClass::$due_date
+in APPPATH\Views\form_reminder.php on line 312.
+ 1 APPPATH\Views\form_reminder.php(312): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$due_date', 'APPPATH\\Views\\form_reminder.php', 312, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form_reminder.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 5 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:02:19 --> Undefined property: stdClass::$due_date
+in APPPATH\Views\form_reminder.php on line 309.
+ 1 APPPATH\Views\form_reminder.php(309): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$due_date', 'APPPATH\\Views\\form_reminder.php', 309, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\form_reminder.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 5 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:04:16 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 318.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:05:04 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 318.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:07:37 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:07:42 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:07:43 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:07:43 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:07:43 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:07:43 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:07:43 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:07:44 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:07:44 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:07:44 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:07:44 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:07:45 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:07:45 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:07:45 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:07:45 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:07:46 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:07:46 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:07:46 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:07:46 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:07:46 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:07:47 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:07:47 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:07:47 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:07:47 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:07:48 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:07:48 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:07:48 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:07:48 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:07:49 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:07:49 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:07:49 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:07:49 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:07:49 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:07:50 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:07:50 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:08:06 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:08:07 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:08:07 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:08:08 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:08:08 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:08:08 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:08:08 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:08:09 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:08:09 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:08:09 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:08:09 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:08:09 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:08:10 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:08:10 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:08:10 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-30 10:08:10 --> Cannot use object of type stdClass as array
+in APPPATH\Views\form_reminder.php on line 316.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 4 APPPATH\Controllers\Form_Remainder.php(15): view('form_reminder', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-30 10:16:22 --> Column 'nama_perusahaan' cannot be null
+CRITICAL - 2022-08-30 10:16:22 --> Column 'nama_perusahaan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `client` (`id_klien`, `nama_perusahaan`, `nama`, `alamat`, `kota`, `telepon`, `email`) VALUES (\'KL9\', NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `client` (`id_klien`, `nama_perusahaan`, `nama`, `alamat`, `kota`, `telepon`, `email`) VALUES (\'KL9\', NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `client` (`id_klien`, `nama_perusahaan`, `nama`, `alamat`, `kota`, `telepon`, `email`) VALUES (\'KL9\', NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `client` (`id_klien`, `nama_perusahaan`, `nama`, `alamat`, `kota`, `telepon`, `email`) VALUES (:id_klien.1:, :nama_perusahaan:, :nama:, :alamat:, :kota:, :telepon:, :email:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Client.php(42): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Client->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,292 @@
+CRITICAL - 2022-09-21 10:51:05 --> Invalid file: admin/pages/mobile.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/mobile.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/mobile', [], true)
+ 3 APPPATH\Controllers\Mobile.php(31): view('admin/pages/mobile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Mobile->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mobile))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 10:53:32 --> Class "App\Controllers\MobileModel" not found
+in APPPATH\Controllers\Tolak.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Tolak->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tolak))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 10:53:46 --> Class "App\Controllers\MobileModel" not found
+in APPPATH\Controllers\Tolak.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Tolak->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tolak))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 10:53:59 --> Class "App\Controllers\rolakModel" not found
+in APPPATH\Controllers\Tolak.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Tolak->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tolak))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 10:54:05 --> Invalid file: admin/pages/mobile.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/mobile.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/mobile', [], true)
+ 3 APPPATH\Controllers\Tolak.php(31): view('admin/pages/mobile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Tolak->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tolak))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 10:54:23 --> Undefined variable $email
+in APPPATH\Views\admin\pages\tolak.php on line 283.
+ 1 APPPATH\Views\admin\pages\tolak.php(283): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $email', 'APPPATH\\Views\\admin\\pages\\tolak.php', 283)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\tolak.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/tolak', [], true)
+ 5 APPPATH\Controllers\Tolak.php(31): view('admin/pages/tolak', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Tolak->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tolak))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 10:55:11 --> Undefined variable $id
+in APPPATH\Controllers\HapusWeb.php on line 18.
+ 1 APPPATH\Controllers\HapusWeb.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\HapusWeb.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\HapusWeb->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HapusWeb))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 10:57:04 --> Undefined variable $email
+in APPPATH\Views\admin\pages\tolak.php on line 283.
+ 1 APPPATH\Views\admin\pages\tolak.php(283): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $email', 'APPPATH\\Views\\admin\\pages\\tolak.php', 283)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\tolak.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/tolak', [], true)
+ 5 APPPATH\Controllers\Tolak.php(31): view('admin/pages/tolak', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Tolak->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tolak))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 10:59:29 --> Undefined variable $email
+in APPPATH\Views\admin\pages\tolak.php on line 283.
+ 1 APPPATH\Views\admin\pages\tolak.php(283): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $email', 'APPPATH\\Views\\admin\\pages\\tolak.php', 283)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\tolak.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/tolak', [], true)
+ 5 APPPATH\Controllers\Tolak.php(31): view('admin/pages/tolak', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Tolak->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tolak))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 11:17:59 --> Undefined variable $id
+in APPPATH\Views\admin\pages\tolak.php on line 283.
+ 1 APPPATH\Views\admin\pages\tolak.php(283): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Views\\admin\\pages\\tolak.php', 283)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\tolak.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/tolak', [], true)
+ 5 APPPATH\Controllers\Tolak.php(31): view('admin/pages/tolak', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Tolak->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tolak))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-21 11:23:51 --> Unknown column 'role' in 'where clause'
+CRITICAL - 2022-09-21 11:23:51 --> Unknown column 'role' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `pelamar`
+WHERE `role` = \'HRD\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `pelamar`
+WHERE `role` = \'HRD\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `pelamar`
+WHERE `role` = \'HRD\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `pelamar`
+WHERE `role` = :role:', [...], false)
+ 5 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Tolak.php(27): CodeIgniter\BaseModel->paginate(5)
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Tolak->index()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tolak))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 11:27:36 --> Undefined variable $email
+in APPPATH\Views\admin\pages\tolak.php on line 289.
+ 1 APPPATH\Views\admin\pages\tolak.php(289): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $email', 'APPPATH\\Views\\admin\\pages\\tolak.php', 289)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\tolak.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/tolak', [], true)
+ 5 APPPATH\Controllers\Tolak.php(31): view('admin/pages/tolak', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Tolak->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tolak))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 11:39:53 --> Undefined variable $pager
+in APPPATH\Views\admin\pages\tolak.php on line 286.
+ 1 APPPATH\Views\admin\pages\tolak.php(286): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'APPPATH\\Views\\admin\\pages\\tolak.php', 286)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\tolak.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/tolak', [], true)
+ 5 APPPATH\Controllers\Tolak.php(31): view('admin/pages/tolak')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Tolak->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tolak))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 11:50:05 --> Undefined variable $db
+in APPPATH\Controllers\Kelola.php on line 21.
+ 1 APPPATH\Controllers\Kelola.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Controllers\\Kelola.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kelola->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelola))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 14:10:30 --> Undefined variable $db
+in APPPATH\Controllers\CV.php on line 16.
+ 1 APPPATH\Controllers\CV.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Controllers\\CV.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\CV->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 14:10:42 --> Undefined variable $db
+in APPPATH\Controllers\CV.php on line 16.
+ 1 APPPATH\Controllers\CV.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Controllers\\CV.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\CV->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 15:35:05 --> Undefined variable $db
+in APPPATH\Controllers\Interview.php on line 37.
+ 1 APPPATH\Controllers\Interview.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Controllers\\Interview.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Interview->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Interview))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 15:43:53 --> Undefined property: stdClass::$nama
+in APPPATH\Views\admin\pages\reset.php on line 153.
+ 1 APPPATH\Views\admin\pages\reset.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama', 'APPPATH\\Views\\admin\\pages\\reset.php', 153)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\reset.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/reset', [], true)
+ 5 APPPATH\Controllers\reset.php(16): view('admin/pages/reset')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\reset->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reset))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 15:44:09 --> Undefined property: stdClass::$nama
+in APPPATH\Views\admin\pages\reset.php on line 153.
+ 1 APPPATH\Views\admin\pages\reset.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama', 'APPPATH\\Views\\admin\\pages\\reset.php', 153)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\reset.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/reset', [], true)
+ 5 APPPATH\Controllers\reset.php(16): view('admin/pages/reset')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\reset->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reset))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 15:55:38 --> Undefined property: stdClass::$username
+in APPPATH\Views\admin\pages\reset.php on line 8.
+ 1 APPPATH\Views\admin\pages\reset.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$username', 'APPPATH\\Views\\admin\\pages\\reset.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\reset.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/reset', [], true)
+ 5 APPPATH\Controllers\reset.php(16): view('admin/pages/reset')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\reset->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reset))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 15:56:00 --> Undefined variable $roww
+in APPPATH\Views\admin\pages\reset.php on line 160.
+ 1 APPPATH\Views\admin\pages\reset.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roww', 'APPPATH\\Views\\admin\\pages\\reset.php', 160)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\reset.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/reset', [], true)
+ 5 APPPATH\Controllers\reset.php(16): view('admin/pages/reset')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\reset->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reset))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 15:58:42 --> Undefined variable $roww
+in APPPATH\Views\admin\pages\reset.php on line 160.
+ 1 APPPATH\Views\admin\pages\reset.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roww', 'APPPATH\\Views\\admin\\pages\\reset.php', 160)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\reset.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/reset', [], true)
+ 5 APPPATH\Controllers\reset.php(16): view('admin/pages/reset')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\reset->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reset))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 16:00:36 --> Undefined variable $roww
+in APPPATH\Views\admin\pages\reset.php on line 160.
+ 1 APPPATH\Views\admin\pages\reset.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roww', 'APPPATH\\Views\\admin\\pages\\reset.php', 160)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\reset.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/reset', [], true)
+ 5 APPPATH\Controllers\reset.php(16): view('admin/pages/reset')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\reset->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reset))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-21 23:33:03 --> Duplicate entry 'adminbara' for key 'PRIMARY'
+CRITICAL - 2022-09-21 23:33:03 --> Duplicate entry 'adminbara' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `user_log` (`user`, `username`) VALUES (\'ADMIN\', \'adminbara\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user_log` (`user`, `username`) VALUES (\'ADMIN\', \'adminbara\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user_log` (`user`, `username`) VALUES (\'ADMIN\', \'adminbara\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user_log` (`user`, `username`) VALUES (:user:, :username:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Login.php(64): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-21 23:33:15 --> Duplicate entry 'adminbara' for key 'PRIMARY'
+CRITICAL - 2022-09-21 23:33:15 --> Duplicate entry 'adminbara' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `user_log` (`user`, `username`) VALUES (\'ADMIN\', \'adminbara\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user_log` (`user`, `username`) VALUES (\'ADMIN\', \'adminbara\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user_log` (`user`, `username`) VALUES (\'ADMIN\', \'adminbara\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user_log` (`user`, `username`) VALUES (:user:, :username:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Login.php(64): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-21 23:33:30 --> Duplicate entry 'adminbara' for key 'PRIMARY'
+CRITICAL - 2022-09-21 23:33:30 --> Duplicate entry 'adminbara' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `user_log` (`user`, `username`) VALUES (\'ADMIN\', \'adminbara\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user_log` (`user`, `username`) VALUES (\'ADMIN\', \'adminbara\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user_log` (`user`, `username`) VALUES (\'ADMIN\', \'adminbara\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user_log` (`user`, `username`) VALUES (:user:, :username:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Login.php(64): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-21 23:40:32 --> Duplicate entry 'adminbara' for key 'PRIMARY'
+CRITICAL - 2022-09-21 23:40:32 --> Duplicate entry 'adminbara' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `user_log` (`user`, `username`) VALUES (\'ADMIN\', \'adminbara\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user_log` (`user`, `username`) VALUES (\'ADMIN\', \'adminbara\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user_log` (`user`, `username`) VALUES (\'ADMIN\', \'adminbara\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user_log` (`user`, `username`) VALUES (:user:, :username:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Login.php(64): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 23:46:21 --> Undefined variable $db
+in APPPATH\Controllers\editprofil.php on line 16.
+ 1 APPPATH\Controllers\editprofil.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Controllers\\editprofil.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

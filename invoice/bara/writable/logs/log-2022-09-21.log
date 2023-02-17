@@ -1,0 +1,210 @@
+CRITICAL - 2022-09-21 13:01:30 --> Cannot declare class App\Controllers\File because the name is already in use
+in APPPATH\Controllers\File.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-21 13:03:13 --> Class 'App\Controllers\clientModel' not found
+in APPPATH\Controllers\pail.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pail->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pail))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 13:03:32 --> Invalid file: file_view.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('file_view.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('file_view', [], true)
+ 3 APPPATH\Controllers\pail.php(21): view('file_view')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pail->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pail))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 13:07:11 --> Undefined variable: no
+in APPPATH\Controllers\ngeditclient.php on line 35.
+ 1 APPPATH\Controllers\ngeditclient.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: no', 'APPPATH\\Controllers\\ngeditclient.php', 35, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 13:08:50 --> Undefined variable: idkel
+in APPPATH\Controllers\ngeditclient.php on line 36.
+ 1 APPPATH\Controllers\ngeditclient.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idkel', 'APPPATH\\Controllers\\ngeditclient.php', 36, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 13:10:57 --> Undefined property: stdClass::$no
+in APPPATH\Controllers\ngeditreminder.php on line 20.
+ 1 APPPATH\Controllers\ngeditreminder.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$no', 'APPPATH\\Controllers\\ngeditreminder.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditreminder->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditreminder))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 16:59:18 --> syntax error, unexpected ';', expecting ')'
+in APPPATH\Controllers\Ingpois.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Ingpois.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Ingpois')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Ingpois')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Ingpois')
+ 5 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Ingpois', true)
+ 6 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 16:59:25 --> syntax error, unexpected 'echo' (T_ECHO)
+in APPPATH\Views\ingpois.php on line 166.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 3 APPPATH\Controllers\Ingpois.php(15): view('ingpois', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 17:00:56 --> syntax error, unexpected 'echo' (T_ECHO)
+in APPPATH\Views\ingpois.php on line 166.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 3 APPPATH\Controllers\Ingpois.php(15): view('ingpois', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 17:01:10 --> syntax error, unexpected 'echo' (T_ECHO)
+in APPPATH\Views\ingpois.php on line 166.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 3 APPPATH\Controllers\Ingpois.php(15): view('ingpois', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 17:01:47 --> syntax error, unexpected 'echo' (T_ECHO)
+in APPPATH\Views\ingpois.php on line 166.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 3 APPPATH\Controllers\Ingpois.php(15): view('ingpois', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 17:03:54 --> syntax error, unexpected 'echo' (T_ECHO)
+in APPPATH\Views\ingpois.php on line 166.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 3 APPPATH\Controllers\Ingpois.php(15): view('ingpois', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 17:48:22 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\daptar.php on line 214.
+ 1 APPPATH\Views\daptar.php(214): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\daptar.php', 214, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\daptar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('daptar', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(15): view('daptar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 17:57:04 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\daptar.php on line 214.
+ 1 APPPATH\Views\daptar.php(214): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\daptar.php', 214, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\daptar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('daptar', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(15): view('daptar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 18:38:23 --> Undefined variable: idkel
+in APPPATH\Controllers\ngeditclient.php on line 36.
+ 1 APPPATH\Controllers\ngeditclient.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idkel', 'APPPATH\\Controllers\\ngeditclient.php', 36, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 18:38:53 --> Undefined variable: idkel
+in APPPATH\Controllers\ngeditclient.php on line 36.
+ 1 APPPATH\Controllers\ngeditclient.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idkel', 'APPPATH\\Controllers\\ngeditclient.php', 36, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 18:39:55 --> Undefined variable: idkel
+in APPPATH\Controllers\ngeditclient.php on line 36.
+ 1 APPPATH\Controllers\ngeditclient.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idkel', 'APPPATH\\Controllers\\ngeditclient.php', 36, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 18:42:00 --> Undefined variable: idkel
+in APPPATH\Controllers\ngeditclient.php on line 36.
+ 1 APPPATH\Controllers\ngeditclient.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idkel', 'APPPATH\\Controllers\\ngeditclient.php', 36, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 18:42:40 --> Undefined variable: idkel
+in APPPATH\Controllers\ngeditclient.php on line 36.
+ 1 APPPATH\Controllers\ngeditclient.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idkel', 'APPPATH\\Controllers\\ngeditclient.php', 36, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 18:44:39 --> Undefined variable: idkel
+in APPPATH\Controllers\ngeditclient.php on line 36.
+ 1 APPPATH\Controllers\ngeditclient.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idkel', 'APPPATH\\Controllers\\ngeditclient.php', 36, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 18:46:04 --> Undefined variable: idkel
+in APPPATH\Controllers\ngeditclient.php on line 36.
+ 1 APPPATH\Controllers\ngeditclient.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idkel', 'APPPATH\\Controllers\\ngeditclient.php', 36, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 18:48:28 --> Undefined variable: idkel
+in APPPATH\Controllers\ngeditclient.php on line 36.
+ 1 APPPATH\Controllers\ngeditclient.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idkel', 'APPPATH\\Controllers\\ngeditclient.php', 36, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 18:48:33 --> Undefined variable: idkel
+in APPPATH\Controllers\ngeditclient.php on line 36.
+ 1 APPPATH\Controllers\ngeditclient.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idkel', 'APPPATH\\Controllers\\ngeditclient.php', 36, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 18:55:44 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1576.
+ 1 SYSTEMPATH\BaseModel.php(1576): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\ngeditclient.php(44): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 19:15:37 --> Undefined variable: row
+in APPPATH\Views\view_file.php on line 54.
+ 1 APPPATH\Views\view_file.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'APPPATH\\Views\\view_file.php', 54, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\view_file.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('view_file', [], true)
+ 5 APPPATH\Controllers\pail.php(21): view('view_file')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pail->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pail))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 19:29:14 --> Call to a member function countAll() on array
+in APPPATH\Views\ingpois.php on line 198.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 4 APPPATH\Controllers\Ingpois.php(15): view('ingpois', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

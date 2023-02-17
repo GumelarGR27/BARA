@@ -1,0 +1,492 @@
+CRITICAL - 2022-10-25 11:37:48 --> Undefined variable: idklien
+in APPPATH\Views\ingpois.php on line 18.
+ 1 APPPATH\Views\ingpois.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idklien', 'APPPATH\\Views\\ingpois.php', 18, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(19): view('ingpois', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 13:09:41 --> syntax error, unexpected 'foreach' (T_FOREACH)
+in APPPATH\Controllers\tagihann.php on line 95.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\tagihann.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\tagihann')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\tagihann')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\tagihann')
+ 5 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\tagihann', true)
+ 6 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 13:13:10 --> Unsupported operand types
+in APPPATH\Controllers\tagihann.php on line 93.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 13:13:37 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\tagihann.php on line 104.
+ 1 APPPATH\Controllers\tagihann.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\tagihann.php', 104, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 13:14:22 --> Unsupported operand types
+in APPPATH\Controllers\tagihann.php on line 93.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 13:21:57 --> Undefined variable: i
+in APPPATH\Controllers\tagihann.php on line 92.
+ 1 APPPATH\Controllers\tagihann.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: i', 'APPPATH\\Controllers\\tagihann.php', 92, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 13:22:48 --> Unsupported operand types
+in APPPATH\Controllers\tagihann.php on line 96.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 13:50:56 --> Trying to access array offset on value of type int
+in APPPATH\Controllers\tagihann.php on line 101.
+ 1 APPPATH\Controllers\tagihann.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type int', 'APPPATH\\Controllers\\tagihann.php', 101, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 13:54:33 --> Undefined offset: 2
+in APPPATH\Controllers\tagihann.php on line 95.
+ 1 APPPATH\Controllers\tagihann.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 2', 'APPPATH\\Controllers\\tagihann.php', 95, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 13:55:47 --> Undefined offset: 2
+in APPPATH\Controllers\tagihann.php on line 95.
+ 1 APPPATH\Controllers\tagihann.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 2', 'APPPATH\\Controllers\\tagihann.php', 95, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 13:58:39 --> Undefined offset: 2
+in APPPATH\Controllers\tagihann.php on line 95.
+ 1 APPPATH\Controllers\tagihann.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 2', 'APPPATH\\Controllers\\tagihann.php', 95, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 14:02:28 --> Undefined variable: ditel
+in APPPATH\Controllers\tagihann.php on line 108.
+ 1 APPPATH\Controllers\tagihann.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: ditel', 'APPPATH\\Controllers\\tagihann.php', 108, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 14:06:42 --> Undefined offset: 2
+in APPPATH\Controllers\tagihann.php on line 95.
+ 1 APPPATH\Controllers\tagihann.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 2', 'APPPATH\\Controllers\\tagihann.php', 95, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 15:07:39 --> Undefined index: deskripsi
+in APPPATH\Views\ingpois.php on line 176.
+ 1 APPPATH\Views\ingpois.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: deskripsi', 'APPPATH\\Views\\ingpois.php', 176, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(19): view('ingpois', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 15:55:16 --> Undefined index: deskripsi
+in APPPATH\Views\ingpois.php on line 176.
+ 1 APPPATH\Views\ingpois.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: deskripsi', 'APPPATH\\Views\\ingpois.php', 176, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(19): view('ingpois', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 15:57:13 --> Undefined variable: idkel
+in APPPATH\Controllers\Remind.php on line 46.
+ 1 APPPATH\Controllers\Remind.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idkel', 'APPPATH\\Controllers\\Remind.php', 46, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Remind->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Remind))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 15:59:38 --> Undefined property: stdClass::$deskripsi
+in APPPATH\Views\ingpois.php on line 180.
+ 1 APPPATH\Views\ingpois.php(180): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$deskripsi', 'APPPATH\\Views\\ingpois.php', 180, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(19): view('ingpois', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 21:57:56 --> Cannot use object of type stdClass as array
+in APPPATH\Views\ingpois.php on line 216.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 4 APPPATH\Controllers\Ingpois.php(22): view('ingpois', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 22:01:44 --> Cannot use object of type stdClass as array
+in APPPATH\Views\ingpois.php on line 216.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 4 APPPATH\Controllers\Ingpois.php(22): view('ingpois', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 22:04:24 --> syntax error, unexpected '$total' (T_VARIABLE)
+in APPPATH\Views\ingpois.php on line 187.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 3 APPPATH\Controllers\Ingpois.php(22): view('ingpois', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 22:04:48 --> Undefined variable: id
+in APPPATH\Views\ingpois.php on line 217.
+ 1 APPPATH\Views\ingpois.php(217): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id', 'APPPATH\\Views\\ingpois.php', 217, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(22): view('ingpois', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 22:12:34 --> Object of class App\Models\tagihan could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `id_tagihan` = :id_tagihan:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `id_tagihan` = :id_tagihan:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `id_tagihan` = :id_tagihan:', [...], false)
+ 6 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 7 SYSTEMPATH\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+ 8 APPPATH\Controllers\Ingpois.php(16): CodeIgniter\BaseModel->paginate(5)
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 22:13:22 --> Cannot use object of type App\Models\tagihan as array
+in APPPATH\Controllers\Ingpois.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 22:15:16 --> Object of class App\Models\tagihan could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `id_tagihan` = :id_tagihan:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `id_tagihan` = :id_tagihan:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `id_tagihan` = :id_tagihan:', [...], false)
+ 6 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 7 SYSTEMPATH\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+ 8 APPPATH\Controllers\Ingpois.php(16): CodeIgniter\BaseModel->paginate(5)
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 22:21:46 --> Undefined variable: db
+in APPPATH\Controllers\Ingpois.php on line 15.
+ 1 APPPATH\Controllers\Ingpois.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: db', 'APPPATH\\Controllers\\Ingpois.php', 15, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 22:22:08 --> Undefined variable: results
+in APPPATH\Controllers\Ingpois.php on line 18.
+ 1 APPPATH\Controllers\Ingpois.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: results', 'APPPATH\\Controllers\\Ingpois.php', 18, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 22:25:31 --> syntax error, unexpected 'echo' (T_ECHO)
+in APPPATH\Views\ingpois.php on line 176.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 3 APPPATH\Controllers\Ingpois.php(29): view('ingpois', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 23:06:01 --> Undefined property: stdClass::$total
+in APPPATH\Views\ingpois.php on line 30.
+ 1 APPPATH\Views\ingpois.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$total', 'APPPATH\\Views\\ingpois.php', 30, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(21): view('ingpois', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 23:07:15 --> Undefined property: stdClass::$nama_bank
+in APPPATH\Views\ingpois.php on line 118.
+ 1 APPPATH\Views\ingpois.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nama_bank', 'APPPATH\\Views\\ingpois.php', 118, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(21): view('ingpois', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 23:08:18 --> Array to string conversion
+in APPPATH\Views\ingpois.php on line 222.
+ 1 APPPATH\Views\ingpois.php(222): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Views\\ingpois.php', 222, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(21): view('ingpois', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 23:08:32 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\ingpois.php on line 222.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 4 APPPATH\Controllers\Ingpois.php(21): view('ingpois', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 23:08:46 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\ingpois.php on line 222.
+ 1 APPPATH\Views\ingpois.php(222): implode([...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(21): view('ingpois', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 23:09:29 --> Undefined property: stdClass::$total
+in APPPATH\Views\ingpois.php on line 30.
+ 1 APPPATH\Views\ingpois.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$total', 'APPPATH\\Views\\ingpois.php', 30, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(21): view('ingpois', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 23:11:30 --> Array to string conversion
+in APPPATH\Views\ingpois.php on line 222.
+ 1 APPPATH\Views\ingpois.php(222): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Views\\ingpois.php', 222, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(21): view('ingpois', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 23:11:43 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\ingpois.php on line 222.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 4 APPPATH\Controllers\Ingpois.php(21): view('ingpois', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 23:11:54 --> Undefined index: total
+in APPPATH\Views\ingpois.php on line 222.
+ 1 APPPATH\Views\ingpois.php(222): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: total', 'APPPATH\\Views\\ingpois.php', 222, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(21): view('ingpois', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 23:12:02 --> Cannot use [] for reading
+in APPPATH\Views\ingpois.php on line 222.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-10-25 23:12:05 --> Array to string conversion
+in APPPATH\Views\ingpois.php on line 222.
+ 1 APPPATH\Views\ingpois.php(222): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Views\\ingpois.php', 222, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(21): view('ingpois', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 23:12:17 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\ingpois.php on line 222.
+ 1 APPPATH\Views\ingpois.php(222): implode([...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(21): view('ingpois', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 23:21:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Views\ingpois.php on line 28.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 4 APPPATH\Controllers\Ingpois.php(21): view('ingpois', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-25 23:21:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT SUM(total) FROM detail_tagihan WHERE nama_perusahaan="Mutiara Tbk"
+FRO...' at line 1
+CRITICAL - 2022-10-25 23:21:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT SUM(total) FROM detail_tagihan WHERE nama_perusahaan="Mutiara Tbk"
+FRO...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SELECT SUM(total) FROM detail_tagihan WHERE nama_perusahaan="Mutiara Tbk"
+FROM `detail_tagihan`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT SUM(total) FROM detail_tagihan WHERE nama_perusahaan="Mutiara Tbk"
+FROM `detail_tagihan`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT SUM(total) FROM detail_tagihan WHERE nama_perusahaan="Mutiara Tbk"
+FROM `detail_tagihan`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SELECT SUM(total) FROM detail_tagihan WHERE nama_perusahaan="Mutiara Tbk"
+FROM `detail_tagihan`', [], false)
+ 5 APPPATH\Views\ingpois.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 9 APPPATH\Controllers\Ingpois.php(21): view('ingpois', [...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 23:24:41 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH\Views\ingpois.php on line 219.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 4 APPPATH\Controllers\Ingpois.php(21): view('ingpois', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 23:25:05 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Views\ingpois.php on line 28.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 4 APPPATH\Controllers\Ingpois.php(21): view('ingpois', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-25 23:25:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT SUM(total) FROM detail_tagihan WHERE nama_perusahaan="Mutiara Tbk"
+FRO...' at line 1
+CRITICAL - 2022-10-25 23:25:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT SUM(total) FROM detail_tagihan WHERE nama_perusahaan="Mutiara Tbk"
+FRO...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SELECT SUM(total) FROM detail_tagihan WHERE nama_perusahaan="Mutiara Tbk"
+FROM `detail_tagihan`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT SUM(total) FROM detail_tagihan WHERE nama_perusahaan="Mutiara Tbk"
+FROM `detail_tagihan`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT SUM(total) FROM detail_tagihan WHERE nama_perusahaan="Mutiara Tbk"
+FROM `detail_tagihan`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SELECT SUM(total) FROM detail_tagihan WHERE nama_perusahaan="Mutiara Tbk"
+FROM `detail_tagihan`', [], false)
+ 5 APPPATH\Views\ingpois.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 9 APPPATH\Controllers\Ingpois.php(21): view('ingpois', [...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 23:25:28 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::find()
+in APPPATH\Views\ingpois.php on line 28.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 4 APPPATH\Controllers\Ingpois.php(21): view('ingpois', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 23:25:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+in APPPATH\Views\ingpois.php on line 28.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 4 APPPATH\Controllers\Ingpois.php(21): view('ingpois', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 23:46:00 --> Undefined variable: kunci
+in APPPATH\Controllers\Pendaftaran.php on line 11.
+ 1 APPPATH\Controllers\Pendaftaran.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kunci', 'APPPATH\\Controllers\\Pendaftaran.php', 11, [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pendaftaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 23:46:33 --> Undefined variable: model
+in APPPATH\Controllers\Pendaftaran.php on line 20.
+ 1 APPPATH\Controllers\Pendaftaran.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: model', 'APPPATH\\Controllers\\Pendaftaran.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pendaftaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 23:46:46 --> Call to undefined method App\Models\klienModel::pencarian
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Pendaftaran.php(20): CodeIgniter\Model->__call('pencarian', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pendaftaran->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 23:56:38 --> Undefined index: deskripsi
+in APPPATH\Views\ingpois.php on line 179.
+ 1 APPPATH\Views\ingpois.php(179): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: deskripsi', 'APPPATH\\Views\\ingpois.php', 179, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\inpois.php(20): view('ingpois', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Inpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

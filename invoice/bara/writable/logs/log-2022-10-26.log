@@ -1,0 +1,204 @@
+CRITICAL - 2022-10-26 00:00:30 --> Undefined index: deskripsi
+in APPPATH\Views\ingpois.php on line 179.
+ 1 APPPATH\Views\ingpois.php(179): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: deskripsi', 'APPPATH\\Views\\ingpois.php', 179, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\inpois.php(20): view('ingpois', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Inpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-26 00:13:07 --> Undefined variable: row
+in APPPATH\Views\view_file.php on line 55.
+ 1 APPPATH\Views\view_file.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'APPPATH\\Views\\view_file.php', 55, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\view_file.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('view_file', [], true)
+ 5 APPPATH\Controllers\pail.php(21): view('view_file', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pail->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pail))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-26 00:14:13 --> Undefined variable: no
+in APPPATH\Views\view_file.php on line 56.
+ 1 APPPATH\Views\view_file.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: no', 'APPPATH\\Views\\view_file.php', 56, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\view_file.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('view_file', [], true)
+ 5 APPPATH\Controllers\pail.php(21): view('view_file', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pail->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pail))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-26 00:15:10 --> Undefined variable: no
+in APPPATH\Views\view_file.php on line 56.
+ 1 APPPATH\Views\view_file.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: no', 'APPPATH\\Views\\view_file.php', 56, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\view_file.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('view_file', [], true)
+ 5 APPPATH\Controllers\pail.php(21): view('view_file', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pail->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pail))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-26 00:15:32 --> Undefined variable: row
+in APPPATH\Views\view_file.php on line 55.
+ 1 APPPATH\Views\view_file.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'APPPATH\\Views\\view_file.php', 55, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\view_file.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('view_file', [], true)
+ 5 APPPATH\Controllers\pail.php(21): view('view_file', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pail->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pail))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-26 00:16:18 --> Undefined variable: row
+in APPPATH\Views\view_file.php on line 55.
+ 1 APPPATH\Views\view_file.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'APPPATH\\Views\\view_file.php', 55, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\view_file.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('view_file', [], true)
+ 5 APPPATH\Controllers\pail.php(21): view('view_file', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pail->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pail))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-26 00:16:35 --> Undefined variable: namap
+in APPPATH\Views\view_file.php on line 65.
+ 1 APPPATH\Views\view_file.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: namap', 'APPPATH\\Views\\view_file.php', 65, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\view_file.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('view_file', [], true)
+ 5 APPPATH\Controllers\pail.php(21): view('view_file', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pail->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pail))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-26 00:16:53 --> Undefined variable: query
+in APPPATH\Views\view_file.php on line 39.
+ 1 APPPATH\Views\view_file.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: query', 'APPPATH\\Views\\view_file.php', 39, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\view_file.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('view_file', [], true)
+ 5 APPPATH\Controllers\pail.php(21): view('view_file', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pail->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pail))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-26 00:17:08 --> Undefined variable: results
+in APPPATH\Views\view_file.php on line 41.
+ 1 APPPATH\Views\view_file.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: results', 'APPPATH\\Views\\view_file.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\view_file.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('view_file', [], true)
+ 5 APPPATH\Controllers\pail.php(21): view('view_file', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pail->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pail))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-26 00:17:10 --> Undefined variable: results
+in APPPATH\Views\view_file.php on line 41.
+ 1 APPPATH\Views\view_file.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: results', 'APPPATH\\Views\\view_file.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\view_file.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('view_file', [], true)
+ 5 APPPATH\Controllers\pail.php(21): view('view_file', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pail->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pail))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-26 00:17:20 --> Undefined variable: row
+in APPPATH\Views\view_file.php on line 45.
+ 1 APPPATH\Views\view_file.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'APPPATH\\Views\\view_file.php', 45, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\view_file.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('view_file', [], true)
+ 5 APPPATH\Controllers\pail.php(21): view('view_file', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pail->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pail))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-26 00:21:02 --> Undefined variable: row
+in APPPATH\Views\view_file.php on line 55.
+ 1 APPPATH\Views\view_file.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'APPPATH\\Views\\view_file.php', 55, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\view_file.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('view_file', [], true)
+ 5 APPPATH\Controllers\pail.php(21): view('view_file', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pail->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pail))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-26 00:21:51 --> Undefined variable: no
+in APPPATH\Views\view_file.php on line 55.
+ 1 APPPATH\Views\view_file.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: no', 'APPPATH\\Views\\view_file.php', 55, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\view_file.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('view_file', [], true)
+ 5 APPPATH\Controllers\pail.php(21): view('view_file', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pail->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pail))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-26 00:28:05 --> syntax error, unexpected ')'
+in APPPATH\Views\Rimainder.php on line 386.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rimainder', [], true)
+ 3 APPPATH\Controllers\invoice.php(18): view('rimainder', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\invoice->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-26 02:30:48 --> Undefined variable: no
+in APPPATH\Views\view_file.php on line 55.
+ 1 APPPATH\Views\view_file.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: no', 'APPPATH\\Views\\view_file.php', 55, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\view_file.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('view_file', [], true)
+ 5 APPPATH\Controllers\pail.php(21): view('view_file', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pail->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pail))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-26 02:42:42 --> Undefined variable: model
+in APPPATH\Controllers\hapusinvoice.php on line 14.
+ 1 APPPATH\Controllers\hapusinvoice.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: model', 'APPPATH\\Controllers\\hapusinvoice.php', 14, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\hapusinvoice->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\hapusinvoice))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-26 02:44:49 --> Undefined property: App\Controllers\hapusinvoice::$db
+in APPPATH\Controllers\hapusinvoice.php on line 13.
+ 1 APPPATH\Controllers\hapusinvoice.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\hapusinvoice::$db', 'APPPATH\\Controllers\\hapusinvoice.php', 13, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\hapusinvoice->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\hapusinvoice))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-26 02:45:36 --> Undefined property: App\Controllers\hapusinvoice::$db
+in APPPATH\Controllers\hapusinvoice.php on line 13.
+ 1 APPPATH\Controllers\hapusinvoice.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\hapusinvoice::$db', 'APPPATH\\Controllers\\hapusinvoice.php', 13, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\hapusinvoice->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\hapusinvoice))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-26 02:47:10 --> Undefined variable: model
+in APPPATH\Controllers\hapusinvoice.php on line 16.
+ 1 APPPATH\Controllers\hapusinvoice.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: model', 'APPPATH\\Controllers\\hapusinvoice.php', 16, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\hapusinvoice->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\hapusinvoice))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-26 02:56:13 --> Call to undefined method App\Controllers\hapusinvoice::delete()
+in APPPATH\Controllers\hapusinvoice.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\hapusinvoice->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\hapusinvoice))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-26 02:56:48 --> Undefined property: App\Controllers\hapusinvoice::$db
+in APPPATH\Controllers\hapusinvoice.php on line 13.
+ 1 APPPATH\Controllers\hapusinvoice.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\hapusinvoice::$db', 'APPPATH\\Controllers\\hapusinvoice.php', 13, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\hapusinvoice->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\hapusinvoice))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

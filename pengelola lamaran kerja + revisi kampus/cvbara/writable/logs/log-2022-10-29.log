@@ -1,0 +1,62 @@
+CRITICAL - 2022-10-29 04:02:59 --> Undefined property: stdClass::$no
+in APPPATH\Views\admin\pages\ditolak.php on line 407.
+ 1 APPPATH\Views\admin\pages\ditolak.php(407): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$no', 'APPPATH\\Views\\admin\\pages\\ditolak.php', 407)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\ditolak.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/ditolak', [], true)
+ 5 APPPATH\Controllers\Pelamar.php(247): view('admin/pages/ditolak', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pelamar->ditolak()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelamar))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-29 04:03:17 --> Undefined property: stdClass::$no
+in APPPATH\Views\admin\pages\ditolak.php on line 407.
+ 1 APPPATH\Views\admin\pages\ditolak.php(407): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$no', 'APPPATH\\Views\\admin\\pages\\ditolak.php', 407)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\ditolak.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/ditolak', [], true)
+ 5 APPPATH\Controllers\Pelamar.php(247): view('admin/pages/ditolak', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pelamar->ditolak()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelamar))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-29 04:03:24 --> Undefined property: stdClass::$no
+in APPPATH\Views\admin\pages\ditolak.php on line 407.
+ 1 APPPATH\Views\admin\pages\ditolak.php(407): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$no', 'APPPATH\\Views\\admin\\pages\\ditolak.php', 407)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\ditolak.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/ditolak', [], true)
+ 5 APPPATH\Controllers\Pelamar.php(247): view('admin/pages/ditolak', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pelamar->ditolak()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelamar))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-29 04:04:23 --> Undefined property: stdClass::$no
+in APPPATH\Views\admin\pages\ditolak.php on line 407.
+ 1 APPPATH\Views\admin\pages\ditolak.php(407): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$no', 'APPPATH\\Views\\admin\\pages\\ditolak.php', 407)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\ditolak.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/ditolak', [], true)
+ 5 APPPATH\Controllers\Pelamar.php(247): view('admin/pages/ditolak', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pelamar->ditolak()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelamar))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-29 04:07:31 --> Cannot delete or update a parent row: a foreign key constraint fails (`cvbara`.`cv`, CONSTRAINT `cv_ibfk_1` FOREIGN KEY (`id_pelamar`) REFERENCES `pelamar` (`id_pelamar`))
+CRITICAL - 2022-10-29 04:07:31 --> Cannot delete or update a parent row: a foreign key constraint fails (`cvbara`.`cv`, CONSTRAINT `cv_ibfk_1` FOREIGN KEY (`id_pelamar`) REFERENCES `pelamar` (`id_pelamar`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `pelamar`
+WHERE `id_pelamar` IN (\'1842340256\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pelamar`
+WHERE `id_pelamar` IN (\'1842340256\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pelamar`
+WHERE `id_pelamar` IN (\'1842340256\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2358): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pelamar`
+WHERE `id_pelamar` IN :id_pelamar:', [...], false)
+ 5 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Pelamar.php(252): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pelamar->hapus()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelamar))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

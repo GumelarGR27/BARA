@@ -1,0 +1,818 @@
+CRITICAL - 2022-11-08 09:30:58 --> Unsupported operand types
+in APPPATH\Controllers\tagihann.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 14:24:02 --> Undefined variable: no
+in APPPATH\Views\view_file.php on line 55.
+ 1 APPPATH\Views\view_file.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: no', 'APPPATH\\Views\\view_file.php', 55, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\view_file.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('view_file', [], true)
+ 5 APPPATH\Controllers\pail.php(21): view('view_file', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pail->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pail))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 14:25:21 --> Undefined variable: rowww
+in APPPATH\Views\client.php on line 146.
+ 1 APPPATH\Views\client.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rowww', 'APPPATH\\Views\\client.php', 146, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\client.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 5 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 14:39:53 --> Undefined variable: totall
+in APPPATH\Views\client.php on line 224.
+ 1 APPPATH\Views\client.php(224): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: totall', 'APPPATH\\Views\\client.php', 224, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\client.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 5 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 14:44:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResult()
+in APPPATH\Views\client.php on line 27.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 4 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 14:44:14 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResults()
+in APPPATH\Views\client.php on line 27.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 4 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 14:44:18 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAll()
+in APPPATH\Views\client.php on line 27.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 4 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 14:45:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getResults()
+in APPPATH\Views\client.php on line 27.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 4 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 14:45:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getResults()
+in APPPATH\Views\client.php on line 27.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 4 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 14:48:14 --> Array to string conversion
+in APPPATH\Views\client.php on line 227.
+ 1 APPPATH\Views\client.php(227): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Views\\client.php', 227, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\client.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 5 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 14:48:40 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\client.php on line 227.
+ 1 APPPATH\Views\client.php(227): implode([...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\client.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 5 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 14:48:53 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\client.php on line 227.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 4 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 14:49:00 --> Undefined index: total
+in APPPATH\Views\client.php on line 227.
+ 1 APPPATH\Views\client.php(227): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: total', 'APPPATH\\Views\\client.php', 227, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\client.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 5 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 14:49:24 --> Array to string conversion
+in APPPATH\Views\client.php on line 227.
+ 1 APPPATH\Views\client.php(227): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Views\\client.php', 227, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\client.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 5 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 14:49:32 --> Array to string conversion
+in APPPATH\Views\client.php on line 227.
+ 1 APPPATH\Views\client.php(227): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Views\\client.php', 227, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\client.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 5 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 14:49:37 --> Array to string conversion
+in APPPATH\Views\client.php on line 227.
+ 1 APPPATH\Views\client.php(227): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Views\\client.php', 227, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\client.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 5 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 14:50:07 --> Array to string conversion
+in APPPATH\Views\client.php on line 227.
+ 1 APPPATH\Views\client.php(227): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Views\\client.php', 227, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\client.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 5 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 14:50:18 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\client.php on line 227.
+ 1 APPPATH\Views\client.php(227): implode([...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\client.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 5 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-08 14:52:02 --> Unknown column 'no_invoice' in 'where clause'
+CRITICAL - 2022-11-08 14:52:02 --> Unknown column 'no_invoice' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(total) FROM detail_tagihan WHERE no_invoice="0015/BE-INV/25-X/2022"', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(total) FROM detail_tagihan WHERE no_invoice="0015/BE-INV/25-X/2022"')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(total) FROM detail_tagihan WHERE no_invoice="0015/BE-INV/25-X/2022"')
+ 4 APPPATH\Views\client.php(26): CodeIgniter\Database\BaseConnection->query('SELECT sum(total) FROM detail_tagihan WHERE no_invoice="0015/BE-INV/25-X/2022"')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\client.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 8 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 14:54:46 --> Array to string conversion
+in APPPATH\Views\client.php on line 228.
+ 1 APPPATH\Views\client.php(228): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Views\\client.php', 228, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\client.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 5 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 14:54:54 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\client.php on line 228.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 4 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 14:56:28 --> Undefined index: sum(total)
+in APPPATH\Views\client.php on line 228.
+ 1 APPPATH\Views\client.php(228): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: sum(total)', 'APPPATH\\Views\\client.php', 228, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\client.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 5 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 14:56:36 --> Undefined index: sum(total)
+in APPPATH\Views\client.php on line 228.
+ 1 APPPATH\Views\client.php(228): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: sum(total)', 'APPPATH\\Views\\client.php', 228, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\client.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 5 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 14:57:22 --> Call to undefined function sum()
+in APPPATH\Views\client.php on line 228.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 4 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 14:57:47 --> Cannot use object of type stdClass as array
+in APPPATH\Views\client.php on line 228.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 4 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 14:57:51 --> Undefined index: sum(total)
+in APPPATH\Views\client.php on line 228.
+ 1 APPPATH\Views\client.php(228): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: sum(total)', 'APPPATH\\Views\\client.php', 228, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\client.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 5 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 14:58:03 --> Undefined index: sum(total)
+in APPPATH\Views\client.php on line 228.
+ 1 APPPATH\Views\client.php(228): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: sum(total)', 'APPPATH\\Views\\client.php', 228, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\client.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 5 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 14:58:09 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\client.php on line 228.
+ 1 APPPATH\Views\client.php(228): implode([...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\client.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 5 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 14:58:19 --> implode(): Argument must be an array
+in APPPATH\Views\client.php on line 228.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Argument must be an array', 'APPPATH\\Views\\client.php', 228, [...])
+ 2 APPPATH\Views\client.php(228): implode(Object(stdClass))
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\client.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 6 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 14:59:15 --> Cannot use [] for reading
+in APPPATH\Views\client.php on line 228.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-08 14:59:23 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\client.php on line 228.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 4 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 15:00:10 --> Cannot use object of type stdClass as array
+in APPPATH\Views\client.php on line 229.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 4 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 15:00:49 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\client.php on line 228.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 4 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 15:02:22 --> Undefined property: stdClass::$total
+in APPPATH\Views\client.php on line 30.
+ 1 APPPATH\Views\client.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$total', 'APPPATH\\Views\\client.php', 30, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\client.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 5 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 15:02:53 --> Array to string conversion
+in APPPATH\Views\client.php on line 228.
+ 1 APPPATH\Views\client.php(228): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Views\\client.php', 228, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\client.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 5 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 15:03:57 --> Call to undefined method stdClass::sum()
+in APPPATH\Views\client.php on line 228.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 4 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 15:04:05 --> Undefined property: stdClass::$total
+in APPPATH\Views\client.php on line 228.
+ 1 APPPATH\Views\client.php(228): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$total', 'APPPATH\\Views\\client.php', 228, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\client.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 5 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 15:04:29 --> syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+in APPPATH\Views\client.php on line 228.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 3 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 15:04:55 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\client.php on line 228.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 4 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 15:06:01 --> Object of class CodeIgniter\View\View could not be converted to string
+in APPPATH\Views\client.php on line 228.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 4 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 15:06:11 --> Call to undefined method stdClass::sum()
+in APPPATH\Views\client.php on line 228.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 4 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 15:15:17 --> Undefined variable: no
+in APPPATH\Views\view_file.php on line 55.
+ 1 APPPATH\Views\view_file.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: no', 'APPPATH\\Views\\view_file.php', 55, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\view_file.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('view_file', [], true)
+ 5 APPPATH\Controllers\pail.php(21): view('view_file', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pail->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pail))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 15:21:42 --> Undefined variable: idtag
+in APPPATH\Views\ingpois.php on line 26.
+ 1 APPPATH\Views\ingpois.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idtag', 'APPPATH\\Views\\ingpois.php', 26, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(21): view('ingpois', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-08 15:23:03 --> Unknown column 'nama' in 'where clause'
+CRITICAL - 2022-11-08 15:23:03 --> Unknown column 'nama' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(total) as total FROM detail_tagihan WHERE nama="88"', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(total) as total FROM detail_tagihan WHERE nama="88"')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(total) as total FROM detail_tagihan WHERE nama="88"')
+ 4 APPPATH\Views\ingpois.php(27): CodeIgniter\Database\BaseConnection->query('SELECT sum(total) as total FROM detail_tagihan WHERE nama="88"')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 8 APPPATH\Controllers\Ingpois.php(21): view('ingpois', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 15:47:48 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\Edit_Reminder.php on line 289.
+ 1 APPPATH\Views\Edit_Reminder.php(289): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\Edit_Reminder.php', 289, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Edit_Reminder.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Edit_Reminder', [], true)
+ 5 APPPATH\Controllers\Edit_Reminder.php(12): view('Edit_Reminder')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Edit_Reminder->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit_Reminder))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 21:07:09 --> Undefined variable: rowww
+in APPPATH\Views\client.php on line 149.
+ 1 APPPATH\Views\client.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rowww', 'APPPATH\\Views\\client.php', 149, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\client.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 5 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 21:13:45 --> Cannot use [] for reading
+in APPPATH\Controllers\tagihann.php on line 91.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 21:14:31 --> Cannot use [] for reading
+in APPPATH\Controllers\tagihann.php on line 89.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-08 21:18:44 --> Unsupported operand types
+in APPPATH\Controllers\tagihann.php on line 91.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 21:19:00 --> Trying to access array offset on value of type int
+in APPPATH\Controllers\tagihann.php on line 103.
+ 1 APPPATH\Controllers\tagihann.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type int', 'APPPATH\\Controllers\\tagihann.php', 103, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 21:19:39 --> Undefined offset: 2
+in APPPATH\Controllers\tagihann.php on line 92.
+ 1 APPPATH\Controllers\tagihann.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 2', 'APPPATH\\Controllers\\tagihann.php', 92, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 21:21:04 --> Undefined offset: 2
+in APPPATH\Controllers\tagihann.php on line 92.
+ 1 APPPATH\Controllers\tagihann.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 2', 'APPPATH\\Controllers\\tagihann.php', 92, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 21:23:10 --> Undefined offset: 2
+in APPPATH\Controllers\tagihann.php on line 92.
+ 1 APPPATH\Controllers\tagihann.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 2', 'APPPATH\\Controllers\\tagihann.php', 92, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 21:29:29 --> Undefined offset: 2
+in APPPATH\Controllers\tagihann.php on line 93.
+ 1 APPPATH\Controllers\tagihann.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 2', 'APPPATH\\Controllers\\tagihann.php', 93, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 21:40:17 --> Unsupported operand types
+in APPPATH\Controllers\tagihann.php on line 91.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 21:43:21 --> Undefined variable: rowww
+in APPPATH\Views\client.php on line 149.
+ 1 APPPATH\Views\client.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rowww', 'APPPATH\\Views\\client.php', 149, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\client.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 5 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 21:51:50 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1576.
+ 1 SYSTEMPATH\BaseModel.php(1576): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update(null, null)
+ 4 APPPATH\Controllers\ngeditclient.php(45): CodeIgniter\Model->update()
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 21:52:05 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1576.
+ 1 SYSTEMPATH\BaseModel.php(1576): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\ngeditclient.php(45): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 21:52:10 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1576.
+ 1 SYSTEMPATH\BaseModel.php(1576): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\ngeditclient.php(45): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 21:52:24 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1576.
+ 1 SYSTEMPATH\BaseModel.php(1576): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\ngeditclient.php(45): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 21:55:22 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1576.
+ 1 SYSTEMPATH\BaseModel.php(1576): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\ngeditclient.php(45): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 22:02:17 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1576.
+ 1 SYSTEMPATH\BaseModel.php(1576): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\ngeditclient.php(45): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 22:02:41 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1576.
+ 1 SYSTEMPATH\BaseModel.php(1576): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\ngeditclient.php(45): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-08 22:14:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 'bank'
+WHERE `client`.`no` IN ('28')' at line 1
+CRITICAL - 2022-11-08 22:14:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = 'bank'
+WHERE `client`.`no` IN ('28')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `client` SET `id_klien` = \'KL21\', `nama_perusahaan` = \'Cat House Company\', `nama` = \'Ruben\', `kota` = \'Cimahi\', `telepon` = \'022123412232\', `email` = \'rubenthecat@gmail.com\', 0 = \'bank\'
+WHERE `client`.`no` IN (\'28\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `client` SET `id_klien` = \'KL21\', `nama_perusahaan` = \'Cat House Company\', `nama` = \'Ruben\', `kota` = \'Cimahi\', `telepon` = \'022123412232\', `email` = \'rubenthecat@gmail.com\', 0 = \'bank\'
+WHERE `client`.`no` IN (\'28\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `client` SET `id_klien` = \'KL21\', `nama_perusahaan` = \'Cat House Company\', `nama` = \'Ruben\', `kota` = \'Cimahi\', `telepon` = \'022123412232\', `email` = \'rubenthecat@gmail.com\', 0 = \'bank\'
+WHERE `client`.`no` IN (\'28\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query('UPDATE `client` SET `id_klien` = :id_klien:, `nama_perusahaan` = :nama_perusahaan:, `nama` = :nama:, `kota` = :kota:, `telepon` = :telepon:, `email` = :email:, 0 = :0:
+WHERE `client`.`no` IN :client.no:', [...], false)
+ 5 SYSTEMPATH\Model.php(337): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(865): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\ngeditclient.php(52): CodeIgniter\Model->update('28', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 22:19:13 --> Undefined variable: namap
+in APPPATH\Views\Edit_Client.php on line 265.
+ 1 APPPATH\Views\Edit_Client.php(265): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: namap', 'APPPATH\\Views\\Edit_Client.php', 265, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Edit_Client.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Edit_Client', [], true)
+ 5 APPPATH\Controllers\Edit_Client.php(12): view('Edit_Client')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Edit_Client->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit_Client))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 22:22:41 --> Undefined variable: no
+in APPPATH\Controllers\ngeditclient.php on line 45.
+ 1 APPPATH\Controllers\ngeditclient.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: no', 'APPPATH\\Controllers\\ngeditclient.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 22:24:38 --> Undefined variable: idkel
+in APPPATH\Controllers\ngeditclient.php on line 48.
+ 1 APPPATH\Controllers\ngeditclient.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idkel', 'APPPATH\\Controllers\\ngeditclient.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-08 22:25:03 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2022-11-08 22:25:03 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `client` SET `no` = NULL, `id_klien` = NULL, `nama_perusahaan` = \'Cat House Company\', `nama` = \'Ruben\', `kota` = \'Cimahi\', `telepon` = \'022123412232\', `email` = \'rubenthecat@gmail.com\', `bank` = \'bca\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `client` SET `no` = NULL, `id_klien` = NULL, `nama_perusahaan` = \'Cat House Company\', `nama` = \'Ruben\', `kota` = \'Cimahi\', `telepon` = \'022123412232\', `email` = \'rubenthecat@gmail.com\', `bank` = \'bca\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `client` SET `no` = NULL, `id_klien` = NULL, `nama_perusahaan` = \'Cat House Company\', `nama` = \'Ruben\', `kota` = \'Cimahi\', `telepon` = \'022123412232\', `email` = \'rubenthecat@gmail.com\', `bank` = \'bca\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query('UPDATE `client` SET `no` = :no:, `id_klien` = :id_klien:, `nama_perusahaan` = :nama_perusahaan:, `nama` = :nama:, `kota` = :kota:, `telepon` = :telepon:, `email` = :email:, `bank` = :bank:', [...], false)
+ 5 SYSTEMPATH\Model.php(337): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(865): CodeIgniter\Model->doUpdate(null, [...])
+ 7 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update(null, [...])
+ 8 APPPATH\Controllers\ngeditclient.php(55): CodeIgniter\Model->update(null, [...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 22:30:23 --> Undefined variable: idkel
+in APPPATH\Controllers\tamah.php on line 20.
+ 1 APPPATH\Controllers\tamah.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idkel', 'APPPATH\\Controllers\\tamah.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tamah->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tamah))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 22:30:44 --> Undefined variable: idkel
+in APPPATH\Controllers\tamah.php on line 22.
+ 1 APPPATH\Controllers\tamah.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idkel', 'APPPATH\\Controllers\\tamah.php', 22, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tamah->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tamah))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 22:30:54 --> Undefined variable: idkel
+in APPPATH\Controllers\tamah.php on line 22.
+ 1 APPPATH\Controllers\tamah.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idkel', 'APPPATH\\Controllers\\tamah.php', 22, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tamah->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tamah))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 22:31:43 --> Undefined variable: baru
+in APPPATH\Controllers\tamah.php on line 44.
+ 1 APPPATH\Controllers\tamah.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: baru', 'APPPATH\\Controllers\\tamah.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tamah->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tamah))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 22:32:07 --> Undefined variable: idkel
+in APPPATH\Controllers\tamah.php on line 39.
+ 1 APPPATH\Controllers\tamah.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idkel', 'APPPATH\\Controllers\\tamah.php', 39, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tamah->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tamah))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 22:32:28 --> Undefined variable: idkel
+in APPPATH\Controllers\tamah.php on line 39.
+ 1 APPPATH\Controllers\tamah.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idkel', 'APPPATH\\Controllers\\tamah.php', 39, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tamah->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tamah))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 22:35:29 --> Undefined variable: rowww
+in APPPATH\Views\client.php on line 149.
+ 1 APPPATH\Views\client.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rowww', 'APPPATH\\Views\\client.php', 149, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\client.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 5 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 22:38:15 --> Undefined variable: no
+in APPPATH\Views\view_file.php on line 55.
+ 1 APPPATH\Views\view_file.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: no', 'APPPATH\\Views\\view_file.php', 55, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\view_file.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('view_file', [], true)
+ 5 APPPATH\Controllers\pail.php(22): view('view_file', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pail->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pail))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 22:44:55 --> Undefined variable: model
+in APPPATH\Controllers\ngeditinv.php on line 39.
+ 1 APPPATH\Controllers\ngeditinv.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: model', 'APPPATH\\Controllers\\ngeditinv.php', 39, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditinv->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditinv))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 22:45:26 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Controllers\ngeditinv.php on line 42.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Controllers\\ngeditinv.php', 42, [...])
+ 2 APPPATH\Controllers\ngeditinv.php(42): count('Unit')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditinv->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditinv))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 22:46:31 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Controllers\ngeditinv.php on line 42.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Controllers\\ngeditinv.php', 42, [...])
+ 2 APPPATH\Controllers\ngeditinv.php(42): count('Unit')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditinv->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditinv))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 22:46:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ngeditinv.php on line 44.
+ 1 APPPATH\Controllers\ngeditinv.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\ngeditinv.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditinv->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditinv))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 23:00:29 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1576.
+ 1 SYSTEMPATH\BaseModel.php(1576): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\ngeditinv.php(56): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditinv->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditinv))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 23:01:01 --> Undefined variable: noinv
+in APPPATH\Controllers\ngeditinv.php on line 56.
+ 1 APPPATH\Controllers\ngeditinv.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: noinv', 'APPPATH\\Controllers\\ngeditinv.php', 56, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditinv->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditinv))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 23:09:40 --> Undefined property: stdClass::$no
+in APPPATH\Controllers\ngeditreminder.php on line 20.
+ 1 APPPATH\Controllers\ngeditreminder.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$no', 'APPPATH\\Controllers\\ngeditreminder.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditreminder->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditreminder))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-08 23:28:50 --> Unknown column 'no' in 'where clause'
+CRITICAL - 2022-11-08 23:28:50 --> Unknown column 'no' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `user`
+WHERE `no` = (\'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `user`
+WHERE `no` = (\'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `user`
+WHERE `no` = (\'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2358): CodeIgniter\Database\BaseConnection->query('DELETE FROM `user`
+WHERE `no` = :no:', [...], false)
+ 5 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete(null, false)
+ 7 APPPATH\Controllers\hapususer.php(13): CodeIgniter\BaseModel->delete()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\hapususer->index()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\hapususer))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

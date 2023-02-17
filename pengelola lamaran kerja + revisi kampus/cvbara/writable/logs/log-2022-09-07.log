@@ -1,0 +1,96 @@
+CRITICAL - 2022-09-07 00:34:56 --> Undefined variable $pelamar
+in APPPATH\Views\admin\pages\index.php on line 373.
+ 1 APPPATH\Views\admin\pages\index.php(373): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelamar', 'APPPATH\\Views\\admin\\pages\\index.php', 373)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 5 APPPATH\Controllers\Login.php(51): view('admin/pages/index')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-07 01:15:50 --> Duplicate entry 'PEL2' for key 'PRIMARY'
+CRITICAL - 2022-09-07 01:15:50 --> Duplicate entry 'PEL2' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (\'PEL2\', \'sffhf\', \'a@d.com\', \'s\', \'DIV01\', \'BAST forkllift bandung.pdf\', \'Belum Interview\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (\'PEL2\', \'sffhf\', \'a@d.com\', \'s\', \'DIV01\', \'BAST forkllift bandung.pdf\', \'Belum Interview\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (\'PEL2\', \'sffhf\', \'a@d.com\', \'s\', \'DIV01\', \'BAST forkllift bandung.pdf\', \'Belum Interview\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pelamar` (`id_pelamar`, `nama`, `email`, `deskripsi`, `id_divisi`, `cv`, `status`) VALUES (:id_pelamar:, :nama:, :email:, :deskripsi:, :id_divisi:, :cv:, :status:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Lamar.php(50): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Lamar->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lamar))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 01:42:08 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\Lamar.php on line 24.
+ 1 APPPATH\Controllers\Lamar.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Controllers\\Lamar.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Lamar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lamar))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 01:44:18 --> Undefined variable $idpel
+in APPPATH\Controllers\Lamar.php on line 27.
+ 1 APPPATH\Controllers\Lamar.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idpel', 'APPPATH\\Controllers\\Lamar.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Lamar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lamar))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 01:47:08 --> Undefined variable $idpel
+in APPPATH\Controllers\Lamar.php on line 24.
+ 1 APPPATH\Controllers\Lamar.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idpel', 'APPPATH\\Controllers\\Lamar.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Lamar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lamar))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 01:55:49 --> Undefined variable $idpel
+in APPPATH\Controllers\Lamar.php on line 24.
+ 1 APPPATH\Controllers\Lamar.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idpel', 'APPPATH\\Controllers\\Lamar.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Lamar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lamar))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 01:57:16 --> Undefined variable $result
+in APPPATH\Controllers\Lamar.php on line 24.
+ 1 APPPATH\Controllers\Lamar.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'APPPATH\\Controllers\\Lamar.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Lamar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lamar))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 01:57:29 --> Undefined variable $idpel
+in APPPATH\Controllers\Lamar.php on line 27.
+ 1 APPPATH\Controllers\Lamar.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idpel', 'APPPATH\\Controllers\\Lamar.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Lamar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lamar))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 01:57:55 --> Undefined variable $idpel
+in APPPATH\Controllers\Lamar.php on line 28.
+ 1 APPPATH\Controllers\Lamar.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idpel', 'APPPATH\\Controllers\\Lamar.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Lamar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lamar))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 21:12:03 --> syntax error, unexpected token "echo"
+in APPPATH\Views\admin\pages\reset.php on line 146.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/reset', [], true)
+ 3 APPPATH\Controllers\reset.php(16): view('admin/pages/reset')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\reset->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reset))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 23:24:20 --> Call to a member function getName() on null
+in APPPATH\Controllers\Lamar.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Lamar->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lamar))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-07 23:25:51 --> Call to a member function getName() on null
+in APPPATH\Controllers\Lamar.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Lamar->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lamar))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

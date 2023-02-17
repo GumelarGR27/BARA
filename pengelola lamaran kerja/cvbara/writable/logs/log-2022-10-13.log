@@ -1,0 +1,66 @@
+CRITICAL - 2022-10-13 00:03:51 --> Undefined property: stdClass::$durasi
+in APPPATH\Views\admin\pages\index.php on line 429.
+ 1 APPPATH\Views\admin\pages\index.php(429): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$durasi', 'APPPATH\\Views\\admin\\pages\\index.php', 429)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 5 APPPATH\Controllers\Pelamar.php(49): view('admin/pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pelamar->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelamar))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 00:05:05 --> Undefined property: stdClass::$durasi
+in APPPATH\Views\admin\pages\index.php on line 429.
+ 1 APPPATH\Views\admin\pages\index.php(429): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$durasi', 'APPPATH\\Views\\admin\\pages\\index.php', 429)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 5 APPPATH\Controllers\Pelamar.php(49): view('admin/pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pelamar->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelamar))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 00:11:00 --> Undefined variable $durasi
+in APPPATH\Views\admin\pages\index.php on line 434.
+ 1 APPPATH\Views\admin\pages\index.php(434): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $durasi', 'APPPATH\\Views\\admin\\pages\\index.php', 434)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 5 APPPATH\Controllers\Pelamar.php(49): view('admin/pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pelamar->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelamar))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 00:11:14 --> Undefined variable $durasi
+in APPPATH\Views\admin\pages\index.php on line 434.
+ 1 APPPATH\Views\admin\pages\index.php(434): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $durasi', 'APPPATH\\Views\\admin\\pages\\index.php', 434)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 5 APPPATH\Controllers\Pelamar.php(49): view('admin/pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pelamar->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelamar))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 00:12:33 --> Undefined variable $durasi
+in APPPATH\Views\admin\pages\index.php on line 434.
+ 1 APPPATH\Views\admin\pages\index.php(434): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $durasi', 'APPPATH\\Views\\admin\\pages\\index.php', 434)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 5 APPPATH\Controllers\Pelamar.php(49): view('admin/pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pelamar->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelamar))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-13 00:52:50 --> Undefined property: stdClass::$no
+in APPPATH\Views\admin\pages\interview.php on line 455.
+ 1 APPPATH\Views\admin\pages\interview.php(455): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$no', 'APPPATH\\Views\\admin\\pages\\interview.php', 455)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\interview.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/interview', [], true)
+ 5 APPPATH\Controllers\Pelamar.php(196): view('admin/pages/interview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pelamar->interview()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelamar))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

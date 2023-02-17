@@ -1,0 +1,36 @@
+CRITICAL - 2022-12-10 02:54:30 --> Invalid file: /lupas.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/lupas.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/lupas', [], true)
+ 3 APPPATH\Controllers\lupas.php(10): view('/lupas')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\lupas->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lupas))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 02:54:43 --> Invalid file: lupas.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('lupas.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('lupas', [], true)
+ 3 APPPATH\Controllers\lupas.php(10): view('lupas')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\lupas->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\lupas))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 03:30:45 --> Invalid file: admin/pages/ganti-password.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/pages/ganti-password.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/ganti-password', [], true)
+ 3 APPPATH\Controllers\Users.php(130): view('admin/pages/ganti-password')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Users->ubah()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 03:35:24 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Users.php on line 135.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Users.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Users')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Users')
+ 4 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Users', true)
+ 5 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

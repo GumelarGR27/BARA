@@ -1,0 +1,203 @@
+CRITICAL - 2022-10-11 13:36:21 --> Undefined variable: divisi
+in APPPATH\Controllers\Pelamar.php on line 84.
+ 1 APPPATH\Controllers\Pelamar.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: divisi', 'APPPATH\\Controllers\\Pelamar.php', 84, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pelamar->lamar()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelamar))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-11 15:13:44 --> Class 'App\Models\UserModel' not found
+in APPPATH\Controllers\datauser.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datauser->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datauser))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-11 19:38:27 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::gePost()
+in APPPATH\Controllers\Pelamar.php on line 161.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pelamar->interview()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelamar))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-11 19:39:17 --> Undefined variable: kunci
+in APPPATH\Controllers\Pelamar.php on line 161.
+ 1 APPPATH\Controllers\Pelamar.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kunci', 'APPPATH\\Controllers\\Pelamar.php', 161, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pelamar->interview()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelamar))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-11 19:52:50 --> Class 'JWT' not found
+in APPPATH\Views\admin\pages\editprofil.php on line 203.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/editprofil', [], true)
+ 4 APPPATH\Controllers\editprofil.php(26): view('admin/pages/editprofil')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-11 19:53:20 --> Argument 1 passed to Firebase\JWT\JWT::decode() must be of the type string, array given, called in D:\Xampp baru\htdocs\cvbara\app\Views\admin\pages\editprofil.php on line 204
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 90.
+ 1 APPPATH\Views\admin\pages\editprofil.php(204): Firebase\JWT\JWT::decode([...], 'WFRKV3QrOTY3N3ZqQmo2ekFjRG1ndDVZZ0Fjd1BVK0xWRzhOdmVydDg5VT0=', 'HS256')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/editprofil', [], true)
+ 5 APPPATH\Controllers\editprofil.php(26): view('admin/pages/editprofil')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-11 19:54:15 --> Argument 1 passed to Firebase\JWT\JWT::decode() must be of the type string, array given, called in D:\Xampp baru\htdocs\cvbara\app\Views\admin\pages\editprofil.php on line 204
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 90.
+ 1 APPPATH\Views\admin\pages\editprofil.php(204): Firebase\JWT\JWT::decode([...], 'WFRKV3QrOTY3N3ZqQmo2ekFjRG1ndDVZZ0Fjd1BVK0xWRzhOdmVydDg5VT0=', 'HS256')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/editprofil', [], true)
+ 5 APPPATH\Controllers\editprofil.php(26): view('admin/pages/editprofil')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-11 19:56:41 --> Undefined variable: pass
+in APPPATH\Controllers\editprofil.php on line 26.
+ 1 APPPATH\Controllers\editprofil.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pass', 'APPPATH\\Controllers\\editprofil.php', 26, [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-11 19:57:41 --> Undefined variable: db
+in APPPATH\Controllers\editprofil.php on line 26.
+ 1 APPPATH\Controllers\editprofil.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: db', 'APPPATH\\Controllers\\editprofil.php', 26, [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-11 19:57:57 --> Undefined variable: request
+in APPPATH\Controllers\editprofil.php on line 27.
+ 1 APPPATH\Controllers\editprofil.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: request', 'APPPATH\\Controllers\\editprofil.php', 27, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-11 19:58:15 --> Undefined variable: user
+in APPPATH\Controllers\editprofil.php on line 38.
+ 1 APPPATH\Controllers\editprofil.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: user', 'APPPATH\\Controllers\\editprofil.php', 38, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-11 19:58:39 --> Argument 1 passed to Firebase\JWT\JWT::decode() must be of the type string, array given, called in D:\Xampp baru\htdocs\cvbara\app\Controllers\editprofil.php on line 42
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 90.
+ 1 APPPATH\Controllers\editprofil.php(42): Firebase\JWT\JWT::decode([...], 'WFRKV3QrOTY3N3ZqQmo2ekFjRG1ndDVZZ0Fjd1BVK0xWRzhOdmVydDg5VT0=', 'HS256')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-11 20:02:24 --> Call to undefined method App\Controllers\editprofil::fail()
+in APPPATH\Controllers\editprofil.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-11 20:02:40 --> Undefined variable: response
+in APPPATH\Controllers\editprofil.php on line 44.
+ 1 APPPATH\Controllers\editprofil.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: response', 'APPPATH\\Controllers\\editprofil.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-11 20:03:00 --> "kid" empty, unable to lookup correct key
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 434.
+ 1 VENDORPATH\firebase\php-jwt\src\JWT.php(128): Firebase\JWT\JWT::getKey('WFRKV3QrOTY3N3ZqQmo2ekFjRG1ndDVZZ0Fjd1BVK0xWRzhOdmVydDg5VT0=', null)
+ 2 APPPATH\Controllers\editprofil.php(37): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjEzNTY5OTk1MjQsIm5iZiI6MTM1NzAwMDAwMCwidWlkIjoiYWRtaW5iYXJhIiwicGFzc3dvcmQiOiJobGtObzNJMHlaTXN6ZW1pZUFPMEx3PT0ifQ.lNPByPhM_ltsRmFIQS-K5I9VxxhB4b0oEz17LsS_jF8', 'WFRKV3QrOTY3N3ZqQmo2ekFjRG1ndDVZZ0Fjd1BVK0xWRzhOdmVydDg5VT0=', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-11 20:06:47 --> "kid" empty, unable to lookup correct key
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 434.
+ 1 VENDORPATH\firebase\php-jwt\src\JWT.php(128): Firebase\JWT\JWT::getKey('WFRKV3QrOTY3N3ZqQmo2ekFjRG1ndDVZZ0Fjd1BVK0xWRzhOdmVydDg5VT0=', null)
+ 2 APPPATH\Controllers\editprofil.php(37): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjEzNTY5OTk1MjQsIm5iZiI6MTM1NzAwMDAwMCwidWlkIjoiYWRtaW5iYXJhIiwicGFzc3dvcmQiOiJobGtObzNJMHlaTXN6ZW1pZUFPMEx3PT0ifQ.lNPByPhM_ltsRmFIQS-K5I9VxxhB4b0oEz17LsS_jF8', 'WFRKV3QrOTY3N3ZqQmo2ekFjRG1ndDVZZ0Fjd1BVK0xWRzhOdmVydDg5VT0=', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-11 20:11:59 --> Argument 1 passed to Firebase\JWT\JWT::decode() must be of the type string, array given, called in D:\Xampp baru\htdocs\cvbara\app\Controllers\editprofil.php on line 42
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 90.
+ 1 APPPATH\Controllers\editprofil.php(42): Firebase\JWT\JWT::decode([...], 'WFRKV3QrOTY3N3ZqQmo2ekFjRG1ndDVZZ0Fjd1BVK0xWRzhOdmVydDg5VT0=', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-11 20:13:31 --> Undefined offset: 1
+in APPPATH\Controllers\editprofil.php on line 36.
+ 1 APPPATH\Controllers\editprofil.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH\\Controllers\\editprofil.php', 36, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-11 20:13:39 --> Argument 1 passed to Firebase\JWT\JWT::decode() must be of the type string, array given, called in D:\Xampp baru\htdocs\cvbara\app\Controllers\editprofil.php on line 37
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 90.
+ 1 APPPATH\Controllers\editprofil.php(37): Firebase\JWT\JWT::decode([...], 'WFRKV3QrOTY3N3ZqQmo2ekFjRG1ndDVZZ0Fjd1BVK0xWRzhOdmVydDg5VT0=', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-11 20:13:50 --> Undefined offset: 1
+in APPPATH\Controllers\editprofil.php on line 36.
+ 1 APPPATH\Controllers\editprofil.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH\\Controllers\\editprofil.php', 36, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-11 20:14:40 --> Undefined variable: pw
+in APPPATH\Views\admin\pages\editprofil.php on line 193.
+ 1 APPPATH\Views\admin\pages\editprofil.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pw', 'APPPATH\\Views\\admin\\pages\\editprofil.php', 193, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/editprofil', [], true)
+ 5 APPPATH\Controllers\editprofil.php(26): view('admin/pages/editprofil')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-11 20:14:46 --> Undefined variable: pw
+in APPPATH\Views\admin\pages\editprofil.php on line 193.
+ 1 APPPATH\Views\admin\pages\editprofil.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pw', 'APPPATH\\Views\\admin\\pages\\editprofil.php', 193, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\editprofil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/editprofil', [], true)
+ 5 APPPATH\Controllers\editprofil.php(26): view('admin/pages/editprofil')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\editprofil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\editprofil))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-11 20:16:16 --> Class 'App\Models\UserModel' not found
+in APPPATH\Controllers\ngedit.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngedit->ngedit()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngedit))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-11 20:18:02 --> Class 'App\Controllers\UserModel' not found
+in APPPATH\Controllers\Users.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Users->ngedit()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-11 22:51:28 --> Undefined variable: roww
+in APPPATH\Views\admin\pages\reset.php on line 184.
+ 1 APPPATH\Views\admin\pages\reset.php(184): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: roww', 'APPPATH\\Views\\admin\\pages\\reset.php', 184, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\reset.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/reset', [], true)
+ 5 APPPATH\Controllers\reset.php(16): view('admin/pages/reset')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\reset->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reset))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-11 23:52:53 --> Undefined variable: divisi
+in APPPATH\Models\pelamarModel.php on line 24.
+ 1 APPPATH\Models\pelamarModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: divisi', 'APPPATH\\Models\\pelamarModel.php', 24, [...])
+ 2 APPPATH\Controllers\Pelamar.php(222): App\Models\pelamarModel->nyari('Pilih Divisi')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pelamar->ditolak()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelamar))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,790 @@
+CRITICAL - 2022-09-14 01:59:48 --> Undefined variable: idklien
+in APPPATH\Views\ingpois.php on line 17.
+ 1 APPPATH\Views\ingpois.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idklien', 'APPPATH\\Views\\ingpois.php', 17, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(9): view('ingpois')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 12:08:28 --> Undefined variable: idklien
+in APPPATH\Views\ingpois.php on line 17.
+ 1 APPPATH\Views\ingpois.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idklien', 'APPPATH\\Views\\ingpois.php', 17, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(9): view('ingpois')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 12:44:45 --> Class 'App\Controllers\remindModel' not found
+in APPPATH\Controllers\Home.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 12:44:55 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::where(), 0 passed in D:\Xampp baru\htdocs\bara\system\Model.php on line 771 and at least 1 expected
+in SYSTEMPATH\Database\BaseBuilder.php on line 672.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->where()
+ 2 APPPATH\Controllers\Home.php(26): CodeIgniter\Model->__call('where', [])
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 12:45:09 --> Undefined index: nama_perusahaan
+in APPPATH\Views\index.php on line 204.
+ 1 APPPATH\Views\index.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_perusahaan', 'APPPATH\\Views\\index.php', 204, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 12:50:07 --> Undefined property: stdClass::$id_klien
+in APPPATH\Views\index.php on line 210.
+ 1 APPPATH\Views\index.php(210): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$id_klien', 'APPPATH\\Views\\index.php', 210, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 12:50:56 --> Undefined property: stdClass::$id_klien
+in APPPATH\Views\index.php on line 210.
+ 1 APPPATH\Views\index.php(210): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$id_klien', 'APPPATH\\Views\\index.php', 210, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 12:52:23 --> Undefined index: tanggal_invoice
+in APPPATH\Views\index.php on line 213.
+ 1 APPPATH\Views\index.php(213): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: tanggal_invoice', 'APPPATH\\Views\\index.php', 213, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 12:53:22 --> Undefined index: id_klien
+in APPPATH\Views\index.php on line 206.
+ 1 APPPATH\Views\index.php(206): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_klien', 'APPPATH\\Views\\index.php', 206, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 12:54:02 --> Undefined index: tanggal_invoice
+in APPPATH\Views\index.php on line 213.
+ 1 APPPATH\Views\index.php(213): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: tanggal_invoice', 'APPPATH\\Views\\index.php', 213, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 12:54:21 --> Undefined index: nama_perusahaan
+in APPPATH\Views\index.php on line 214.
+ 1 APPPATH\Views\index.php(214): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_perusahaan', 'APPPATH\\Views\\index.php', 214, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 13:29:57 --> Undefined property: App\Controllers\tamah::$input
+in APPPATH\Controllers\tamah.php on line 35.
+ 1 APPPATH\Controllers\tamah.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\tamah::$input', 'APPPATH\\Controllers\\tamah.php', 35, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tamah->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tamah))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 15:26:59 --> Call to undefined method App\Models\remindModel::pencarian
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Home.php(17): CodeIgniter\Model->__call('pencarian', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-14 15:29:07 --> Unknown column 'nama_perusahaan' in 'where clause'
+CRITICAL - 2022-09-14 15:29:07 --> Unknown column 'nama_perusahaan' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `remainder`
+WHERE `nama_perusahaan` LIKE \'%mutiara%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `remainder`
+WHERE `nama_perusahaan` LIKE \'%mutiara%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `remainder`
+WHERE `nama_perusahaan` LIKE \'%mutiara%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `remainder`
+WHERE `nama_perusahaan` LIKE :nama_perusahaan: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Home.php(26): CodeIgniter\BaseModel->paginate(5)
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 15:32:45 --> Undefined variable: nama
+in APPPATH\Models\remindModel.php on line 50.
+ 1 APPPATH\Models\remindModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nama', 'APPPATH\\Models\\remindModel.php', 50, [...])
+ 2 APPPATH\Controllers\Home.php(17): App\Models\remindModel->pencarian('mutiara')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 15:33:57 --> Undefined variable: id
+in APPPATH\Models\remindModel.php on line 50.
+ 1 APPPATH\Models\remindModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id', 'APPPATH\\Models\\remindModel.php', 50, [...])
+ 2 APPPATH\Controllers\Home.php(17): App\Models\remindModel->pencarian('mutiara')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 15:34:37 --> Undefined variable: row
+in APPPATH\Models\remindModel.php on line 50.
+ 1 APPPATH\Models\remindModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'APPPATH\\Models\\remindModel.php', 50, [...])
+ 2 APPPATH\Controllers\Home.php(17): App\Models\remindModel->pencarian('mutiara')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 15:39:42 --> Call to a member function affectedRows() on null
+in APPPATH\Controllers\Home.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 15:42:24 --> Undefined variable: id
+in APPPATH\Models\remindModel.php on line 50.
+ 1 APPPATH\Models\remindModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id', 'APPPATH\\Models\\remindModel.php', 50, [...])
+ 2 APPPATH\Controllers\Home.php(17): App\Models\remindModel->pencarian('mutiara')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 15:43:08 --> Undefined variable: id
+in APPPATH\Models\remindModel.php on line 50.
+ 1 APPPATH\Models\remindModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id', 'APPPATH\\Models\\remindModel.php', 50, [...])
+ 2 APPPATH\Controllers\Home.php(17): App\Models\remindModel->pencarian('mutiara')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 15:43:59 --> Undefined variable: id
+in APPPATH\Models\remindModel.php on line 50.
+ 1 APPPATH\Models\remindModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id', 'APPPATH\\Models\\remindModel.php', 50, [...])
+ 2 APPPATH\Controllers\Home.php(17): App\Models\remindModel->pencarian('mutiara')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 15:45:00 --> Undefined variable: id
+in APPPATH\Models\remindModel.php on line 50.
+ 1 APPPATH\Models\remindModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id', 'APPPATH\\Models\\remindModel.php', 50, [...])
+ 2 APPPATH\Controllers\Home.php(17): App\Models\remindModel->pencarian('mutiara')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 15:45:13 --> Call to a member function affectedRows() on null
+in APPPATH\Controllers\Home.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 15:46:02 --> Undefined variable: id
+in APPPATH\Models\remindModel.php on line 50.
+ 1 APPPATH\Models\remindModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id', 'APPPATH\\Models\\remindModel.php', 50, [...])
+ 2 APPPATH\Controllers\Home.php(17): App\Models\remindModel->pencarian('mutiara')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 15:49:39 --> Undefined variable: id
+in APPPATH\Models\remindModel.php on line 50.
+ 1 APPPATH\Models\remindModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id', 'APPPATH\\Models\\remindModel.php', 50, [...])
+ 2 APPPATH\Controllers\Home.php(17): App\Models\remindModel->pencarian('mutiara')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 15:49:57 --> syntax error, unexpected 'echo' (T_ECHO)
+in APPPATH\Models\remindModel.php on line 48.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\remindModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\remindModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\remindModel')
+ 4 APPPATH\Controllers\Home.php(11): spl_autoload_call('App\\Models\\remindModel')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 15:51:57 --> Too few arguments to function App\Models\remindModel::pencarian(), 1 passed in D:\Xampp baru\htdocs\bara\app\Controllers\Home.php on line 17 and exactly 2 expected
+in APPPATH\Models\remindModel.php on line 42.
+ 1 APPPATH\Controllers\Home.php(17): App\Models\remindModel->pencarian('mutiara')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 15:52:21 --> Undefined variable: row
+in APPPATH\Models\remindModel.php on line 50.
+ 1 APPPATH\Models\remindModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'APPPATH\\Models\\remindModel.php', 50, [...])
+ 2 APPPATH\Controllers\Home.php(17): App\Models\remindModel->pencarian('mutiara')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-14 15:56:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE nama_perusahaan="mutiara"' at line 1
+CRITICAL - 2022-09-14 15:56:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE nama_perusahaan="mutiara"' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM client LIKE nama_perusahaan="mutiara"', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM client LIKE nama_perusahaan="mutiara"')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM client LIKE nama_perusahaan="mutiara"')
+ 4 APPPATH\Controllers\Home.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM client LIKE nama_perusahaan="mutiara"')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-14 15:57:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE nama_perusahaan="%mutiara%"' at line 1
+CRITICAL - 2022-09-14 15:57:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE nama_perusahaan="%mutiara%"' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM client LIKE nama_perusahaan="%mutiara%"', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM client LIKE nama_perusahaan="%mutiara%"')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM client LIKE nama_perusahaan="%mutiara%"')
+ 4 APPPATH\Controllers\Home.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM client LIKE nama_perusahaan="%mutiara%"')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-14 15:59:26 --> Unknown column 'tanggal_invoice' in 'where clause'
+CRITICAL - 2022-09-14 15:59:26 --> Unknown column 'tanggal_invoice' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `remainder`
+WHERE `tanggal_invoice` >= \'2022-09-14\'
+AND `tanggal_invoice` <= \'2022-09-15\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `remainder`
+WHERE `tanggal_invoice` >= \'2022-09-14\'
+AND `tanggal_invoice` <= \'2022-09-15\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `remainder`
+WHERE `tanggal_invoice` >= \'2022-09-14\'
+AND `tanggal_invoice` <= \'2022-09-15\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `remainder`
+WHERE `tanggal_invoice` >= :tanggal_invoice:
+AND `tanggal_invoice` <= :tanggal_invoice.1:', [...], false)
+ 5 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Home.php(33): CodeIgniter\BaseModel->paginate(5)
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-14 15:59:44 --> Unknown column 'tanggal_invoice' in 'where clause'
+CRITICAL - 2022-09-14 15:59:44 --> Unknown column 'tanggal_invoice' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `remainder`
+WHERE `tanggal_invoice` >= \'2022-09-14\'
+AND `tanggal_invoice` <= \'2022-09-15\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `remainder`
+WHERE `tanggal_invoice` >= \'2022-09-14\'
+AND `tanggal_invoice` <= \'2022-09-15\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `remainder`
+WHERE `tanggal_invoice` >= \'2022-09-14\'
+AND `tanggal_invoice` <= \'2022-09-15\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `remainder`
+WHERE `tanggal_invoice` >= :tanggal_invoice:
+AND `tanggal_invoice` <= :tanggal_invoice.1:', [...], false)
+ 5 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Home.php(33): CodeIgniter\BaseModel->paginate(5)
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 16:38:37 --> Trying to get property 'nama_perusahaan' of non-object
+in APPPATH\Views\daptar.php on line 329.
+ 1 APPPATH\Views\daptar.php(329): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_perusahaan\' of non-object', 'APPPATH\\Views\\daptar.php', 329, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\daptar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('daptar', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(15): view('daptar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 16:39:13 --> syntax error, unexpected 'echo' (T_ECHO)
+in APPPATH\Views\daptar.php on line 329.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('daptar', [], true)
+ 3 APPPATH\Controllers\Pendaftaran.php(15): view('daptar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pendaftaran->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 16:45:24 --> Undefined property: stdClass::$nama
+in APPPATH\Views\daptar.php on line 334.
+ 1 APPPATH\Views\daptar.php(334): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nama', 'APPPATH\\Views\\daptar.php', 334, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\daptar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('daptar', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(15): view('daptar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 16:46:26 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+in APPPATH\Views\daptar.php on line 330.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('daptar', [], true)
+ 4 APPPATH\Controllers\Pendaftaran.php(15): view('daptar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pendaftaran->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 16:46:46 --> Cannot use object of type stdClass as array
+in APPPATH\Views\daptar.php on line 334.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('daptar', [], true)
+ 4 APPPATH\Controllers\Pendaftaran.php(15): view('daptar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pendaftaran->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 16:47:40 --> syntax error, unexpected ';', expecting variable (T_VARIABLE) or '{' or '$'
+in APPPATH\Views\daptar.php on line 330.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('daptar', [], true)
+ 3 APPPATH\Controllers\Pendaftaran.php(15): view('daptar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pendaftaran->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 16:50:54 --> syntax error, unexpected '.'
+in APPPATH\Views\daptar.php on line 314.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('daptar', [], true)
+ 3 APPPATH\Controllers\Pendaftaran.php(15): view('daptar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pendaftaran->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 16:51:29 --> Undefined variable: nama
+in APPPATH\Views\daptar.php on line 330.
+ 1 APPPATH\Views\daptar.php(330): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nama', 'APPPATH\\Views\\daptar.php', 330, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\daptar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('daptar', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(15): view('daptar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 16:52:17 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\daptar.php on line 330.
+ 1 APPPATH\Views\daptar.php(330): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\daptar.php', 330, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\daptar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('daptar', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(15): view('daptar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 16:55:07 --> syntax error, unexpected '.'
+in APPPATH\Views\daptar.php on line 314.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('daptar', [], true)
+ 3 APPPATH\Controllers\Pendaftaran.php(15): view('daptar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pendaftaran->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 17:33:10 --> syntax error, unexpected '$this' (T_VARIABLE), expecting ')'
+in APPPATH\Views\Edit_Client.php on line 273.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Edit_Client', [], true)
+ 3 APPPATH\Controllers\Edit_Client.php(9): view('Edit_Client')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Edit_Client->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit_Client))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 17:33:38 --> syntax error, unexpected '$request' (T_VARIABLE), expecting ')'
+in APPPATH\Views\Edit_Client.php on line 273.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Edit_Client', [], true)
+ 3 APPPATH\Controllers\Edit_Client.php(9): view('Edit_Client')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Edit_Client->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit_Client))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 17:34:05 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\Edit_Client.php on line 273.
+ 1 APPPATH\Views\Edit_Client.php(273): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\Edit_Client.php', 273, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Edit_Client.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Edit_Client', [], true)
+ 5 APPPATH\Controllers\Edit_Client.php(9): view('Edit_Client')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Edit_Client->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit_Client))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 17:34:15 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\Edit_Client.php on line 273.
+ 1 APPPATH\Views\Edit_Client.php(273): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\Edit_Client.php', 273, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Edit_Client.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Edit_Client', [], true)
+ 5 APPPATH\Controllers\Edit_Client.php(9): view('Edit_Client')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Edit_Client->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit_Client))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 17:38:08 --> Use of undefined constant required - assumed 'required' (this will throw an Error in a future version of PHP)
+in APPPATH\Views\Edit_Client.php on line 334.
+ 1 APPPATH\Views\Edit_Client.php(334): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant required - assumed \'required\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Views\\Edit_Client.php', 334, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Edit_Client.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Edit_Client', [], true)
+ 5 APPPATH\Controllers\Edit_Client.php(9): view('Edit_Client')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Edit_Client->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit_Client))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 17:38:22 --> syntax error, unexpected '='
+in APPPATH\Views\Edit_Client.php on line 334.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Edit_Client', [], true)
+ 3 APPPATH\Controllers\Edit_Client.php(9): view('Edit_Client')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Edit_Client->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit_Client))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 17:42:04 --> Undefined variable: baru
+in APPPATH\Controllers\ngeditclient.php on line 22.
+ 1 APPPATH\Controllers\ngeditclient.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: baru', 'APPPATH\\Controllers\\ngeditclient.php', 22, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 17:42:31 --> There is no primary key defined when trying to make insert.
+in SYSTEMPATH\Model.php on line 268.
+ 1 SYSTEMPATH\Model.php(268): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+ 2 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 3 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\ngeditclient.php(22): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 17:42:43 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1576.
+ 1 SYSTEMPATH\BaseModel.php(1576): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\ngeditclient.php(22): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 17:45:40 --> Undefined variable: no
+in APPPATH\Controllers\ngeditclient.php on line 23.
+ 1 APPPATH\Controllers\ngeditclient.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: no', 'APPPATH\\Controllers\\ngeditclient.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 17:46:23 --> Undefined variable: no
+in APPPATH\Controllers\ngeditclient.php on line 23.
+ 1 APPPATH\Controllers\ngeditclient.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: no', 'APPPATH\\Controllers\\ngeditclient.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 17:46:58 --> Undefined variable: row
+in APPPATH\Views\Edit_Client.php on line 254.
+ 1 APPPATH\Views\Edit_Client.php(254): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'APPPATH\\Views\\Edit_Client.php', 254, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Edit_Client.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Edit_Client', [], true)
+ 5 APPPATH\Controllers\Edit_Client.php(9): view('Edit_Client')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Edit_Client->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit_Client))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 17:47:28 --> Cannot use object of type stdClass as array
+in APPPATH\Views\Edit_Client.php on line 264.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Edit_Client', [], true)
+ 4 APPPATH\Controllers\Edit_Client.php(9): view('Edit_Client')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Edit_Client->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit_Client))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 17:47:49 --> Cannot use object of type stdClass as array
+in APPPATH\Views\Edit_Client.php on line 264.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('Edit_Client', [], true)
+ 4 APPPATH\Controllers\Edit_Client.php(9): view('Edit_Client')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Edit_Client->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit_Client))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 17:48:19 --> Undefined variable: no
+in APPPATH\Controllers\ngeditclient.php on line 23.
+ 1 APPPATH\Controllers\ngeditclient.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: no', 'APPPATH\\Controllers\\ngeditclient.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 17:48:42 --> Undefined variable: idkel
+in APPPATH\Controllers\ngeditclient.php on line 23.
+ 1 APPPATH\Controllers\ngeditclient.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idkel', 'APPPATH\\Controllers\\ngeditclient.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 17:48:51 --> Undefined variable: no
+in APPPATH\Controllers\ngeditclient.php on line 23.
+ 1 APPPATH\Controllers\ngeditclient.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: no', 'APPPATH\\Controllers\\ngeditclient.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 17:50:56 --> Undefined variable: no
+in APPPATH\Controllers\ngeditclient.php on line 24.
+ 1 APPPATH\Controllers\ngeditclient.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: no', 'APPPATH\\Controllers\\ngeditclient.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 17:51:57 --> Undefined variable: no
+in APPPATH\Controllers\ngeditclient.php on line 23.
+ 1 APPPATH\Controllers\ngeditclient.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: no', 'APPPATH\\Controllers\\ngeditclient.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-14 17:53:18 --> Column 'nama_perusahaan' cannot be null
+CRITICAL - 2022-09-14 17:53:18 --> Column 'nama_perusahaan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `client` (`nama_perusahaan`, `nama`, `kota`, `telepon`, `email`, `bank`) VALUES (NULL, \'bca\', \'Cimahi \', \'086785461234\', \'Herry@gmail.com\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `client` (`nama_perusahaan`, `nama`, `kota`, `telepon`, `email`, `bank`) VALUES (NULL, \'bca\', \'Cimahi \', \'086785461234\', \'Herry@gmail.com\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `client` (`nama_perusahaan`, `nama`, `kota`, `telepon`, `email`, `bank`) VALUES (NULL, \'bca\', \'Cimahi \', \'086785461234\', \'Herry@gmail.com\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `client` (`nama_perusahaan`, `nama`, `kota`, `telepon`, `email`, `bank`) VALUES (:nama_perusahaan:, :nama:, :kota:, :telepon:, :email:, :bank:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\ngeditclient.php(32): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-14 17:54:34 --> Column 'nama_perusahaan' cannot be null
+CRITICAL - 2022-09-14 17:54:34 --> Column 'nama_perusahaan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `client` (`nama_perusahaan`, `nama`, `kota`, `telepon`, `email`, `bank`) VALUES (NULL, \'bca\', \'Cimahi \', \'086785461234\', \'Herry@gmail.com\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `client` (`nama_perusahaan`, `nama`, `kota`, `telepon`, `email`, `bank`) VALUES (NULL, \'bca\', \'Cimahi \', \'086785461234\', \'Herry@gmail.com\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `client` (`nama_perusahaan`, `nama`, `kota`, `telepon`, `email`, `bank`) VALUES (NULL, \'bca\', \'Cimahi \', \'086785461234\', \'Herry@gmail.com\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `client` (`nama_perusahaan`, `nama`, `kota`, `telepon`, `email`, `bank`) VALUES (:nama_perusahaan:, :nama:, :kota:, :telepon:, :email:, :bank:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\ngeditclient.php(32): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-14 17:54:55 --> Column 'bank' cannot be null
+CRITICAL - 2022-09-14 17:54:55 --> Column 'bank' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `client` (`nama`, `kota`, `telepon`, `email`, `bank`) VALUES (\'bca\', \'Cimahi \', \'086785461234\', \'Herry@gmail.com\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `client` (`nama`, `kota`, `telepon`, `email`, `bank`) VALUES (\'bca\', \'Cimahi \', \'086785461234\', \'Herry@gmail.com\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `client` (`nama`, `kota`, `telepon`, `email`, `bank`) VALUES (\'bca\', \'Cimahi \', \'086785461234\', \'Herry@gmail.com\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `client` (`nama`, `kota`, `telepon`, `email`, `bank`) VALUES (:nama:, :kota:, :telepon:, :email:, :bank:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\ngeditclient.php(31): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-14 17:55:39 --> Column 'bank' cannot be null
+CRITICAL - 2022-09-14 17:55:39 --> Column 'bank' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `client` (`nama`, `kota`, `telepon`, `email`, `bank`) VALUES (\'bca\', \'Cimahi \', \'086785461234\', \'Herry@gmail.com\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `client` (`nama`, `kota`, `telepon`, `email`, `bank`) VALUES (\'bca\', \'Cimahi \', \'086785461234\', \'Herry@gmail.com\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `client` (`nama`, `kota`, `telepon`, `email`, `bank`) VALUES (\'bca\', \'Cimahi \', \'086785461234\', \'Herry@gmail.com\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `client` (`nama`, `kota`, `telepon`, `email`, `bank`) VALUES (:nama:, :kota:, :telepon:, :email:, :bank:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\ngeditclient.php(31): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 17:59:50 --> Undefined variable: no
+in APPPATH\Controllers\ngeditclient.php on line 31.
+ 1 APPPATH\Controllers\ngeditclient.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: no', 'APPPATH\\Controllers\\ngeditclient.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 18:01:29 --> Undefined variable: no
+in APPPATH\Controllers\ngeditclient.php on line 24.
+ 1 APPPATH\Controllers\ngeditclient.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: no', 'APPPATH\\Controllers\\ngeditclient.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 18:01:58 --> Undefined variable: no
+in APPPATH\Controllers\ngeditclient.php on line 24.
+ 1 APPPATH\Controllers\ngeditclient.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: no', 'APPPATH\\Controllers\\ngeditclient.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 18:02:31 --> Undefined variable: no
+in APPPATH\Controllers\ngeditclient.php on line 25.
+ 1 APPPATH\Controllers\ngeditclient.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: no', 'APPPATH\\Controllers\\ngeditclient.php', 25, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 18:04:40 --> Undefined variable: no
+in APPPATH\Controllers\ngeditclient.php on line 25.
+ 1 APPPATH\Controllers\ngeditclient.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: no', 'APPPATH\\Controllers\\ngeditclient.php', 25, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 18:07:27 --> Undefined variable: no
+in APPPATH\Controllers\ngeditclient.php on line 25.
+ 1 APPPATH\Controllers\ngeditclient.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: no', 'APPPATH\\Controllers\\ngeditclient.php', 25, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 18:07:57 --> Undefined variable: row
+in APPPATH\Controllers\ngeditclient.php on line 25.
+ 1 APPPATH\Controllers\ngeditclient.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'APPPATH\\Controllers\\ngeditclient.php', 25, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 18:09:58 --> Undefined variable: no
+in APPPATH\Controllers\ngeditclient.php on line 25.
+ 1 APPPATH\Controllers\ngeditclient.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: no', 'APPPATH\\Controllers\\ngeditclient.php', 25, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 18:10:16 --> Undefined variable: nom
+in APPPATH\Controllers\ngeditclient.php on line 25.
+ 1 APPPATH\Controllers\ngeditclient.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nom', 'APPPATH\\Controllers\\ngeditclient.php', 25, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 18:12:39 --> Undefined variable: nom
+in APPPATH\Controllers\ngeditclient.php on line 26.
+ 1 APPPATH\Controllers\ngeditclient.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nom', 'APPPATH\\Controllers\\ngeditclient.php', 26, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 18:19:56 --> Undefined variable: no
+in APPPATH\Controllers\ngeditclient.php on line 35.
+ 1 APPPATH\Controllers\ngeditclient.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: no', 'APPPATH\\Controllers\\ngeditclient.php', 35, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 18:21:15 --> Undefined variable: no
+in APPPATH\Controllers\ngeditclient.php on line 35.
+ 1 APPPATH\Controllers\ngeditclient.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: no', 'APPPATH\\Controllers\\ngeditclient.php', 35, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 18:21:31 --> Undefined variable: no
+in APPPATH\Controllers\ngeditclient.php on line 35.
+ 1 APPPATH\Controllers\ngeditclient.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: no', 'APPPATH\\Controllers\\ngeditclient.php', 35, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 18:22:25 --> Undefined variable: no
+in APPPATH\Controllers\ngeditclient.php on line 35.
+ 1 APPPATH\Controllers\ngeditclient.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: no', 'APPPATH\\Controllers\\ngeditclient.php', 35, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditclient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditclient))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 18:31:19 --> Undefined property: stdClass::$no
+in APPPATH\Controllers\ngeditreminder.php on line 20.
+ 1 APPPATH\Controllers\ngeditreminder.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$no', 'APPPATH\\Controllers\\ngeditreminder.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditreminder->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditreminder))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 18:32:02 --> Undefined property: stdClass::$no
+in APPPATH\Controllers\ngeditreminder.php on line 20.
+ 1 APPPATH\Controllers\ngeditreminder.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$no', 'APPPATH\\Controllers\\ngeditreminder.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditreminder->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditreminder))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 18:34:57 --> Undefined property: stdClass::$no
+in APPPATH\Controllers\ngeditreminder.php on line 20.
+ 1 APPPATH\Controllers\ngeditreminder.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$no', 'APPPATH\\Controllers\\ngeditreminder.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditreminder->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditreminder))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 18:35:04 --> Undefined property: stdClass::$no
+in APPPATH\Controllers\ngeditreminder.php on line 20.
+ 1 APPPATH\Controllers\ngeditreminder.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$no', 'APPPATH\\Controllers\\ngeditreminder.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditreminder->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditreminder))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

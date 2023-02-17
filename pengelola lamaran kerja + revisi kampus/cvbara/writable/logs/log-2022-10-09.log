@@ -1,0 +1,78 @@
+CRITICAL - 2022-10-09 00:38:06 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\datauser.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datauser->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datauser))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-09 00:54:41 --> Invalid file: register.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('register', [], true)
+ 3 APPPATH\Controllers\Users.php(21): view('register')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Users->register()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-09 01:31:13 --> Allowed fields must be specified for model: App\Models\pelamarModel
+in SYSTEMPATH\BaseModel.php on line 1138.
+ 1 SYSTEMPATH\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\pelamarModel')
+ 2 SYSTEMPATH\BaseModel.php(841): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [...])
+ 4 APPPATH\Controllers\Pelamar.php(64): CodeIgniter\Model->update('PEL10', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pelamar->kirimemail()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelamar))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-09 01:31:59 --> Allowed fields must be specified for model: App\Models\pelamarModel
+in SYSTEMPATH\BaseModel.php on line 1138.
+ 1 SYSTEMPATH\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\pelamarModel')
+ 2 SYSTEMPATH\BaseModel.php(841): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [...])
+ 4 APPPATH\Controllers\Pelamar.php(64): CodeIgniter\Model->update('PEL10', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pelamar->kirimemail()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelamar))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-09 01:33:56 --> Unknown column 'pelamar.id' in 'where clause'
+CRITICAL - 2022-10-09 01:33:56 --> Unknown column 'pelamar.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `pelamar` SET `status` = \'Sedang Interview\'
+WHERE `pelamar`.`id` IN (\'PEL10\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `pelamar` SET `status` = \'Sedang Interview\'
+WHERE `pelamar`.`id` IN (\'PEL10\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `pelamar` SET `status` = \'Sedang Interview\'
+WHERE `pelamar`.`id` IN (\'PEL10\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query('UPDATE `pelamar` SET `status` = :status:
+WHERE `pelamar`.`id` IN :pelamar.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(337): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(865): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\Pelamar.php(64): CodeIgniter\Model->update('PEL10', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pelamar->kirimemail()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelamar))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-09 02:05:12 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1576.
+ 1 SYSTEMPATH\BaseModel.php(1576): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Pelamar.php(67): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pelamar->kirimemail()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelamar))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-09 02:20:31 --> Undefined variable $imel
+in APPPATH\Controllers\Pelamar.php on line 77.
+ 1 APPPATH\Controllers\Pelamar.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imel', 'APPPATH\\Controllers\\Pelamar.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pelamar->kirimemail()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelamar))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-09 02:21:02 --> Undefined variable $row
+in APPPATH\Controllers\Pelamar.php on line 77.
+ 1 APPPATH\Controllers\Pelamar.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Controllers\\Pelamar.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pelamar->kirimemail()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelamar))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

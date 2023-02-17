@@ -1,0 +1,312 @@
+CRITICAL - 2022-09-27 00:12:23 --> Undefined variable $db
+in APPPATH\Views\admin\pages\index.php on line 6.
+ 1 APPPATH\Views\admin\pages\index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Views\\admin\\pages\\index.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/index', [], true)
+ 5 APPPATH\Controllers\Web.php(47): view('admin/pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 00:25:12 --> Undefined variable $ses_data
+in APPPATH\Controllers\Web.php on line 40.
+ 1 APPPATH\Controllers\Web.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ses_data', 'APPPATH\\Controllers\\Web.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 00:25:25 --> Undefined variable $ses_data
+in APPPATH\Controllers\Web.php on line 40.
+ 1 APPPATH\Controllers\Web.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ses_data', 'APPPATH\\Controllers\\Web.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 00:28:27 --> Undefined property: App\Controllers\Web::$session
+in APPPATH\Controllers\Web.php on line 40.
+ 1 APPPATH\Controllers\Web.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Web::$session', 'APPPATH\\Controllers\\Web.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 00:28:51 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in APPPATH\Controllers\Web.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Web->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 00:51:17 --> Undefined variable $session
+in APPPATH\Controllers\Register.php on line 28.
+ 1 APPPATH\Controllers\Register.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Controllers\\Register.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Register->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 01:15:15 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Views\index.php on line 276.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 01:15:58 --> Call to undefined function countAllResults()
+in APPPATH\Views\index.php on line 6.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('index', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('index')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 01:17:17 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to int
+in APPPATH\Views\index.php on line 276.
+ 1 APPPATH\Views\index.php(276): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class CodeIgniter\\Database\\MySQLi\\Builder could not be converted to int', 'APPPATH\\Views\\index.php', 276)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 01:31:53 --> Undefined variable $data
+in APPPATH\Views\index.php on line 350.
+ 1 APPPATH\Views\index.php(350): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\index.php', 350)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 01:34:58 --> Attempt to read property "Nama" on string
+in APPPATH\Views\index.php on line 288.
+ 1 APPPATH\Views\index.php(288): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Nama" on string', 'APPPATH\\Views\\index.php', 288)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 01:45:12 --> Undefined variable $hasil
+in APPPATH\Controllers\Home.php on line 14.
+ 1 APPPATH\Controllers\Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hasil', 'APPPATH\\Controllers\\Home.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 01:49:45 --> Undefined variable $hasil
+in APPPATH\Controllers\Home.php on line 14.
+ 1 APPPATH\Controllers\Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hasil', 'APPPATH\\Controllers\\Home.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 01:49:53 --> Undefined array key "Nama"
+in APPPATH\Views\index.php on line 285.
+ 1 APPPATH\Views\index.php(285): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nama"', 'APPPATH\\Views\\index.php', 285)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 01:54:06 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Views\index.php on line 286.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('index', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 01:55:01 --> Call to a member function where() on array
+in APPPATH\Views\index.php on line 299.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('index', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 03:09:47 --> Undefined variable $pelamar
+in APPPATH\Views\admin\pages\diterima.php on line 373.
+ 1 APPPATH\Views\admin\pages\diterima.php(373): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelamar', 'APPPATH\\Views\\admin\\pages\\diterima.php', 373)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\diterima.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/diterima', [], true)
+ 5 APPPATH\Controllers\diterima.php(16): view('admin/pages/diterima')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Diterima->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diterima))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 03:13:20 --> Class "App\Controllers\LamarModel" not found
+in APPPATH\Controllers\diterima.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Diterima->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diterima))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 03:14:20 --> Undefined variable $kunci
+in APPPATH\Controllers\diterima.php on line 18.
+ 1 APPPATH\Controllers\diterima.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kunci', 'APPPATH\\Controllers\\diterima.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Diterima->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diterima))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 03:14:37 --> Undefined variable $dipisi
+in APPPATH\Controllers\diterima.php on line 22.
+ 1 APPPATH\Controllers\diterima.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dipisi', 'APPPATH\\Controllers\\diterima.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Diterima->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diterima))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 03:14:56 --> Undefined variable $pelamar
+in APPPATH\Views\admin\pages\diterima.php on line 373.
+ 1 APPPATH\Views\admin\pages\diterima.php(373): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelamar', 'APPPATH\\Views\\admin\\pages\\diterima.php', 373)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\diterima.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/diterima', [], true)
+ 5 APPPATH\Controllers\diterima.php(35): view('admin/pages/diterima')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Diterima->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diterima))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 23:16:33 --> Undefined variable $log
+in APPPATH\Views\admin\pages\interview.php on line 245.
+ 1 APPPATH\Views\admin\pages\interview.php(245): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $log', 'APPPATH\\Views\\admin\\pages\\interview.php', 245)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\interview.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/interview', [], true)
+ 5 APPPATH\Controllers\Interview.php(47): view('admin/pages/interview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Interview->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Interview))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 23:21:35 --> Undefined variable $row
+in APPPATH\Views\admin\pages\interview.php on line 220.
+ 1 APPPATH\Views\admin\pages\interview.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Views\\admin\\pages\\interview.php', 220)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\interview.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/interview', [], true)
+ 5 APPPATH\Controllers\Interview.php(47): view('admin/pages/interview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Interview->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Interview))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 23:26:50 --> Undefined variable $model
+in APPPATH\Controllers\diterima.php on line 27.
+ 1 APPPATH\Controllers\diterima.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'APPPATH\\Controllers\\diterima.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Diterima->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diterima))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 23:31:52 --> Undefined variable $row
+in APPPATH\Views\admin\pages\datauser.php on line 209.
+ 1 APPPATH\Views\admin\pages\datauser.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Views\\admin\\pages\\datauser.php', 209)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\datauser.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/datauser', [], true)
+ 5 APPPATH\Controllers\datauser.php(44): view('admin/pages/datauser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datauser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datauser))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 23:31:59 --> Undefined variable $row
+in APPPATH\Views\admin\pages\datauser.php on line 209.
+ 1 APPPATH\Views\admin\pages\datauser.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Views\\admin\\pages\\datauser.php', 209)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\datauser.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/datauser', [], true)
+ 5 APPPATH\Controllers\datauser.php(44): view('admin/pages/datauser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datauser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datauser))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 23:32:03 --> Undefined variable $row
+in APPPATH\Views\admin\pages\datauser.php on line 209.
+ 1 APPPATH\Views\admin\pages\datauser.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Views\\admin\\pages\\datauser.php', 209)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\datauser.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/datauser', [], true)
+ 5 APPPATH\Controllers\datauser.php(44): view('admin/pages/datauser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datauser->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datauser))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 23:32:09 --> Undefined variable $row
+in APPPATH\Views\admin\pages\reset.php on line 6.
+ 1 APPPATH\Views\admin\pages\reset.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Views\\admin\\pages\\reset.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\reset.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/reset', [], true)
+ 5 APPPATH\Controllers\reset.php(16): view('admin/pages/reset')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\reset->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reset))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 23:33:07 --> Undefined variable $row
+in APPPATH\Views\admin\pages\reset.php on line 6.
+ 1 APPPATH\Views\admin\pages\reset.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Views\\admin\\pages\\reset.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\reset.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/reset', [], true)
+ 5 APPPATH\Controllers\reset.php(16): view('admin/pages/reset')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\reset->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reset))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 23:35:18 --> Undefined variable $row
+in APPPATH\Views\admin\pages\reset.php on line 6.
+ 1 APPPATH\Views\admin\pages\reset.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Views\\admin\\pages\\reset.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\reset.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/reset', [], true)
+ 5 APPPATH\Controllers\reset.php(16): view('admin/pages/reset')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\reset->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reset))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 23:35:50 --> Undefined variable $roww
+in APPPATH\Views\admin\pages\reset.php on line 170.
+ 1 APPPATH\Views\admin\pages\reset.php(170): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roww', 'APPPATH\\Views\\admin\\pages\\reset.php', 170)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\reset.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/reset', [], true)
+ 5 APPPATH\Controllers\reset.php(16): view('admin/pages/reset')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\reset->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reset))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 23:38:51 --> Undefined variable $roww
+in APPPATH\Views\admin\pages\reset.php on line 171.
+ 1 APPPATH\Views\admin\pages\reset.php(171): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roww', 'APPPATH\\Views\\admin\\pages\\reset.php', 171)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\reset.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/reset', [], true)
+ 5 APPPATH\Controllers\reset.php(16): view('admin/pages/reset')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\reset->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reset))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 23:39:47 --> Undefined variable $roww
+in APPPATH\Views\admin\pages\reset.php on line 172.
+ 1 APPPATH\Views\admin\pages\reset.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roww', 'APPPATH\\Views\\admin\\pages\\reset.php', 172)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\reset.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/reset', [], true)
+ 5 APPPATH\Controllers\reset.php(16): view('admin/pages/reset')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\reset->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reset))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,1217 @@
+CRITICAL - 2022-10-18 10:03:07 --> Undefined variable: tagihan
+in APPPATH\Views\ingpois.php on line 172.
+ 1 APPPATH\Views\ingpois.php(172): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: tagihan', 'APPPATH\\Views\\ingpois.php', 172, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(20): view('ingpois', [])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 10:04:33 --> Cannot use [] for reading
+in APPPATH\Controllers\Ingpois.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 10:04:39 --> Trying to access array offset on value of type bool
+in VENDORPATH\mpdf\mpdf\src\Mpdf.php on line 16678.
+ 1 VENDORPATH\mpdf\mpdf\src\Mpdf.php(16678): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'VENDORPATH\\mpdf\\mpdf\\src\\Mpdf.php', 16678, [...])
+ 2 VENDORPATH\mpdf\mpdf\src\Mpdf.php(17002): Mpdf\Mpdf->_setBorderLine([...])
+ 3 VENDORPATH\mpdf\mpdf\src\Tag\BlockTag.php(1124): Mpdf\Mpdf->PaintDivBB('ROOTPATH\\public', 2)
+ 4 VENDORPATH\mpdf\mpdf\src\Tag.php(247): Mpdf\Tag\BlockTag->close([...], 119)
+ 5 VENDORPATH\mpdf\mpdf\src\Mpdf.php(13781): Mpdf\Tag->CloseTag('DIV', [...], 119)
+ 6 APPPATH\Controllers\Ingpois.php(21): Mpdf\Mpdf->WriteHTML(' <div class="body"> <div class="container"> <div class="row"> <div class="col-xs-12"> <div class="invoice-title"> <h2>INVOICE<br />No 005/BE-INV/14-IX/2022</h2><h3 class="pull-right"><img src="http://localhost/bara/public/logo_bara.png"style="width: 150px;"></h3> </div> <hr /> <div class="row"> <div class="col-xs-6"> <address> <strong>Invoice To:</strong><br />Rem Angin <br />PT GAM<br />Simeuleu<br />083567895432<br /></address> </div> <div class="col-xs-6 text-right"> <address> <strong>Pay To:</strong><br />PT. Bank Mandiri (Persero) Tbk<br />mandiri<br />No. Rek. 132 002 626 2262<br />a/n PT. BARA PRIMA MULTI TEKNOVASI<br /></address> </div> </div> <div class="row"> <div class="col-xs-6"> <address> <strong>Invoice Date:</strong> 2022-09-14 <br /><strong>Due Date:</strong> 2022-09-22<br /></address> </div> </div> </div> </div> <div class="row"> <div class="col-md-12"> <div class="panel panel-default"> <div class="panel-heading"> <h3 class="panel-title"><strong>Order summary</strong></h3> </div> <div class="panel-body"> <div class="table-responsive"> <table class="table table-condensed"> <thead> <tr> <td><strong>Deskripsi</strong></td> <td class="text-center"><strong>Unit</strong></td> <td class="text-center"><strong>Quantity</strong></td> <td class="text-right"><strong>Subtotal</strong></td> <td class="text-right"><strong>Total</strong></td> </tr></thead> <tbody> <tr> <td> Menghilangkan Berisi</td> <td class="text-center"> Paket</td> <td class="text-center"> 2</td> <td class="text-right"> Rp.2.000.000</td> <td class="text-right"> Rp.4.000.000</td> </tr> </tbody> </table> <table class="table table-condensed"> <tbody> <tr> <td colspan="5" style="text-align:right;"> Rp.4.000.000</td> </tr> </tbody> </table> <div> <p style="margin-left: 81%; margin-top: 30px;">Cimahi, </p> <img src="http://localhost/bara/public/img/contoh_ttd.jpg" style="margin-left: 81%; width: 100px; height: 100px;"> <a href="http://localhost/bara/public" style="color:black; text-decoration: none;"> </div> </div> </div> </div> </div> </div> </div> </div> ')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 10:07:21 --> Trying to access array offset on value of type bool
+in VENDORPATH\mpdf\mpdf\src\Mpdf.php on line 16678.
+ 1 VENDORPATH\mpdf\mpdf\src\Mpdf.php(16678): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'VENDORPATH\\mpdf\\mpdf\\src\\Mpdf.php', 16678, [...])
+ 2 VENDORPATH\mpdf\mpdf\src\Mpdf.php(17002): Mpdf\Mpdf->_setBorderLine([...])
+ 3 VENDORPATH\mpdf\mpdf\src\Tag\BlockTag.php(1124): Mpdf\Mpdf->PaintDivBB('ROOTPATH\\public', 2)
+ 4 VENDORPATH\mpdf\mpdf\src\Tag.php(247): Mpdf\Tag\BlockTag->close([...], 119)
+ 5 VENDORPATH\mpdf\mpdf\src\Mpdf.php(13781): Mpdf\Tag->CloseTag('DIV', [...], 119)
+ 6 APPPATH\Controllers\Ingpois.php(21): Mpdf\Mpdf->WriteHTML(' <div class="body"> <div class="container"> <div class="row"> <div class="col-xs-12"> <div class="invoice-title"> <h2>INVOICE<br />No 005/BE-INV/14-IX/2022</h2><h3 class="pull-right"><img src="http://localhost/bara/public/logo_bara.png"style="width: 150px;"></h3> </div> <hr /> <div class="row"> <div class="col-xs-6"> <address> <strong>Invoice To:</strong><br />Rem Angin <br />PT GAM<br />Simeuleu<br />083567895432<br /></address> </div> <div class="col-xs-6 text-right"> <address> <strong>Pay To:</strong><br />PT. Bank Mandiri (Persero) Tbk<br />mandiri<br />No. Rek. 132 002 626 2262<br />a/n PT. BARA PRIMA MULTI TEKNOVASI<br /></address> </div> </div> <div class="row"> <div class="col-xs-6"> <address> <strong>Invoice Date:</strong> 2022-09-14 <br /><strong>Due Date:</strong> 2022-09-22<br /></address> </div> </div> </div> </div> <div class="row"> <div class="col-md-12"> <div class="panel panel-default"> <div class="panel-heading"> <h3 class="panel-title"><strong>Order summary</strong></h3> </div> <div class="panel-body"> <div class="table-responsive"> <table class="table table-condensed"> <thead> <tr> <td><strong>Deskripsi</strong></td> <td class="text-center"><strong>Unit</strong></td> <td class="text-center"><strong>Quantity</strong></td> <td class="text-right"><strong>Subtotal</strong></td> <td class="text-right"><strong>Total</strong></td> </tr></thead> <tbody> <tr> <td> Menghilangkan Berisi</td> <td class="text-center"> Paket</td> <td class="text-center"> 2</td> <td class="text-right"> Rp.2.000.000</td> <td class="text-right"> Rp.4.000.000</td> </tr> </tbody> </table> <table class="table table-condensed"> <tbody> <tr> <td colspan="5" style="text-align:right;"> Rp.4.000.000</td> </tr> </tbody> </table> <div> <p style="margin-left: 81%; margin-top: 30px;">Cimahi, </p> <img src="http://localhost/bara/public/img/contoh_ttd.jpg" style="margin-left: 81%; width: 100px; height: 100px;"> <a href="http://localhost/bara/public" style="color:black; text-decoration: none;"> </div> </div> </div> </div> </div> </div> </div> </div> ')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 10:08:13 --> Array to string conversion
+in APPPATH\Controllers\Ingpois.php on line 20.
+ 1 APPPATH\Controllers\Ingpois.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Ingpois.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 10:12:27 --> Cannot use [] for reading
+in APPPATH\Controllers\Ingpois.php on line 20.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-10-18 10:15:17 --> Undefined index: url
+in APPPATH\Controllers\Ingpois.php on line 20.
+ 1 APPPATH\Controllers\Ingpois.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: url', 'APPPATH\\Controllers\\Ingpois.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 10:22:13 --> Argument 2 passed to base_url() must be of the type string or null, array given, called in D:\Xampp baru\htdocs\bara\app\Controllers\Ingpois.php on line 20
+in SYSTEMPATH\Helpers\url_helper.php on line 101.
+ 1 APPPATH\Controllers\Ingpois.php(20): base_url('invoice', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 10:28:48 --> file_get_contents(&lt;!-- DEBUG-VIEW START 1 APPPATH\Views\ingpois.php --&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+	&lt;meta charset=&quot;utf-8&quot;&gt;
+	&lt;title&gt;PT GAM&lt;/title&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;https://...@3.3.7/dist/css/bootstrap.min.css&quot; integrity=&quot;sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u&quot; crossorigin=&quot;anonymous&quot;&gt;
+	&lt;script src=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js&quot; integrity=&quot;sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+	&lt;script src=&quot;https://code.jquery.com/jquery-3.6.0.min.js&quot;&gt;&lt;/script&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;https://bara.co.id/assets/images/icon_bara.png&quot; type=&quot;image/x-icon&quot;&gt;
+	&lt;style type=&quot;text/css&quot;&gt;
+		.invoice-title h2, .invoice-title h3 {
+            display: inline-block;
+        }
+
+        .table &gt; tbody &gt; tr &gt; .no-line {
+            border-top: none;
+        }
+
+        .table &gt; thead &gt; tr &gt; .no-line {
+            border-bottom: none;
+        }
+
+        .table &gt; tbody &gt; tr &gt; .thick-line {
+            border-top: 2px solid;
+        }
+        .body{
+            background-color: lightgrey;
+            padding: 2% 15% 2% 15%;
+        }
+        .container{
+            width: 90%;
+            background-color: white;
+        }
+	&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+    &lt;div class=&quot;body&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-xs-12&quot;&gt;
+            &lt;div class=&quot;invoice-title&quot;&gt;
+                &lt;h2&gt;INVOICE&lt;br&gt;No                         005/BE-INV/14-IX/2022&lt;/h2&gt;&lt;h3 class=&quot;pull-right&quot;&gt;&lt;img src=&quot;http://localhost/bara/public/logo_bara.png&quot;style=&quot;width: 150px;&quot;&gt;&lt;/h3&gt;
+            &lt;/div&gt;
+            &lt;hr&gt;
+            &lt;div class=&quot;row&quot;&gt;
+                &lt;div class=&quot;col-xs-6&quot;&gt;
+                    &lt;address&gt;
+                                        &lt;strong&gt;Invoice To:&lt;/strong&gt;&lt;br&gt;
+                        Rem Angin                        &lt;br&gt;
+                        PT GAM&lt;br&gt;
+                        Simeuleu&lt;br&gt;
+                        083567895432&lt;br&gt;
+                    &lt;/address&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;col-xs-6 text-right&quot;&gt;
+                    &lt;address&gt;
+                    &lt;strong&gt;Pay To:&lt;/strong&gt;&lt;br&gt;
+                        PT. Bank Mandiri (Persero) Tbk&lt;br&gt;mandiri&lt;br&gt;No. Rek. 132 002 626 2262&lt;br&gt;a/n PT. BARA PRIMA MULTI TEKNOVASI&lt;br&gt;                        &lt;!-- PT. Bank Central Asia (BCA) Tbk&lt;br&gt;
+                        KCP Setiabudi&lt;br&gt;
+                        No. Rek. 233 003 31 96 &lt;br&gt;
+                        a/n Moch Gani Setiawan --&gt;
+                    &lt;/address&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;row&quot;&gt;
+                &lt;div class=&quot;col-xs-6&quot;&gt;
+                                        &lt;address&gt;
+                        &lt;strong&gt;Invoice Date:&lt;/strong&gt;
+                        2022-09-14                       
+                       &lt;br&gt;
+                        &lt;strong&gt;Due Date:&lt;/strong&gt;
+                        2022-09-22&lt;br&gt;
+                    &lt;/address&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-12&quot;&gt;
+            &lt;div class=&quot;panel panel-default&quot;&gt;
+                &lt;div class=&quot;panel-heading&quot;&gt;
+                    &lt;h3 class=&quot;panel-title&quot;&gt;&lt;strong&gt;Order summary&lt;/strong&gt;&lt;/h3&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;panel-body&quot;&gt;
+                    &lt;div class=&quot;table-responsive&quot;&gt;
+                        &lt;table class=&quot;table table-condensed&quot;&gt;
+                            &lt;thead&gt;
+                                &lt;tr&gt;
+                                    &lt;td&gt;&lt;strong&gt;Deskripsi&lt;/strong&gt;&lt;/td&gt;
+                                    &lt;td class=&quot;text-center&quot;&gt;&lt;strong&gt;Unit&lt;/strong&gt;&lt;/td&gt;
+                                    &lt;td class=&quot;text-center&quot;&gt;&lt;strong&gt;Quantity&lt;/strong&gt;&lt;/td&gt;
+                                    &lt;td class=&quot;text-right&quot;&gt;&lt;strong&gt;Subtotal&lt;/strong&gt;&lt;/td&gt;
+                                    &lt;td class=&quot;text-right&quot;&gt;&lt;strong&gt;Total&lt;/strong&gt;&lt;/td&gt;
+                                &lt;/tr&gt;
+                            &lt;/thead&gt;
+                            &lt;tbody&gt;
+                                 
+                                &lt;tr&gt;
+                                    &lt;td&gt; Menghilangkan Berisi&lt;/td&gt;
+                                    &lt;td class=&quot;text-center&quot;&gt; Paket&lt;/td&gt;
+                                    &lt;td class=&quot;text-center&quot;&gt; 2&lt;/td&gt;
+                                    &lt;td class=&quot;text-right&quot;&gt;
+                                    Rp.2.000.000                                    &lt;/td&gt;
+                                    &lt;td class=&quot;text-right&quot;&gt; Rp.4.000.000&lt;/td&gt;
+                                &lt;/tr&gt;
+                                                        &lt;/tbody&gt;
+                        &lt;/table&gt;
+                        &lt;table class=&quot;table table-condensed&quot;&gt;
+                            &lt;tbody&gt;
+                                &lt;tr&gt;
+                                    &lt;!-- &lt;td class=&quot;thick-line&quot;&gt;&lt;/td&gt;
+                                    &lt;td class=&quot;thick-line&quot;&gt;&lt;/td&gt;
+                                    &lt;td class=&quot;thick-line text-center&quot;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/td&gt;
+                                    &lt;td class=&quot;thick-line text-right&quot;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/td&gt;
+                                    &lt;td class=&quot;thick-line text-right&quot;&gt;&lt;strong&gt; 
+                                        &lt;/strong&gt;&lt;/td&gt;--&gt;
+                                    &lt;td colspan=&quot;5&quot; style=&quot;text-align:right;&quot;&gt;
+                                        Rp.4.000.000                                    &lt;/td&gt;
+                                &lt;/tr&gt;
+                            &lt;/tbody&gt;
+                        &lt;/table&gt;
+                        &lt;div&gt;
+                        &lt;p style=&quot;margin-left: 81%; margin-top: 30px;&quot;&gt;Cimahi, &lt;/p&gt;
+                        &lt;img src=&quot;http://localhost/bara/public/img/contoh_ttd.jpg&quot; style=&quot;margin-left: 81%; width: 100px; height: 100px;&quot;&gt;
+                        &lt;a href=&quot;http://localhost/bara/public&quot; style=&quot;color:black; text-decoration: none;&quot;&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+&lt;!-- DEBUG-VIEW ENDED 1 APPPATH\Views\ingpois.php --&gt;
+): failed to open stream: Invalid argument
+in APPPATH\Controllers\Ingpois.php on line 20.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(&lt;!-- DEBUG-VIEW START 1 APPPATH\\Views\\ingpois.php --&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+	&lt;meta charset=&quot;utf-8&quot;&gt;
+	&lt;title&gt;PT GAM&lt;/title&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;https://...@3.3.7/dist/css/bootstrap.min.css&quot; integrity=&quot;sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u&quot; crossorigin=&quot;anonymous&quot;&gt;
+	&lt;script src=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js&quot; integrity=&quot;sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+	&lt;script src=&quot;https://code.jquery.com/jquery-3.6.0.min.js&quot;&gt;&lt;/script&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;https://bara.co.id/assets/images/icon_bara.png&quot; type=&quot;image/x-icon&quot;&gt;
+	&lt;style type=&quot;text/css&quot;&gt;
+		.invoice-title h2, .invoice-title h3 {
+            display: inline-block;
+        }
+
+        .table &gt; tbody &gt; tr &gt; .no-line {
+            border-top: none;
+        }
+
+        .table &gt; thead &gt; tr &gt; .no-line {
+            border-bottom: none;
+        }
+
+        .table &gt; tbody &gt; tr &gt; .thick-line {
+            border-top: 2px solid;
+        }
+        .body{
+            background-color: lightgrey;
+            padding: 2% 15% 2% 15%;
+        }
+        .container{
+            width: 90%;
+            background-color: white;
+        }
+	&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+    &lt;div class=&quot;body&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-xs-12&quot;&gt;
+            &lt;div class=&quot;invoice-title&quot;&gt;
+                &lt;h2&gt;INVOICE&lt;br&gt;No                         005/BE-INV/14-IX/2022&lt;/h2&gt;&lt;h3 class=&quot;pull-right&quot;&gt;&lt;img src=&quot;http://localhost/bara/public/logo_bara.png&quot;style=&quot;width: 150px;&quot;&gt;&lt;/h3&gt;
+            &lt;/div&gt;
+            &lt;hr&gt;
+            &lt;div class=&quot;row&quot;&gt;
+                &lt;div class=&quot;col-xs-6&quot;&gt;
+                    &lt;address&gt;
+                                        &lt;strong&gt;Invoice To:&lt;/strong&gt;&lt;br&gt;
+                        Rem Angin                        &lt;br&gt;
+                        PT GAM&lt;br&gt;
+                        Simeuleu&lt;br&gt;
+                        083567895432&lt;br&gt;
+                    &lt;/address&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;col-xs-6 text-right&quot;&gt;
+                    &lt;address&gt;
+                    &lt;strong&gt;Pay To:&lt;/strong&gt;&lt;br&gt;
+                        PT. Bank Mandiri (Persero) Tbk&lt;br&gt;mandiri&lt;br&gt;No. Rek. 132 002 626 2262&lt;br&gt;a/n PT. BARA PRIMA MULTI TEKNOVASI&lt;br&gt;                        &lt;!-- PT. Bank Central Asia (BCA) Tbk&lt;br&gt;
+                        KCP Setiabudi&lt;br&gt;
+                        No. Rek. 233 003 31 96 &lt;br&gt;
+                        a/n Moch Gani Setiawan --&gt;
+                    &lt;/address&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;row&quot;&gt;
+                &lt;div class=&quot;col-xs-6&quot;&gt;
+                                        &lt;address&gt;
+                        &lt;strong&gt;Invoice Date:&lt;/strong&gt;
+                        2022-09-14                       
+                       &lt;br&gt;
+                        &lt;strong&gt;Due Date:&lt;/strong&gt;
+                        2022-09-22&lt;br&gt;
+                    &lt;/address&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-12&quot;&gt;
+            &lt;div class=&quot;panel panel-default&quot;&gt;
+                &lt;div class=&quot;panel-heading&quot;&gt;
+                    &lt;h3 class=&quot;panel-title&quot;&gt;&lt;strong&gt;Order summary&lt;/strong&gt;&lt;/h3&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;panel-body&quot;&gt;
+                    &lt;div class=&quot;table-responsive&quot;&gt;
+                        &lt;table class=&quot;table table-condensed&quot;&gt;
+                            &lt;thead&gt;
+                                &lt;tr&gt;
+                                    &lt;td&gt;&lt;strong&gt;Deskripsi&lt;/strong&gt;&lt;/td&gt;
+                                    &lt;td class=&quot;text-center&quot;&gt;&lt;strong&gt;Unit&lt;/strong&gt;&lt;/td&gt;
+                                    &lt;td class=&quot;text-center&quot;&gt;&lt;strong&gt;Quantity&lt;/strong&gt;&lt;/td&gt;
+                                    &lt;td class=&quot;text-right&quot;&gt;&lt;strong&gt;Subtotal&lt;/strong&gt;&lt;/td&gt;
+                                    &lt;td class=&quot;text-right&quot;&gt;&lt;strong&gt;Total&lt;/strong&gt;&lt;/td&gt;
+                                &lt;/tr&gt;
+                            &lt;/thead&gt;
+                            &lt;tbody&gt;
+                                 
+                                &lt;tr&gt;
+                                    &lt;td&gt; Menghilangkan Berisi&lt;/td&gt;
+                                    &lt;td class=&quot;text-center&quot;&gt; Paket&lt;/td&gt;
+                                    &lt;td class=&quot;text-center&quot;&gt; 2&lt;/td&gt;
+                                    &lt;td class=&quot;text-right&quot;&gt;
+                                    Rp.2.000.000                                    &lt;/td&gt;
+                                    &lt;td class=&quot;text-right&quot;&gt; Rp.4.000.000&lt;/td&gt;
+                                &lt;/tr&gt;
+                                                        &lt;/tbody&gt;
+                        &lt;/table&gt;
+                        &lt;table class=&quot;table table-condensed&quot;&gt;
+                            &lt;tbody&gt;
+                                &lt;tr&gt;
+                                    &lt;!-- &lt;td class=&quot;thick-line&quot;&gt;&lt;/td&gt;
+                                    &lt;td class=&quot;thick-line&quot;&gt;&lt;/td&gt;
+                                    &lt;td class=&quot;thick-line text-center&quot;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/td&gt;
+                                    &lt;td class=&quot;thick-line text-right&quot;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/td&gt;
+                                    &lt;td class=&quot;thick-line text-right&quot;&gt;&lt;strong&gt; 
+                                        &lt;/strong&gt;&lt;/td&gt;--&gt;
+                                    &lt;td colspan=&quot;5&quot; style=&quot;text-align:right;&quot;&gt;
+                                        Rp.4.000.000                                    &lt;/td&gt;
+                                &lt;/tr&gt;
+                            &lt;/tbody&gt;
+                        &lt;/table&gt;
+                        &lt;div&gt;
+                        &lt;p style=&quot;margin-left: 81%; margin-top: 30px;&quot;&gt;Cimahi, &lt;/p&gt;
+                        &lt;img src=&quot;http://localhost/bara/public/img/contoh_ttd.jpg&quot; style=&quot;margin-left: 81%; width: 100px; height: 100px;&quot;&gt;
+                        &lt;a href=&quot;http://localhost/bara/public&quot; style=&quot;color:black; text-decoration: none;&quot;&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+&lt;!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\ingpois.php --&gt;
+): failed to open stream: Invalid argument', 'APPPATH\\Controllers\\Ingpois.php', 20, [...])
+ 2 APPPATH\Controllers\Ingpois.php(20): file_get_contents('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\ingpois.php -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>PT GAM</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="shortcut icon" href="https://bara.co.id/assets/images/icon_bara.png" type="image/x-icon">
+	<style type="text/css">
+		.invoice-title h2, .invoice-title h3 {
+            display: inline-block;
+        }
+
+        .table > tbody > tr > .no-line {
+            border-top: none;
+        }
+
+        .table > thead > tr > .no-line {
+            border-bottom: none;
+        }
+
+        .table > tbody > tr > .thick-line {
+            border-top: 2px solid;
+        }
+        .body{
+            background-color: lightgrey;
+            padding: 2% 15% 2% 15%;
+        }
+        .container{
+            width: 90%;
+            background-color: white;
+        }
+	</style>
+</head>
+<body>
+
+    <div class="body">
+        <div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="invoice-title">
+                <h2>INVOICE<br>No                         005/BE-INV/14-IX/2022</h2><h3 class="pull-right"><img src="http://localhost/bara/public/logo_bara.png"style="width: 150px;"></h3>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-xs-6">
+                    <address>
+                                        <strong>Invoice To:</strong><br>
+                        Rem Angin                        <br>
+                        PT GAM<br>
+                        Simeuleu<br>
+                        083567895432<br>
+                    </address>
+                </div>
+                <div class="col-xs-6 text-right">
+                    <address>
+                    <strong>Pay To:</strong><br>
+                        PT. Bank Mandiri (Persero) Tbk<br>mandiri<br>No. Rek. 132 002 626 2262<br>a/n PT. BARA PRIMA MULTI TEKNOVASI<br>                        <!-- PT. Bank Central Asia (BCA) Tbk<br>
+                        KCP Setiabudi<br>
+                        No. Rek. 233 003 31 96 <br>
+                        a/n Moch Gani Setiawan -->
+                    </address>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6">
+                                        <address>
+                        <strong>Invoice Date:</strong>
+                        2022-09-14                       
+                       <br>
+                        <strong>Due Date:</strong>
+                        2022-09-22<br>
+                    </address>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title"><strong>Order summary</strong></h3>
+                </div>
+                <div class="panel-body">
+                    <div class="table-responsive">
+                        <table class="table table-condensed">
+                            <thead>
+                                <tr>
+                                    <td><strong>Deskripsi</strong></td>
+                                    <td class="text-center"><strong>Unit</strong></td>
+                                    <td class="text-center"><strong>Quantity</strong></td>
+                                    <td class="text-right"><strong>Subtotal</strong></td>
+                                    <td class="text-right"><strong>Total</strong></td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                 
+                                <tr>
+                                    <td> Menghilangkan Berisi</td>
+                                    <td class="text-center"> Paket</td>
+                                    <td class="text-center"> 2</td>
+                                    <td class="text-right">
+                                    Rp.2.000.000                                    </td>
+                                    <td class="text-right"> Rp.4.000.000</td>
+                                </tr>
+                                                        </tbody>
+                        </table>
+                        <table class="table table-condensed">
+                            <tbody>
+                                <tr>
+                                    <!-- <td class="thick-line"></td>
+                                    <td class="thick-line"></td>
+                                    <td class="thick-line text-center"><strong></strong></td>
+                                    <td class="thick-line text-right"><strong></strong></td>
+                                    <td class="thick-line text-right"><strong> 
+                                        </strong></td>-->
+                                    <td colspan="5" style="text-align:right;">
+                                        Rp.4.000.000                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div>
+                        <p style="margin-left: 81%; margin-top: 30px;">Cimahi, </p>
+                        <img src="http://localhost/bara/public/img/contoh_ttd.jpg" style="margin-left: 81%; width: 100px; height: 100px;">
+                        <a href="http://localhost/bara/public" style="color:black; text-decoration: none;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\ingpois.php -->
+')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 10:30:11 --> Undefined variable: tagihan
+in APPPATH\Views\ingpois.php on line 172.
+ 1 APPPATH\Views\ingpois.php(172): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: tagihan', 'APPPATH\\Views\\ingpois.php', 172, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(20): view('ingpois')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 10:30:28 --> Trying to access array offset on value of type bool
+in VENDORPATH\mpdf\mpdf\src\Mpdf.php on line 16678.
+ 1 VENDORPATH\mpdf\mpdf\src\Mpdf.php(16678): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'VENDORPATH\\mpdf\\mpdf\\src\\Mpdf.php', 16678, [...])
+ 2 VENDORPATH\mpdf\mpdf\src\Mpdf.php(17002): Mpdf\Mpdf->_setBorderLine([...])
+ 3 VENDORPATH\mpdf\mpdf\src\Tag\BlockTag.php(1124): Mpdf\Mpdf->PaintDivBB('ROOTPATH\\public', 2)
+ 4 VENDORPATH\mpdf\mpdf\src\Tag.php(247): Mpdf\Tag\BlockTag->close([...], 119)
+ 5 VENDORPATH\mpdf\mpdf\src\Mpdf.php(13781): Mpdf\Tag->CloseTag('DIV', [...], 119)
+ 6 APPPATH\Controllers\Ingpois.php(21): Mpdf\Mpdf->WriteHTML(' <div class="body"> <div class="container"> <div class="row"> <div class="col-xs-12"> <div class="invoice-title"> <h2>INVOICE<br />No 005/BE-INV/14-IX/2022</h2><h3 class="pull-right"><img src="http://localhost/bara/public/logo_bara.png"style="width: 150px;"></h3> </div> <hr /> <div class="row"> <div class="col-xs-6"> <address> <strong>Invoice To:</strong><br />Rem Angin <br />PT GAM<br />Simeuleu<br />083567895432<br /></address> </div> <div class="col-xs-6 text-right"> <address> <strong>Pay To:</strong><br />PT. Bank Mandiri (Persero) Tbk<br />mandiri<br />No. Rek. 132 002 626 2262<br />a/n PT. BARA PRIMA MULTI TEKNOVASI<br /></address> </div> </div> <div class="row"> <div class="col-xs-6"> <address> <strong>Invoice Date:</strong> 2022-09-14 <br /><strong>Due Date:</strong> 2022-09-22<br /></address> </div> </div> </div> </div> <div class="row"> <div class="col-md-12"> <div class="panel panel-default"> <div class="panel-heading"> <h3 class="panel-title"><strong>Order summary</strong></h3> </div> <div class="panel-body"> <div class="table-responsive"> <table class="table table-condensed"> <thead> <tr> <td><strong>Deskripsi</strong></td> <td class="text-center"><strong>Unit</strong></td> <td class="text-center"><strong>Quantity</strong></td> <td class="text-right"><strong>Subtotal</strong></td> <td class="text-right"><strong>Total</strong></td> </tr></thead> <tbody> <tr> <td> Menghilangkan Berisi</td> <td class="text-center"> Paket</td> <td class="text-center"> 2</td> <td class="text-right"> Rp.2.000.000</td> <td class="text-right"> Rp.4.000.000</td> </tr> </tbody> </table> <table class="table table-condensed"> <tbody> <tr> <td colspan="5" style="text-align:right;"> Rp.4.000.000</td> </tr> </tbody> </table> <div> <p style="margin-left: 81%; margin-top: 30px;">Cimahi, </p> <img src="http://localhost/bara/public/img/contoh_ttd.jpg" style="margin-left: 81%; width: 100px; height: 100px;"> <a href="http://localhost/bara/public" style="color:black; text-decoration: none;"> </div> </div> </div> </div> </div> </div> </div> </div> ')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 10:43:09 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 143360 bytes)
+in VENDORPATH\mpdf\mpdf\src\Cache.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-10-18 11:02:40 --> Trying to access array offset on value of type bool
+in VENDORPATH\mpdf\mpdf\src\Mpdf.php on line 16678.
+ 1 VENDORPATH\mpdf\mpdf\src\Mpdf.php(16678): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'VENDORPATH\\mpdf\\mpdf\\src\\Mpdf.php', 16678, [...])
+ 2 VENDORPATH\mpdf\mpdf\src\Mpdf.php(17002): Mpdf\Mpdf->_setBorderLine([...])
+ 3 VENDORPATH\mpdf\mpdf\src\Tag\BlockTag.php(1124): Mpdf\Mpdf->PaintDivBB('ROOTPATH\\public', 2)
+ 4 VENDORPATH\mpdf\mpdf\src\Tag.php(247): Mpdf\Tag\BlockTag->close([...], 119)
+ 5 VENDORPATH\mpdf\mpdf\src\Mpdf.php(13781): Mpdf\Tag->CloseTag('DIV', [...], 119)
+ 6 APPPATH\Controllers\Ingpois.php(21): Mpdf\Mpdf->WriteHTML(' <div class="body"> <div class="container"> <div class="row"> <div class="col-xs-12"> <div class="invoice-title"> <h2>INVOICE<br />No 0010/BE-INV/11-X/2022</h2><h3 class="pull-right"><img src="http://localhost/bara/public/logo_bara.png"style="width: 150px;"></h3> </div> <hr /> <div class="row"> <div class="col-xs-6"> <address> <strong>Invoice To:</strong><br />Taufiq <br />Bara Ent<br />Bandung<br />087645326654<br /></address> </div> <div class="col-xs-6 text-right"> <address> <strong>Pay To:</strong><br />PT. Bank Central Asia (BCA) Tbk<br />KCP Setiabudi<br />No. Rek. 233 003 31 96<br />a/n Moch Gani Setiawan<br /></address> </div> </div> <div class="row"> <div class="col-xs-6"> <address> <strong>Invoice Date:</strong> 2022-10-11 <br /><strong>Due Date:</strong> 2022-11-30<br /></address> </div> </div> </div> </div> <div class="row"> <div class="col-md-12"> <div class="panel panel-default"> <div class="panel-heading"> <h3 class="panel-title"><strong>Order summary</strong></h3> </div> <div class="panel-body"> <div class="table-responsive"> <table class="table table-condensed"> <thead> <tr> <td><strong>Deskripsi</strong></td> <td class="text-center"><strong>Unit</strong></td> <td class="text-center"><strong>Quantity</strong></td> <td class="text-right"><strong>Subtotal</strong></td> <td class="text-right"><strong>Total</strong></td> </tr></thead> <tbody> <tr> <td> Desain UI & UX</td> <td class="text-center"> Paket</td> <td class="text-center"></td> <td class="text-right"> Rp.2.000</td> <td class="text-right"> Rp.8.000</td> </tr> <tr> <td> Desain UI & UX</td> <td class="text-center"> Paket</td> <td class="text-center"></td> <td class="text-right"> Rp.2.000</td> <td class="text-right"> Rp.8.000</td> </tr> </tbody> </table> <table class="table table-condensed"> <tbody> <tr> <td colspan="5" style="text-align:right;"> Rp.16.000</td> </tr> </tbody> </table> <div> <p style="margin-left: 81%; margin-top: 30px;">Cimahi, </p> <img src="http://localhost/bara/public/img/contoh_ttd.jpg" style="margin-left: 81%; width: 100px; height: 100px;"> <a href="http://localhost/bara/public" style="color:black; text-decoration: none;"> </div> </div> </div> </div> </div> </div> </div> </div> ')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 11:03:02 --> Trying to access array offset on value of type bool
+in VENDORPATH\mpdf\mpdf\src\Mpdf.php on line 16678.
+ 1 VENDORPATH\mpdf\mpdf\src\Mpdf.php(16678): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'VENDORPATH\\mpdf\\mpdf\\src\\Mpdf.php', 16678, [...])
+ 2 VENDORPATH\mpdf\mpdf\src\Mpdf.php(17002): Mpdf\Mpdf->_setBorderLine([...])
+ 3 VENDORPATH\mpdf\mpdf\src\Tag\BlockTag.php(1124): Mpdf\Mpdf->PaintDivBB('ROOTPATH\\public', 2)
+ 4 VENDORPATH\mpdf\mpdf\src\Tag.php(247): Mpdf\Tag\BlockTag->close([...], 119)
+ 5 VENDORPATH\mpdf\mpdf\src\Mpdf.php(13781): Mpdf\Tag->CloseTag('DIV', [...], 119)
+ 6 APPPATH\Controllers\Ingpois.php(21): Mpdf\Mpdf->WriteHTML(' <div class="body"> <div class="container"> <div class="row"> <div class="col-xs-12"> <div class="invoice-title"> <h2>INVOICE<br />No 0010/BE-INV/11-X/2022</h2><h3 class="pull-right"><img src="http://localhost/bara/public/logo_bara.png"style="width: 150px;"></h3> </div> <hr /> <div class="row"> <div class="col-xs-6"> <address> <strong>Invoice To:</strong><br />Taufiq <br />Bara Ent<br />Bandung<br />087645326654<br /></address> </div> <div class="col-xs-6 text-right"> <address> <strong>Pay To:</strong><br />PT. Bank Central Asia (BCA) Tbk<br />KCP Setiabudi<br />No. Rek. 233 003 31 96<br />a/n Moch Gani Setiawan<br /></address> </div> </div> <div class="row"> <div class="col-xs-6"> <address> <strong>Invoice Date:</strong> 2022-10-11 <br /><strong>Due Date:</strong> 2022-11-30<br /></address> </div> </div> </div> </div> <div class="row"> <div class="col-md-12"> <div class="panel panel-default"> <div class="panel-heading"> <h3 class="panel-title"><strong>Order summary</strong></h3> </div> <div class="panel-body"> <div class="table-responsive"> <table class="table table-condensed"> <thead> <tr> <td><strong>Deskripsi</strong></td> <td class="text-center"><strong>Unit</strong></td> <td class="text-center"><strong>Quantity</strong></td> <td class="text-right"><strong>Subtotal</strong></td> <td class="text-right"><strong>Total</strong></td> </tr></thead> <tbody> <tr> <td> Desain UI & UX</td> <td class="text-center"> Paket</td> <td class="text-center"></td> <td class="text-right"> Rp.2.000</td> <td class="text-right"> Rp.8.000</td> </tr> <tr> <td> Desain UI & UX</td> <td class="text-center"> Paket</td> <td class="text-center"></td> <td class="text-right"> Rp.2.000</td> <td class="text-right"> Rp.8.000</td> </tr> </tbody> </table> <table class="table table-condensed"> <tbody> <tr> <td colspan="5" style="text-align:right;"> Rp.16.000</td> </tr> </tbody> </table> <div> <p style="margin-left: 81%; margin-top: 30px;">Cimahi, </p> <img src="http://localhost/bara/public/img/contoh_ttd.jpg" style="margin-left: 81%; width: 100px; height: 100px;"> <a href="http://localhost/bara/public" style="color:black; text-decoration: none;"> </div> </div> </div> </div> </div> </div> </div> </div> ')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 11:05:29 --> Trying to access array offset on value of type bool
+in VENDORPATH\mpdf\mpdf\src\Mpdf.php on line 16678.
+ 1 VENDORPATH\mpdf\mpdf\src\Mpdf.php(16678): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'VENDORPATH\\mpdf\\mpdf\\src\\Mpdf.php', 16678, [...])
+ 2 VENDORPATH\mpdf\mpdf\src\Mpdf.php(17002): Mpdf\Mpdf->_setBorderLine([...])
+ 3 VENDORPATH\mpdf\mpdf\src\Tag\BlockTag.php(1124): Mpdf\Mpdf->PaintDivBB('ROOTPATH\\public', 2)
+ 4 VENDORPATH\mpdf\mpdf\src\Tag.php(247): Mpdf\Tag\BlockTag->close([...], 119)
+ 5 VENDORPATH\mpdf\mpdf\src\Mpdf.php(13781): Mpdf\Tag->CloseTag('DIV', [...], 119)
+ 6 APPPATH\Controllers\Ingpois.php(21): Mpdf\Mpdf->WriteHTML(' <div class="body"> <div class="container"> <div class="row"> <div class="col-xs-12"> <div class="invoice-title"> <h2>INVOICE<br />No 0010/BE-INV/11-X/2022</h2><h3 class="pull-right"><img src="http://localhost/bara/public/logo_bara.png"style="width: 150px;"></h3> </div> <hr /> <div class="row"> <div class="col-xs-6"> <address> <strong>Invoice To:</strong><br />Taufiq <br />Bara Ent<br />Bandung<br />087645326654<br /></address> </div> <div class="col-xs-6 text-right"> <address> <strong>Pay To:</strong><br />PT. Bank Central Asia (BCA) Tbk<br />KCP Setiabudi<br />No. Rek. 233 003 31 96<br />a/n Moch Gani Setiawan<br /></address> </div> </div> <div class="row"> <div class="col-xs-6"> <address> <strong>Invoice Date:</strong> 2022-10-11 <br /><strong>Due Date:</strong> 2022-11-30<br /></address> </div> </div> </div> </div> <div class="row"> <div class="col-md-12"> <div class="panel panel-default"> <div class="panel-heading"> <h3 class="panel-title"><strong>Order summary</strong></h3> </div> <div class="panel-body"> <div class="table-responsive"> <table class="table table-condensed"> <thead> <tr> <td><strong>Deskripsi</strong></td> <td class="text-center"><strong>Unit</strong></td> <td class="text-center"><strong>Quantity</strong></td> <td class="text-right"><strong>Subtotal</strong></td> <td class="text-right"><strong>Total</strong></td> </tr></thead> <tbody> <tr> <td> Desain UI & UX</td> <td class="text-center"> Paket</td> <td class="text-center"></td> <td class="text-right"> Rp.2.000</td> <td class="text-right"> Rp.8.000</td> </tr> <tr> <td> Desain UI & UX</td> <td class="text-center"> Paket</td> <td class="text-center"></td> <td class="text-right"> Rp.2.000</td> <td class="text-right"> Rp.8.000</td> </tr> </tbody> </table> <table class="table table-condensed"> <tbody> <tr> <td colspan="5" style="text-align:right;"> Rp.16.000</td> </tr> </tbody> </table> <div> <p style="margin-left: 81%; margin-top: 30px;">Cimahi, </p> <img src="http://localhost/bara/public/img/contoh_ttd.jpg" style="margin-left: 81%; width: 100px; height: 100px;"> <a href="http://localhost/bara/public" style="color:black; text-decoration: none;"> </div> </div> </div> </div> </div> </div> </div> </div> ')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 11:06:47 --> Undefined variable: tagihan
+in APPPATH\Views\ingpois.php on line 172.
+ 1 APPPATH\Views\ingpois.php(172): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: tagihan', 'APPPATH\\Views\\ingpois.php', 172, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(20): view('ingpois')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 11:28:14 --> syntax error, unexpected '$mpdf' (T_VARIABLE)
+in APPPATH\Controllers\Ingpois.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Ingpois.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Ingpois')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Ingpois')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Ingpois')
+ 5 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Ingpois', true)
+ 6 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 11:28:42 --> Trying to access array offset on value of type bool
+in VENDORPATH\mpdf\mpdf\src\Mpdf.php on line 16678.
+ 1 VENDORPATH\mpdf\mpdf\src\Mpdf.php(16678): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'VENDORPATH\\mpdf\\mpdf\\src\\Mpdf.php', 16678, [...])
+ 2 VENDORPATH\mpdf\mpdf\src\Mpdf.php(17002): Mpdf\Mpdf->_setBorderLine([...])
+ 3 VENDORPATH\mpdf\mpdf\src\Tag\BlockTag.php(1124): Mpdf\Mpdf->PaintDivBB('ROOTPATH\\public', 2)
+ 4 VENDORPATH\mpdf\mpdf\src\Tag.php(247): Mpdf\Tag\BlockTag->close([...], 119)
+ 5 VENDORPATH\mpdf\mpdf\src\Mpdf.php(13781): Mpdf\Tag->CloseTag('DIV', [...], 119)
+ 6 APPPATH\Controllers\Ingpois.php(21): Mpdf\Mpdf->WriteHTML(' <div class="body"> <div class="container"> <div class="row"> <div class="col-xs-12"> <div class="invoice-title"> <h2>INVOICE<br />No 0010/BE-INV/11-X/2022</h2><h3 class="pull-right"><img src="http://localhost/bara/public/logo_bara.png"style="width: 150px;"></h3> </div> <hr /> <div class="row"> <div class="col-xs-6"> <address> <strong>Invoice To:</strong><br />Taufiq <br />Bara Ent<br />Bandung<br />087645326654<br /></address> </div> <div class="col-xs-6 text-right"> <address> <strong>Pay To:</strong><br />PT. Bank Central Asia (BCA) Tbk<br />KCP Setiabudi<br />No. Rek. 233 003 31 96<br />a/n Moch Gani Setiawan<br /></address> </div> </div> <div class="row"> <div class="col-xs-6"> <address> <strong>Invoice Date:</strong> 2022-10-11 <br /><strong>Due Date:</strong> 2022-11-30<br /></address> </div> </div> </div> </div> <div class="row"> <div class="col-md-12"> <div class="panel panel-default"> <div class="panel-heading"> <h3 class="panel-title"><strong>Order summary</strong></h3> </div> <div class="panel-body"> <div class="table-responsive"> <table class="table table-condensed"> <thead> <tr> <td><strong>Deskripsi</strong></td> <td class="text-center"><strong>Unit</strong></td> <td class="text-center"><strong>Quantity</strong></td> <td class="text-right"><strong>Subtotal</strong></td> <td class="text-right"><strong>Total</strong></td> </tr></thead> <tbody> <tr> <td> Desain UI</td> <td class="text-center"> Paket</td> <td class="text-center"> 3</td> <td class="text-right"> Rp.2.000</td> <td class="text-right"> Rp.8.000</td> </tr> <tr> <td> Desain UI & UX</td> <td class="text-center"> Paket</td> <td class="text-center"> 4</td> <td class="text-right"> Rp.2.000</td> <td class="text-right"> Rp.8.000</td> </tr> </tbody> </table> <table class="table table-condensed"> <tbody> <tr> <td colspan="5" style="text-align:right;"> Rp.16.000</td> </tr> </tbody> </table> <div> <p style="margin-left: 81%; margin-top: 30px;">Cimahi, </p> <img src="http://localhost/bara/public/img/contoh_ttd.jpg" style="margin-left: 81%; width: 100px; height: 100px;"> <a href="http://localhost/bara/public" style="color:black; text-decoration: none;"> </div> </div> </div> </div> </div> </div> </div> </div> ')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 11:29:34 --> Undefined variable: tagihan
+in APPPATH\Views\ingpois.php on line 172.
+ 1 APPPATH\Views\ingpois.php(172): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: tagihan', 'APPPATH\\Views\\ingpois.php', 172, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(20): view('ingpois', [])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 11:30:04 --> Trying to access array offset on value of type bool
+in VENDORPATH\mpdf\mpdf\src\Mpdf.php on line 16678.
+ 1 VENDORPATH\mpdf\mpdf\src\Mpdf.php(16678): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'VENDORPATH\\mpdf\\mpdf\\src\\Mpdf.php', 16678, [...])
+ 2 VENDORPATH\mpdf\mpdf\src\Mpdf.php(17002): Mpdf\Mpdf->_setBorderLine([...])
+ 3 VENDORPATH\mpdf\mpdf\src\Tag\BlockTag.php(1124): Mpdf\Mpdf->PaintDivBB('ROOTPATH\\public', 2)
+ 4 VENDORPATH\mpdf\mpdf\src\Tag.php(247): Mpdf\Tag\BlockTag->close([...], 119)
+ 5 VENDORPATH\mpdf\mpdf\src\Mpdf.php(13781): Mpdf\Tag->CloseTag('DIV', [...], 119)
+ 6 APPPATH\Controllers\Ingpois.php(22): Mpdf\Mpdf->WriteHTML(' <div class="body"> <div class="container"> <div class="row"> <div class="col-xs-12"> <div class="invoice-title"> <h2>INVOICE<br />No 0010/BE-INV/11-X/2022</h2><h3 class="pull-right"><img src="http://localhost/bara/public/logo_bara.png"style="width: 150px;"></h3> </div> <hr /> <div class="row"> <div class="col-xs-6"> <address> <strong>Invoice To:</strong><br />Taufiq <br />Bara Ent<br />Bandung<br />087645326654<br /></address> </div> <div class="col-xs-6 text-right"> <address> <strong>Pay To:</strong><br />PT. Bank Central Asia (BCA) Tbk<br />KCP Setiabudi<br />No. Rek. 233 003 31 96<br />a/n Moch Gani Setiawan<br /></address> </div> </div> <div class="row"> <div class="col-xs-6"> <address> <strong>Invoice Date:</strong> 2022-10-11 <br /><strong>Due Date:</strong> 2022-11-30<br /></address> </div> </div> </div> </div> <div class="row"> <div class="col-md-12"> <div class="panel panel-default"> <div class="panel-heading"> <h3 class="panel-title"><strong>Order summary</strong></h3> </div> <div class="panel-body"> <div class="table-responsive"> <table class="table table-condensed"> <thead> <tr> <td><strong>Deskripsi</strong></td> <td class="text-center"><strong>Unit</strong></td> <td class="text-center"><strong>Quantity</strong></td> <td class="text-right"><strong>Subtotal</strong></td> <td class="text-right"><strong>Total</strong></td> </tr></thead> <tbody> <tr> <td> Desain UI</td> <td class="text-center"> Paket</td> <td class="text-center"> 3</td> <td class="text-right"> Rp.2.000</td> <td class="text-right"> Rp.8.000</td> </tr> <tr> <td> Desain UI & UX</td> <td class="text-center"> Paket</td> <td class="text-center"> 4</td> <td class="text-right"> Rp.2.000</td> <td class="text-right"> Rp.8.000</td> </tr> </tbody> </table> <table class="table table-condensed"> <tbody> <tr> <td colspan="5" style="text-align:right;"> Rp.16.000</td> </tr> </tbody> </table> <div> <p style="margin-left: 81%; margin-top: 30px;">Cimahi, </p> <img src="http://localhost/bara/public/img/contoh_ttd.jpg" style="margin-left: 81%; width: 100px; height: 100px;"> <a href="http://localhost/bara/public" style="color:black; text-decoration: none;"> </div> </div> </div> </div> </div> </div> </div> </div> ')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 11:34:46 --> Array to string conversion
+in APPPATH\Controllers\Ingpois.php on line 21.
+ 1 APPPATH\Controllers\Ingpois.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Ingpois.php', 21, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 11:34:58 --> Argument 2 passed to base_url() must be of the type string or null, array given, called in D:\Xampp baru\htdocs\bara\app\Controllers\Ingpois.php on line 21
+in SYSTEMPATH\Helpers\url_helper.php on line 101.
+ 1 APPPATH\Controllers\Ingpois.php(21): base_url('ingpois', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 11:35:34 --> Argument 2 passed to base_url() must be of the type string or null, array given, called in D:\Xampp baru\htdocs\bara\app\Controllers\Ingpois.php on line 21
+in SYSTEMPATH\Helpers\url_helper.php on line 101.
+ 1 APPPATH\Controllers\Ingpois.php(21): base_url('invoice', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 11:35:59 --> file_get_contents(&lt;!-- DEBUG-VIEW START 1 APPPATH\Views\ingpois.php --&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+	&lt;meta charset=&quot;utf-8&quot;&gt;
+	&lt;title&gt;Bara Ent&lt;/title&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;https://...@3.3.7/dist/css/bootstrap.min.css&quot; integrity=&quot;sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u&quot; crossorigin=&quot;anonymous&quot;&gt;
+	&lt;script src=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js&quot; integrity=&quot;sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+	&lt;script src=&quot;https://code.jquery.com/jquery-3.6.0.min.js&quot;&gt;&lt;/script&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;https://bara.co.id/assets/images/icon_bara.png&quot; type=&quot;image/x-icon&quot;&gt;
+	&lt;style type=&quot;text/css&quot;&gt;
+		.invoice-title h2, .invoice-title h3 {
+            display: inline-block;
+        }
+
+        .table &gt; tbody &gt; tr &gt; .no-line {
+            border-top: none;
+        }
+
+        .table &gt; thead &gt; tr &gt; .no-line {
+            border-bottom: none;
+        }
+
+        .table &gt; tbody &gt; tr &gt; .thick-line {
+            border-top: 2px solid;
+        }
+        .body{
+            background-color: lightgrey;
+            padding: 2% 15% 2% 15%;
+        }
+        .container{
+            width: 90%;
+            background-color: white;
+        }
+	&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+    &lt;div class=&quot;body&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-xs-12&quot;&gt;
+            &lt;div class=&quot;invoice-title&quot;&gt;
+                &lt;h2&gt;INVOICE&lt;br&gt;No                         0010/BE-INV/11-X/2022&lt;/h2&gt;&lt;h3 class=&quot;pull-right&quot;&gt;&lt;img src=&quot;http://localhost/bara/public/logo_bara.png&quot;style=&quot;width: 150px;&quot;&gt;&lt;/h3&gt;
+            &lt;/div&gt;
+            &lt;hr&gt;
+            &lt;div class=&quot;row&quot;&gt;
+                &lt;div class=&quot;col-xs-6&quot;&gt;
+                    &lt;address&gt;
+                                        &lt;strong&gt;Invoice To:&lt;/strong&gt;&lt;br&gt;
+                        Taufiq                        &lt;br&gt;
+                        Bara Ent&lt;br&gt;
+                        Bandung&lt;br&gt;
+                        087645326654&lt;br&gt;
+                    &lt;/address&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;col-xs-6 text-right&quot;&gt;
+                    &lt;address&gt;
+                    &lt;strong&gt;Pay To:&lt;/strong&gt;&lt;br&gt;
+                        PT. Bank Central Asia (BCA) Tbk&lt;br&gt;KCP Setiabudi&lt;br&gt;No. Rek. 233 003 31 96&lt;br&gt;a/n Moch Gani Setiawan&lt;br&gt;                        &lt;!-- PT. Bank Central Asia (BCA) Tbk&lt;br&gt;
+                        KCP Setiabudi&lt;br&gt;
+                        No. Rek. 233 003 31 96 &lt;br&gt;
+                        a/n Moch Gani Setiawan --&gt;
+                    &lt;/address&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;row&quot;&gt;
+                &lt;div class=&quot;col-xs-6&quot;&gt;
+                                        &lt;address&gt;
+                        &lt;strong&gt;Invoice Date:&lt;/strong&gt;
+                        2022-10-11                       
+                       &lt;br&gt;
+                        &lt;strong&gt;Due Date:&lt;/strong&gt;
+                        2022-11-30&lt;br&gt;
+                    &lt;/address&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-12&quot;&gt;
+            &lt;div class=&quot;panel panel-default&quot;&gt;
+                &lt;div class=&quot;panel-heading&quot;&gt;
+                    &lt;h3 class=&quot;panel-title&quot;&gt;&lt;strong&gt;Order summary&lt;/strong&gt;&lt;/h3&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;panel-body&quot;&gt;
+                    &lt;div class=&quot;table-responsive&quot;&gt;
+                        &lt;table class=&quot;table table-condensed&quot;&gt;
+                            &lt;thead&gt;
+                                &lt;tr&gt;
+                                    &lt;td&gt;&lt;strong&gt;Deskripsi&lt;/strong&gt;&lt;/td&gt;
+                                    &lt;td class=&quot;text-center&quot;&gt;&lt;strong&gt;Unit&lt;/strong&gt;&lt;/td&gt;
+                                    &lt;td class=&quot;text-center&quot;&gt;&lt;strong&gt;Quantity&lt;/strong&gt;&lt;/td&gt;
+                                    &lt;td class=&quot;text-right&quot;&gt;&lt;strong&gt;Subtotal&lt;/strong&gt;&lt;/td&gt;
+                                    &lt;td class=&quot;text-right&quot;&gt;&lt;strong&gt;Total&lt;/strong&gt;&lt;/td&gt;
+                                &lt;/tr&gt;
+                            &lt;/thead&gt;
+                            &lt;tbody&gt;
+                                 
+                                &lt;tr&gt;
+                                    &lt;td&gt; Desain UI&lt;/td&gt;
+                                    &lt;td class=&quot;text-center&quot;&gt; Paket&lt;/td&gt;
+                                    &lt;td class=&quot;text-center&quot;&gt; 3&lt;/td&gt;
+                                    &lt;td class=&quot;text-right&quot;&gt;
+                                    Rp.2.000                                    &lt;/td&gt;
+                                    &lt;td class=&quot;text-right&quot;&gt; Rp.8.000&lt;/td&gt;
+                                &lt;/tr&gt;
+                             
+                                &lt;tr&gt;
+                                    &lt;td&gt; Desain UI &amp; UX&lt;/td&gt;
+                                    &lt;td class=&quot;text-center&quot;&gt; Paket&lt;/td&gt;
+                                    &lt;td class=&quot;text-center&quot;&gt; 4&lt;/td&gt;
+                                    &lt;td class=&quot;text-right&quot;&gt;
+                                    Rp.2.000                                    &lt;/td&gt;
+                                    &lt;td class=&quot;text-right&quot;&gt; Rp.8.000&lt;/td&gt;
+                                &lt;/tr&gt;
+                                                        &lt;/tbody&gt;
+                        &lt;/table&gt;
+                        &lt;table class=&quot;table table-condensed&quot;&gt;
+                            &lt;tbody&gt;
+                                &lt;tr&gt;
+                                    &lt;!-- &lt;td class=&quot;thick-line&quot;&gt;&lt;/td&gt;
+                                    &lt;td class=&quot;thick-line&quot;&gt;&lt;/td&gt;
+                                    &lt;td class=&quot;thick-line text-center&quot;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/td&gt;
+                                    &lt;td class=&quot;thick-line text-right&quot;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/td&gt;
+                                    &lt;td class=&quot;thick-line text-right&quot;&gt;&lt;strong&gt; 
+                                        &lt;/strong&gt;&lt;/td&gt;--&gt;
+                                    &lt;td colspan=&quot;5&quot; style=&quot;text-align:right;&quot;&gt;
+                                        Rp.16.000                                    &lt;/td&gt;
+                                &lt;/tr&gt;
+                            &lt;/tbody&gt;
+                        &lt;/table&gt;
+                        &lt;div&gt;
+                        &lt;p style=&quot;margin-left: 81%; margin-top: 30px;&quot;&gt;Cimahi, &lt;/p&gt;
+                        &lt;img src=&quot;http://localhost/bara/public/img/contoh_ttd.jpg&quot; style=&quot;margin-left: 81%; width: 100px; height: 100px;&quot;&gt;
+                        &lt;a href=&quot;http://localhost/bara/public&quot; style=&quot;color:black; text-decoration: none;&quot;&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+&lt;!-- DEBUG-VIEW ENDED 1 APPPATH\Views\ingpois.php --&gt;
+): failed to open stream: Invalid argument
+in APPPATH\Controllers\Ingpois.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(&lt;!-- DEBUG-VIEW START 1 APPPATH\\Views\\ingpois.php --&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+	&lt;meta charset=&quot;utf-8&quot;&gt;
+	&lt;title&gt;Bara Ent&lt;/title&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;https://...@3.3.7/dist/css/bootstrap.min.css&quot; integrity=&quot;sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u&quot; crossorigin=&quot;anonymous&quot;&gt;
+	&lt;script src=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js&quot; integrity=&quot;sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+	&lt;script src=&quot;https://code.jquery.com/jquery-3.6.0.min.js&quot;&gt;&lt;/script&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;https://bara.co.id/assets/images/icon_bara.png&quot; type=&quot;image/x-icon&quot;&gt;
+	&lt;style type=&quot;text/css&quot;&gt;
+		.invoice-title h2, .invoice-title h3 {
+            display: inline-block;
+        }
+
+        .table &gt; tbody &gt; tr &gt; .no-line {
+            border-top: none;
+        }
+
+        .table &gt; thead &gt; tr &gt; .no-line {
+            border-bottom: none;
+        }
+
+        .table &gt; tbody &gt; tr &gt; .thick-line {
+            border-top: 2px solid;
+        }
+        .body{
+            background-color: lightgrey;
+            padding: 2% 15% 2% 15%;
+        }
+        .container{
+            width: 90%;
+            background-color: white;
+        }
+	&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+    &lt;div class=&quot;body&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-xs-12&quot;&gt;
+            &lt;div class=&quot;invoice-title&quot;&gt;
+                &lt;h2&gt;INVOICE&lt;br&gt;No                         0010/BE-INV/11-X/2022&lt;/h2&gt;&lt;h3 class=&quot;pull-right&quot;&gt;&lt;img src=&quot;http://localhost/bara/public/logo_bara.png&quot;style=&quot;width: 150px;&quot;&gt;&lt;/h3&gt;
+            &lt;/div&gt;
+            &lt;hr&gt;
+            &lt;div class=&quot;row&quot;&gt;
+                &lt;div class=&quot;col-xs-6&quot;&gt;
+                    &lt;address&gt;
+                                        &lt;strong&gt;Invoice To:&lt;/strong&gt;&lt;br&gt;
+                        Taufiq                        &lt;br&gt;
+                        Bara Ent&lt;br&gt;
+                        Bandung&lt;br&gt;
+                        087645326654&lt;br&gt;
+                    &lt;/address&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;col-xs-6 text-right&quot;&gt;
+                    &lt;address&gt;
+                    &lt;strong&gt;Pay To:&lt;/strong&gt;&lt;br&gt;
+                        PT. Bank Central Asia (BCA) Tbk&lt;br&gt;KCP Setiabudi&lt;br&gt;No. Rek. 233 003 31 96&lt;br&gt;a/n Moch Gani Setiawan&lt;br&gt;                        &lt;!-- PT. Bank Central Asia (BCA) Tbk&lt;br&gt;
+                        KCP Setiabudi&lt;br&gt;
+                        No. Rek. 233 003 31 96 &lt;br&gt;
+                        a/n Moch Gani Setiawan --&gt;
+                    &lt;/address&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;row&quot;&gt;
+                &lt;div class=&quot;col-xs-6&quot;&gt;
+                                        &lt;address&gt;
+                        &lt;strong&gt;Invoice Date:&lt;/strong&gt;
+                        2022-10-11                       
+                       &lt;br&gt;
+                        &lt;strong&gt;Due Date:&lt;/strong&gt;
+                        2022-11-30&lt;br&gt;
+                    &lt;/address&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-12&quot;&gt;
+            &lt;div class=&quot;panel panel-default&quot;&gt;
+                &lt;div class=&quot;panel-heading&quot;&gt;
+                    &lt;h3 class=&quot;panel-title&quot;&gt;&lt;strong&gt;Order summary&lt;/strong&gt;&lt;/h3&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;panel-body&quot;&gt;
+                    &lt;div class=&quot;table-responsive&quot;&gt;
+                        &lt;table class=&quot;table table-condensed&quot;&gt;
+                            &lt;thead&gt;
+                                &lt;tr&gt;
+                                    &lt;td&gt;&lt;strong&gt;Deskripsi&lt;/strong&gt;&lt;/td&gt;
+                                    &lt;td class=&quot;text-center&quot;&gt;&lt;strong&gt;Unit&lt;/strong&gt;&lt;/td&gt;
+                                    &lt;td class=&quot;text-center&quot;&gt;&lt;strong&gt;Quantity&lt;/strong&gt;&lt;/td&gt;
+                                    &lt;td class=&quot;text-right&quot;&gt;&lt;strong&gt;Subtotal&lt;/strong&gt;&lt;/td&gt;
+                                    &lt;td class=&quot;text-right&quot;&gt;&lt;strong&gt;Total&lt;/strong&gt;&lt;/td&gt;
+                                &lt;/tr&gt;
+                            &lt;/thead&gt;
+                            &lt;tbody&gt;
+                                 
+                                &lt;tr&gt;
+                                    &lt;td&gt; Desain UI&lt;/td&gt;
+                                    &lt;td class=&quot;text-center&quot;&gt; Paket&lt;/td&gt;
+                                    &lt;td class=&quot;text-center&quot;&gt; 3&lt;/td&gt;
+                                    &lt;td class=&quot;text-right&quot;&gt;
+                                    Rp.2.000                                    &lt;/td&gt;
+                                    &lt;td class=&quot;text-right&quot;&gt; Rp.8.000&lt;/td&gt;
+                                &lt;/tr&gt;
+                             
+                                &lt;tr&gt;
+                                    &lt;td&gt; Desain UI &amp; UX&lt;/td&gt;
+                                    &lt;td class=&quot;text-center&quot;&gt; Paket&lt;/td&gt;
+                                    &lt;td class=&quot;text-center&quot;&gt; 4&lt;/td&gt;
+                                    &lt;td class=&quot;text-right&quot;&gt;
+                                    Rp.2.000                                    &lt;/td&gt;
+                                    &lt;td class=&quot;text-right&quot;&gt; Rp.8.000&lt;/td&gt;
+                                &lt;/tr&gt;
+                                                        &lt;/tbody&gt;
+                        &lt;/table&gt;
+                        &lt;table class=&quot;table table-condensed&quot;&gt;
+                            &lt;tbody&gt;
+                                &lt;tr&gt;
+                                    &lt;!-- &lt;td class=&quot;thick-line&quot;&gt;&lt;/td&gt;
+                                    &lt;td class=&quot;thick-line&quot;&gt;&lt;/td&gt;
+                                    &lt;td class=&quot;thick-line text-center&quot;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/td&gt;
+                                    &lt;td class=&quot;thick-line text-right&quot;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/td&gt;
+                                    &lt;td class=&quot;thick-line text-right&quot;&gt;&lt;strong&gt; 
+                                        &lt;/strong&gt;&lt;/td&gt;--&gt;
+                                    &lt;td colspan=&quot;5&quot; style=&quot;text-align:right;&quot;&gt;
+                                        Rp.16.000                                    &lt;/td&gt;
+                                &lt;/tr&gt;
+                            &lt;/tbody&gt;
+                        &lt;/table&gt;
+                        &lt;div&gt;
+                        &lt;p style=&quot;margin-left: 81%; margin-top: 30px;&quot;&gt;Cimahi, &lt;/p&gt;
+                        &lt;img src=&quot;http://localhost/bara/public/img/contoh_ttd.jpg&quot; style=&quot;margin-left: 81%; width: 100px; height: 100px;&quot;&gt;
+                        &lt;a href=&quot;http://localhost/bara/public&quot; style=&quot;color:black; text-decoration: none;&quot;&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+&lt;!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\ingpois.php --&gt;
+): failed to open stream: Invalid argument', 'APPPATH\\Controllers\\Ingpois.php', 21, [...])
+ 2 APPPATH\Controllers\Ingpois.php(21): file_get_contents('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\ingpois.php -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Bara Ent</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="shortcut icon" href="https://bara.co.id/assets/images/icon_bara.png" type="image/x-icon">
+	<style type="text/css">
+		.invoice-title h2, .invoice-title h3 {
+            display: inline-block;
+        }
+
+        .table > tbody > tr > .no-line {
+            border-top: none;
+        }
+
+        .table > thead > tr > .no-line {
+            border-bottom: none;
+        }
+
+        .table > tbody > tr > .thick-line {
+            border-top: 2px solid;
+        }
+        .body{
+            background-color: lightgrey;
+            padding: 2% 15% 2% 15%;
+        }
+        .container{
+            width: 90%;
+            background-color: white;
+        }
+	</style>
+</head>
+<body>
+
+    <div class="body">
+        <div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="invoice-title">
+                <h2>INVOICE<br>No                         0010/BE-INV/11-X/2022</h2><h3 class="pull-right"><img src="http://localhost/bara/public/logo_bara.png"style="width: 150px;"></h3>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-xs-6">
+                    <address>
+                                        <strong>Invoice To:</strong><br>
+                        Taufiq                        <br>
+                        Bara Ent<br>
+                        Bandung<br>
+                        087645326654<br>
+                    </address>
+                </div>
+                <div class="col-xs-6 text-right">
+                    <address>
+                    <strong>Pay To:</strong><br>
+                        PT. Bank Central Asia (BCA) Tbk<br>KCP Setiabudi<br>No. Rek. 233 003 31 96<br>a/n Moch Gani Setiawan<br>                        <!-- PT. Bank Central Asia (BCA) Tbk<br>
+                        KCP Setiabudi<br>
+                        No. Rek. 233 003 31 96 <br>
+                        a/n Moch Gani Setiawan -->
+                    </address>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6">
+                                        <address>
+                        <strong>Invoice Date:</strong>
+                        2022-10-11                       
+                       <br>
+                        <strong>Due Date:</strong>
+                        2022-11-30<br>
+                    </address>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title"><strong>Order summary</strong></h3>
+                </div>
+                <div class="panel-body">
+                    <div class="table-responsive">
+                        <table class="table table-condensed">
+                            <thead>
+                                <tr>
+                                    <td><strong>Deskripsi</strong></td>
+                                    <td class="text-center"><strong>Unit</strong></td>
+                                    <td class="text-center"><strong>Quantity</strong></td>
+                                    <td class="text-right"><strong>Subtotal</strong></td>
+                                    <td class="text-right"><strong>Total</strong></td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                 
+                                <tr>
+                                    <td> Desain UI</td>
+                                    <td class="text-center"> Paket</td>
+                                    <td class="text-center"> 3</td>
+                                    <td class="text-right">
+                                    Rp.2.000                                    </td>
+                                    <td class="text-right"> Rp.8.000</td>
+                                </tr>
+                             
+                                <tr>
+                                    <td> Desain UI & UX</td>
+                                    <td class="text-center"> Paket</td>
+                                    <td class="text-center"> 4</td>
+                                    <td class="text-right">
+                                    Rp.2.000                                    </td>
+                                    <td class="text-right"> Rp.8.000</td>
+                                </tr>
+                                                        </tbody>
+                        </table>
+                        <table class="table table-condensed">
+                            <tbody>
+                                <tr>
+                                    <!-- <td class="thick-line"></td>
+                                    <td class="thick-line"></td>
+                                    <td class="thick-line text-center"><strong></strong></td>
+                                    <td class="thick-line text-right"><strong></strong></td>
+                                    <td class="thick-line text-right"><strong> 
+                                        </strong></td>-->
+                                    <td colspan="5" style="text-align:right;">
+                                        Rp.16.000                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div>
+                        <p style="margin-left: 81%; margin-top: 30px;">Cimahi, </p>
+                        <img src="http://localhost/bara/public/img/contoh_ttd.jpg" style="margin-left: 81%; width: 100px; height: 100px;">
+                        <a href="http://localhost/bara/public" style="color:black; text-decoration: none;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\ingpois.php -->
+')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 11:37:44 --> Trying to access array offset on value of type bool
+in VENDORPATH\mpdf\mpdf\src\Mpdf.php on line 16678.
+ 1 VENDORPATH\mpdf\mpdf\src\Mpdf.php(16678): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'VENDORPATH\\mpdf\\mpdf\\src\\Mpdf.php', 16678, [...])
+ 2 VENDORPATH\mpdf\mpdf\src\Mpdf.php(17002): Mpdf\Mpdf->_setBorderLine([...])
+ 3 VENDORPATH\mpdf\mpdf\src\Tag\BlockTag.php(1124): Mpdf\Mpdf->PaintDivBB('ROOTPATH\\public', 2)
+ 4 VENDORPATH\mpdf\mpdf\src\Tag.php(247): Mpdf\Tag\BlockTag->close([...], 119)
+ 5 VENDORPATH\mpdf\mpdf\src\Mpdf.php(13781): Mpdf\Tag->CloseTag('DIV', [...], 119)
+ 6 APPPATH\Controllers\Ingpois.php(22): Mpdf\Mpdf->WriteHTML(' <div class="body"> <div class="container"> <div class="row"> <div class="col-xs-12"> <div class="invoice-title"> <h2>INVOICE<br />No 0010/BE-INV/11-X/2022</h2><h3 class="pull-right"><img src="http://localhost/bara/public/logo_bara.png"style="width: 150px;"></h3> </div> <hr /> <div class="row"> <div class="col-xs-6"> <address> <strong>Invoice To:</strong><br />Taufiq <br />Bara Ent<br />Bandung<br />087645326654<br /></address> </div> <div class="col-xs-6 text-right"> <address> <strong>Pay To:</strong><br />PT. Bank Central Asia (BCA) Tbk<br />KCP Setiabudi<br />No. Rek. 233 003 31 96<br />a/n Moch Gani Setiawan<br /></address> </div> </div> <div class="row"> <div class="col-xs-6"> <address> <strong>Invoice Date:</strong> 2022-10-11 <br /><strong>Due Date:</strong> 2022-11-30<br /></address> </div> </div> </div> </div> <div class="row"> <div class="col-md-12"> <div class="panel panel-default"> <div class="panel-heading"> <h3 class="panel-title"><strong>Order summary</strong></h3> </div> <div class="panel-body"> <div class="table-responsive"> <table class="table table-condensed"> <thead> <tr> <td><strong>Deskripsi</strong></td> <td class="text-center"><strong>Unit</strong></td> <td class="text-center"><strong>Quantity</strong></td> <td class="text-right"><strong>Subtotal</strong></td> <td class="text-right"><strong>Total</strong></td> </tr></thead> <tbody> <tr> <td> Desain UI</td> <td class="text-center"> Paket</td> <td class="text-center"> 3</td> <td class="text-right"> Rp.2.000</td> <td class="text-right"> Rp.8.000</td> </tr> <tr> <td> Desain UI & UX</td> <td class="text-center"> Paket</td> <td class="text-center"> 4</td> <td class="text-right"> Rp.2.000</td> <td class="text-right"> Rp.8.000</td> </tr> </tbody> </table> <table class="table table-condensed"> <tbody> <tr> <td colspan="5" style="text-align:right;"> Rp.16.000</td> </tr> </tbody> </table> <div> <p style="margin-left: 81%; margin-top: 30px;">Cimahi, </p> <img src="http://localhost/bara/public/img/contoh_ttd.jpg" style="margin-left: 81%; width: 100px; height: 100px;"> <a href="http://localhost/bara/public" style="color:black; text-decoration: none;"> </div> </div> </div> </div> </div> </div> </div> </div> ')
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 11:41:19 --> Invalid file: ingpois.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ingpois.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 3 APPPATH\Controllers\Ingpois.php(24): view('ingpois', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 11:42:20 --> Invalid file: ingpois.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ingpois.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 3 APPPATH\Controllers\Ingpois.php(20): view('ingpois', [])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 12:25:09 --> Undefined variable: pdf
+in APPPATH\Controllers\Ingpois.php on line 22.
+ 1 APPPATH\Controllers\Ingpois.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pdf', 'APPPATH\\Controllers\\Ingpois.php', 22, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 13:06:16 --> Argument 1 passed to Dompdf\FrameReflower\Text::layout_line() must be an instance of Dompdf\FrameDecorator\Block, null given, called in D:\Xampp baru\htdocs\bara\vendor\dompdf\dompdf\src\FrameReflower\Text.php on line 400
+in VENDORPATH\dompdf\dompdf\src\FrameReflower\Text.php on line 269.
+ 1 VENDORPATH\dompdf\dompdf\src\FrameReflower\Text.php(400): Dompdf\FrameReflower\Text->layout_line(null)
+ 2 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Text->reflow(null)
+ 3 VENDORPATH\dompdf\dompdf\src\FrameReflower\Inline.php(162): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(null)
+ 4 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Inline->reflow(null)
+ 5 VENDORPATH\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 6 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(null)
+ 7 VENDORPATH\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 8 APPPATH\Controllers\Ingpois.php(23): Dompdf\Dompdf->render()
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 13:57:57 --> Use of undefined constant DEFAULT_PDF_PAPER_SIZE - assumed 'DEFAULT_PDF_PAPER_SIZE' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Ingpois.php on line 22.
+ 1 APPPATH\Controllers\Ingpois.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant DEFAULT_PDF_PAPER_SIZE - assumed \'DEFAULT_PDF_PAPER_SIZE\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Ingpois.php', 22, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 13:58:06 --> Use of undefined constant DEFAULT_PDF_PAPER_SIZE - assumed 'DEFAULT_PDF_PAPER_SIZE' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Ingpois.php on line 22.
+ 1 APPPATH\Controllers\Ingpois.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant DEFAULT_PDF_PAPER_SIZE - assumed \'DEFAULT_PDF_PAPER_SIZE\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Ingpois.php', 22, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 14:08:28 --> Undefined variable: tagihan
+in APPPATH\Views\ingpois.php on line 172.
+ 1 APPPATH\Views\ingpois.php(172): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: tagihan', 'APPPATH\\Views\\ingpois.php', 172, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ingpois.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('ingpois', [], true)
+ 5 APPPATH\Controllers\Ingpois.php(19): view('ingpois')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 17:25:32 --> Undefined variable: jabatan
+in APPPATH\Views\daptar.php on line 168.
+ 1 APPPATH\Views\daptar.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: jabatan', 'APPPATH\\Views\\daptar.php', 168, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\daptar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('daptar', [], true)
+ 5 APPPATH\Controllers\Pendaftaran.php(15): view('daptar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Pendaftaran->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 17:27:25 --> Undefined variable: jabatan
+in APPPATH\Views\Rimainder.php on line 330.
+ 1 APPPATH\Views\Rimainder.php(330): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: jabatan', 'APPPATH\\Views\\Rimainder.php', 330, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Rimainder.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rimainder', [], true)
+ 5 APPPATH\Controllers\invoice.php(18): view('rimainder', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\invoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 23:19:27 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+in APPPATH\Views\form_reminder.php on line 363.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 3 APPPATH\Controllers\Form_Remainder.php(18): view('form_reminder', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 23:20:25 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+in APPPATH\Views\form_reminder.php on line 363.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('form_reminder', [], true)
+ 3 APPPATH\Controllers\Form_Remainder.php(18): view('form_reminder', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Form_Remainder->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form_Remainder))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 23:21:01 --> syntax error, unexpected '}'
+in APPPATH\Views\Rimainder.php on line 387.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rimainder', [], true)
+ 3 APPPATH\Controllers\invoice.php(18): view('rimainder', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\invoice->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-18 23:21:23 --> Undefined index: id_klien
+in APPPATH\Views\Rimainder.php on line 381.
+ 1 APPPATH\Views\Rimainder.php(381): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_klien', 'APPPATH\\Views\\Rimainder.php', 381, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Rimainder.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('rimainder', [], true)
+ 5 APPPATH\Controllers\invoice.php(18): view('rimainder', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\invoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\invoice))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,146 @@
+CRITICAL - 2022-07-25 00:22:58 --> Undefined variable $resultss
+in APPPATH\Views\admin\pages\CV.php on line 6.
+ 1 APPPATH\Views\admin\pages\CV.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultss', 'APPPATH\\Views\\admin\\pages\\CV.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\pages\\CV.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/pages/cv', [], true)
+ 5 APPPATH\Controllers\CV.php(16): view('admin/pages/cv')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\CV->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 04:14:46 --> Undefined array key "to"
+in APPPATH\Controllers\Email.php on line 5.
+ 1 APPPATH\Controllers\Email.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "to"', 'APPPATH\\Controllers\\Email.php', 5)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(284): include_once('APPPATH\\Controllers\\Email.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Email.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Email')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Email')
+ 6 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Email', true)
+ 7 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 04:30:16 --> Undefined array key "to"
+in APPPATH\Controllers\Email.php on line 5.
+ 1 APPPATH\Controllers\Email.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "to"', 'APPPATH\\Controllers\\Email.php', 5)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(284): include_once('APPPATH\\Controllers\\Email.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Email.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Email')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Email')
+ 6 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Email', true)
+ 7 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 04:32:20 --> Undefined array key "to"
+in APPPATH\Controllers\Email.php on line 5.
+ 1 APPPATH\Controllers\Email.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "to"', 'APPPATH\\Controllers\\Email.php', 5)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(284): include_once('APPPATH\\Controllers\\Email.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Email.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Email')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Email')
+ 6 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Email', true)
+ 7 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 04:35:36 --> Undefined array key "to"
+in APPPATH\Controllers\Email.php on line 5.
+ 1 APPPATH\Controllers\Email.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "to"', 'APPPATH\\Controllers\\Email.php', 5)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(284): include_once('APPPATH\\Controllers\\Email.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Email.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Email')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Email')
+ 6 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Email', true)
+ 7 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 06:24:55 --> Undefined property: CodeIgniter\Autoloader\Autoloader::$request
+in APPPATH\Controllers\Email.php on line 5.
+ 1 APPPATH\Controllers\Email.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Autoloader\\Autoloader::$request', 'APPPATH\\Controllers\\Email.php', 5)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(284): include_once('APPPATH\\Controllers\\Email.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Email.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Email')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Email')
+ 6 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Email', true)
+ 7 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 06:26:51 --> Call to undefined function App\Controllers\getPost()
+in APPPATH\Controllers\Email.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(284): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Email.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Email')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Email')
+ 5 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\Email', true)
+ 6 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 06:30:07 --> Too few arguments to function App\Controllers\Email::index(), 0 passed in D:\xampp\htdocs\cvbara\system\CodeIgniter.php on line 896 and exactly 3 expected
+in APPPATH\Controllers\Email.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Email->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Email))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 06:33:43 --> Too few arguments to function App\Controllers\Email::index(), 0 passed in D:\xampp\htdocs\cvbara\system\CodeIgniter.php on line 896 and exactly 3 expected
+in APPPATH\Controllers\Email.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Email->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Email))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 06:35:02 --> Undefined property: App\Controllers\Email::$email
+in APPPATH\Controllers\Email.php on line 17.
+ 1 APPPATH\Controllers\Email.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Email::$email', 'APPPATH\\Controllers\\Email.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Email->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Email))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 06:40:34 --> Undefined property: App\Controllers\Email::$email
+in APPPATH\Controllers\Email.php on line 18.
+ 1 APPPATH\Controllers\Email.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Email::$email', 'APPPATH\\Controllers\\Email.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Email->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Email))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 06:40:52 --> Undefined property: App\Controllers\Email::$email
+in APPPATH\Controllers\Email.php on line 17.
+ 1 APPPATH\Controllers\Email.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Email::$email', 'APPPATH\\Controllers\\Email.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Email->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Email))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 06:42:29 --> Undefined variable $email
+in APPPATH\Controllers\Email.php on line 17.
+ 1 APPPATH\Controllers\Email.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $email', 'APPPATH\\Controllers\\Email.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Email->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Email))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 06:42:45 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+in SYSTEMPATH\Email\Email.php on line 728.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Email\\Email.php', 728)
+ 2 SYSTEMPATH\Email\Email.php(728): strpos(null, ',')
+ 3 SYSTEMPATH\Email\Email.php(541): CodeIgniter\Email\Email->stringToArray(null)
+ 4 APPPATH\Controllers\Email.php(19): CodeIgniter\Email\Email->setTo(null)
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Email->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Email))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 06:54:47 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+in SYSTEMPATH\Email\Email.php on line 728.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Email\\Email.php', 728)
+ 2 SYSTEMPATH\Email\Email.php(728): strpos(null, ',')
+ 3 SYSTEMPATH\Email\Email.php(541): CodeIgniter\Email\Email->stringToArray(null)
+ 4 APPPATH\Controllers\Email.php(14): CodeIgniter\Email\Email->setTo(null)
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Email->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Email))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-25 06:55:00 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+in SYSTEMPATH\Email\Email.php on line 728.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Email\\Email.php', 728)
+ 2 SYSTEMPATH\Email\Email.php(728): strpos(null, ',')
+ 3 SYSTEMPATH\Email\Email.php(541): CodeIgniter\Email\Email->stringToArray(null)
+ 4 APPPATH\Controllers\Email.php(14): CodeIgniter\Email\Email->setTo(null)
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Email->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Email))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

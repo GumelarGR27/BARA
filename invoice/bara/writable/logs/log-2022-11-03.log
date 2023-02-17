@@ -1,0 +1,335 @@
+CRITICAL - 2022-11-03 00:54:10 --> Undefined index: nama_perusahaan
+in APPPATH\Views\user.php on line 219.
+ 1 APPPATH\Views\user.php(219): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_perusahaan', 'APPPATH\\Views\\user.php', 219, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user', [], true)
+ 5 APPPATH\Controllers\user.php(18): view('user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\user->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-03 01:25:10 --> Undefined variable: model
+in APPPATH\Controllers\hapusinvoice.php on line 16.
+ 1 APPPATH\Controllers\hapusinvoice.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: model', 'APPPATH\\Controllers\\hapusinvoice.php', 16, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\hapusinvoice->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\hapusinvoice))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-03 01:28:53 --> Undefined variable: model
+in APPPATH\Controllers\hapusinvoice.php on line 16.
+ 1 APPPATH\Controllers\hapusinvoice.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: model', 'APPPATH\\Controllers\\hapusinvoice.php', 16, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\hapusinvoice->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\hapusinvoice))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-03 01:29:03 --> Undefined variable: model
+in APPPATH\Controllers\hapusinvoice.php on line 16.
+ 1 APPPATH\Controllers\hapusinvoice.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: model', 'APPPATH\\Controllers\\hapusinvoice.php', 16, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\hapusinvoice->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\hapusinvoice))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-03 02:05:44 --> Undefined variable: rowww
+in APPPATH\Views\client.php on line 146.
+ 1 APPPATH\Views\client.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rowww', 'APPPATH\\Views\\client.php', 146, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\client.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 5 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-03 02:10:22 --> Unsupported operand types
+in APPPATH\Controllers\tagihann.php on line 109.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-03 02:26:16 --> Unsupported operand types
+in APPPATH\Controllers\tagihann.php on line 109.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-03 02:27:37 --> Undefined variable: model
+in APPPATH\Controllers\hapusinvoice.php on line 16.
+ 1 APPPATH\Controllers\hapusinvoice.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: model', 'APPPATH\\Controllers\\hapusinvoice.php', 16, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\hapusinvoice->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\hapusinvoice))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-03 02:29:31 --> syntax error, unexpected ','
+in APPPATH\Controllers\tagihann.php on line 107.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\tagihann.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\tagihann')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\tagihann')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\tagihann')
+ 5 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\tagihann', true)
+ 6 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-03 02:36:24 --> Undefined variable: model
+in APPPATH\Controllers\hapusinvoice.php on line 16.
+ 1 APPPATH\Controllers\hapusinvoice.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: model', 'APPPATH\\Controllers\\hapusinvoice.php', 16, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\hapusinvoice->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\hapusinvoice))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-03 02:59:38 --> Unknown column 'nama_perusahaan' in 'where clause'
+CRITICAL - 2022-11-03 02:59:38 --> Unknown column 'nama_perusahaan' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `nama_perusahaan` = \'Sony Ericson\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `nama_perusahaan` = \'Sony Ericson\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `nama_perusahaan` = \'Sony Ericson\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `nama_perusahaan` = :nama_perusahaan:', [...], false)
+ 5 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\pail.php(18): CodeIgniter\BaseModel->paginate(5)
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pail->index()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pail))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-03 03:01:19 --> Unknown column 'nama_perusahaan' in 'where clause'
+CRITICAL - 2022-11-03 03:01:19 --> Unknown column 'nama_perusahaan' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `nama_perusahaan` = \'Sony Ericson\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `nama_perusahaan` = \'Sony Ericson\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `nama_perusahaan` = \'Sony Ericson\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `nama_perusahaan` = :nama_perusahaan:', [...], false)
+ 5 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Ingpois.php(15): CodeIgniter\BaseModel->paginate(5)
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-03 03:01:34 --> Unknown column 'nama_perusahaan' in 'where clause'
+CRITICAL - 2022-11-03 03:01:34 --> Unknown column 'nama_perusahaan' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `nama_perusahaan` = \'Sony Ericson\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `nama_perusahaan` = \'Sony Ericson\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `nama_perusahaan` = \'Sony Ericson\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `nama_perusahaan` = :nama_perusahaan:', [...], false)
+ 5 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\pail.php(18): CodeIgniter\BaseModel->paginate(5)
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pail->index()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pail))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-03 03:02:00 --> Unknown column 'nama_perusahaan' in 'where clause'
+CRITICAL - 2022-11-03 03:02:00 --> Unknown column 'nama_perusahaan' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `nama_perusahaan` = \'Sony Ericson\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `nama_perusahaan` = \'Sony Ericson\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `nama_perusahaan` = \'Sony Ericson\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `nama_perusahaan` = :nama_perusahaan:', [...], false)
+ 5 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Ingpois.php(15): CodeIgniter\BaseModel->paginate(5)
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Ingpois->index()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ingpois))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-03 03:02:09 --> Unknown column 'nama_perusahaan' in 'where clause'
+CRITICAL - 2022-11-03 03:02:09 --> Unknown column 'nama_perusahaan' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `nama_perusahaan` = \'Mutiara Tbk\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `nama_perusahaan` = \'Mutiara Tbk\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `nama_perusahaan` = \'Mutiara Tbk\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `nama_perusahaan` = :nama_perusahaan:', [...], false)
+ 5 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\inpois.php(22): CodeIgniter\BaseModel->paginate(5)
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Inpois->index()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inpois))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-03 03:02:16 --> Unknown column 'nama_perusahaan' in 'where clause'
+CRITICAL - 2022-11-03 03:02:16 --> Unknown column 'nama_perusahaan' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `nama_perusahaan` = \'Mutiara Tbk\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `nama_perusahaan` = \'Mutiara Tbk\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `nama_perusahaan` = \'Mutiara Tbk\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `detail_tagihan`
+WHERE `nama_perusahaan` = :nama_perusahaan:', [...], false)
+ 5 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\inpois.php(22): CodeIgniter\BaseModel->paginate(5)
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Inpois->index()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inpois))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-03 03:14:35 --> syntax error, unexpected 'die' (T_EXIT)
+in APPPATH\Controllers\tagihann.php on line 103.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\tagihann.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\tagihann')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\tagihann')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\tagihann')
+ 5 SYSTEMPATH\CodeIgniter.php(846): class_exists('\\App\\Controllers\\tagihann', true)
+ 6 SYSTEMPATH\CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-03 03:15:42 --> Undefined variable: ditel
+in APPPATH\Controllers\tagihann.php on line 106.
+ 1 APPPATH\Controllers\tagihann.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: ditel', 'APPPATH\\Controllers\\tagihann.php', 106, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-03 03:17:36 --> Undefined variable: noinv
+in APPPATH\Controllers\ngeditinv.php on line 20.
+ 1 APPPATH\Controllers\ngeditinv.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: noinv', 'APPPATH\\Controllers\\ngeditinv.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditinv->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditinv))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-03 03:28:06 --> Undefined variable: i
+in APPPATH\Controllers\ngeditinv.php on line 40.
+ 1 APPPATH\Controllers\ngeditinv.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: i', 'APPPATH\\Controllers\\ngeditinv.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\ngeditinv->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ngeditinv))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-03 03:40:26 --> Undefined variable: i
+in APPPATH\Controllers\tagihann.php on line 93.
+ 1 APPPATH\Controllers\tagihann.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: i', 'APPPATH\\Controllers\\tagihann.php', 93, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-03 03:40:36 --> Unsupported operand types
+in APPPATH\Controllers\tagihann.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-03 03:44:33 --> Division by zero
+in APPPATH\Views\client.php on line 192.
+ 1 APPPATH\Views\client.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zero', 'APPPATH\\Views\\client.php', 192, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\client.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('client', [], true)
+ 5 APPPATH\Controllers\datainvoice.php(23): view('client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\datainvoice->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\datainvoice))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-03 03:51:03 --> preg_match_all() expects parameter 2 to be string, array given
+in APPPATH\Controllers\tagihann.php on line 93.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match_all() expects parameter 2 to be string, array given', 'APPPATH\\Controllers\\tagihann.php', 93, [...])
+ 2 APPPATH\Controllers\tagihann.php(93): preg_match_all('!\\d+!', [...], null)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-03 03:51:31 --> preg_match_all() expects parameter 2 to be string, array given
+in APPPATH\Controllers\tagihann.php on line 93.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match_all() expects parameter 2 to be string, array given', 'APPPATH\\Controllers\\tagihann.php', 93, [...])
+ 2 APPPATH\Controllers\tagihann.php(93): preg_match_all('!\\d+!', [...], null)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-03 03:52:56 --> Unsupported operand types
+in APPPATH\Controllers\tagihann.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-03 03:55:05 --> Unsupported operand types
+in APPPATH\Controllers\tagihann.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-03 04:00:04 --> preg_match_all() expects parameter 2 to be string, array given
+in APPPATH\Controllers\tagihann.php on line 93.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match_all() expects parameter 2 to be string, array given', 'APPPATH\\Controllers\\tagihann.php', 93, [...])
+ 2 APPPATH\Controllers\tagihann.php(93): preg_match_all('!\\d+!', [...], null)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-03 04:00:32 --> Unsupported operand types
+in APPPATH\Controllers\tagihann.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-03 04:10:04 --> Undefined variable: harga
+in APPPATH\Controllers\tagihann.php on line 94.
+ 1 APPPATH\Controllers\tagihann.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: harga', 'APPPATH\\Controllers\\tagihann.php', 94, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-03 04:10:53 --> Unsupported operand types
+in APPPATH\Controllers\tagihann.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-03 04:14:17 --> Undefined variable: harga
+in APPPATH\Controllers\tagihann.php on line 93.
+ 1 APPPATH\Controllers\tagihann.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: harga', 'APPPATH\\Controllers\\tagihann.php', 93, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-03 04:17:47 --> Undefined variable: i
+in APPPATH\Controllers\tagihann.php on line 93.
+ 1 APPPATH\Controllers\tagihann.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: i', 'APPPATH\\Controllers\\tagihann.php', 93, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\tagihann->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tagihann))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
